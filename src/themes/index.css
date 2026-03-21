@@ -1,0 +1,303 @@
+/* Core Poply UI Styles */
+
+:root {
+  --poply-z-index: 9999;
+}
+
+.poply-container {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: var(--poply-z-index);
+  pointer-events: auto;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.poply-container.poply-active {
+  opacity: 1;
+}
+
+.poply-backdrop {
+  position: absolute;
+  inset: 0;
+  background-color: var(--poply-backdrop-bg, rgba(0, 0, 0, 0.4));
+  backdrop-filter: blur(var(--poply-backdrop-blur, 0px));
+}
+
+.poply-popup {
+  position: relative;
+  width: var(--poply-width, auto);
+  max-width: var(--poply-max-width, 520px);
+  background: var(--poply-bg, #ffffff);
+  border: var(--poply-border, none);
+  border-radius: var(--poply-radius, 12px);
+  box-shadow: var(--poply-shadow, 0 8px 32px rgba(0, 0, 0, 0.1));
+  padding: var(--poply-padding, 24px);
+  color: var(--poply-text, #333333);
+  font-family: var(--poply-font, system-ui, -apple-system, sans-serif);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transform: scale(0.95);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.poply-active .poply-popup {
+  transform: scale(1);
+}
+
+.poply-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.poply-icon {
+  font-size: 24px;
+}
+
+.poply-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--poply-title-color, inherit);
+}
+
+.poply-body {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.poply-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--poply-input-border, #ccc);
+  border-radius: 6px;
+  background: var(--poply-input-bg, #fff);
+  color: var(--poply-input-text, inherit);
+  font-family: inherit;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.poply-input:focus {
+  outline: none;
+  border-color: var(--poply-accent, #007aff);
+  box-shadow: 0 0 0 2px var(--poply-accent-glow, rgba(0, 122, 255, 0.2));
+}
+
+.poply-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.poply-btn {
+  appearance: none;
+  border: none;
+  background: var(--poply-btn-bg, #e0e0e0);
+  color: var(--poply-btn-text, #333);
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s, filter 0.2s;
+}
+
+.poply-btn:hover {
+  opacity: 0.9;
+  filter: brightness(0.95);
+}
+
+.poply-btn-primary {
+  background: var(--poply-btn-primary-bg, var(--poply-accent, #007aff));
+  color: var(--poply-btn-primary-text, #fff);
+}
+
+.poply-btn-danger {
+  background: var(--poply-btn-danger-bg, #ff3b30);
+  color: var(--poply-btn-danger-text, #fff);
+}
+
+/* Toast Positioning */
+.poply-toast-container {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: var(--poply-z-index);
+  display: flex;
+  flex-direction: column;
+}
+
+.poply-toast-top-right {
+  position: fixed; top: 20px; right: 20px; flex-direction: column; gap: 10px; pointer-events: none;
+}
+.poply-toast-top-left {
+  position: fixed; top: 20px; left: 20px; flex-direction: column; gap: 10px; pointer-events: none;
+}
+.poply-toast-bottom-right {
+  position: fixed; bottom: 20px; right: 20px; flex-direction: column-reverse; gap: 10px; pointer-events: none;
+}
+.poply-toast-bottom-left {
+  position: fixed; bottom: 20px; left: 20px; flex-direction: column-reverse; gap: 10px; pointer-events: none;
+}
+.poply-toast-top {
+  position: fixed; top: 20px; left: 50%; transform: translateX(-50%); flex-direction: column; gap: 10px; pointer-events: none;
+}
+.poply-toast-bottom {
+  position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); flex-direction: column-reverse; gap: 10px; pointer-events: none;
+}
+
+.poply-toast {
+  pointer-events: auto;
+  min-width: 250px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  animation: poplyToastFadeIn 0.3s forwards;
+}
+
+.poply-toast.poply-hiding {
+  animation: poplyToastFadeOut 0.3s forwards;
+}
+
+@keyframes poplyToastFadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes poplyToastFadeOut {
+  from { opacity: 1; transform: translateY(0) scale(1); }
+  to { opacity: 0; transform: translateY(-10px) scale(0.95); }
+}
+
+
+/* Theme Defaults & Selection Examples */
+
+/* iOS Glass */
+.poply-theme-ios-glass {
+  --poply-bg: rgba(255, 255, 255, 0.75);
+  --poply-border: 1px solid rgba(255,255,255, 0.4);
+  --poply-text: #000;
+  --poply-accent: #007aff;
+  --poply-backdrop-blur: 10px;
+  --poply-radius: 14px;
+  --poply-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+}
+.poply-theme-ios-glass.poply-dark-mode {
+  --poply-bg: rgba(30, 30, 30, 0.75);
+  --poply-border: 1px solid rgba(255,255,255, 0.1);
+  --poply-text: #fff;
+  --poply-input-bg: rgba(255,255,255, 0.1);
+  --poply-input-text: #fff;
+  --poply-input-border: rgba(255,255,255, 0.2);
+  --poply-btn-bg: rgba(255,255,255, 0.1);
+  --poply-btn-text: #fff;
+}
+
+/* Minimal Dark */
+.poply-theme-minimal-dark {
+  --poply-bg: #111;
+  --poply-border: 1px solid #333;
+  --poply-text: #f5f5f5;
+  --poply-accent: #fff;
+  --poply-radius: 8px;
+  --poply-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  --poply-input-bg: #222;
+  --poply-input-border: #444;
+  --poply-input-text: #fff;
+  --poply-btn-bg: #333;
+  --poply-btn-text: #fff;
+  --poply-btn-primary-bg: #fff;
+  --poply-btn-primary-text: #000;
+}
+
+/* Material You */
+.poply-theme-material-you {
+  --poply-bg: #fdf8fd;
+  --poply-border: none;
+  --poply-text: #1d1b20;
+  --poply-accent: #6750a4;
+  --poply-radius: 28px;
+  --poply-btn-radius: 100px;
+  --poply-btn-bg: #fff;
+  --poply-btn-text: #6750a4;
+  --poply-btn-primary-bg: #6750a4;
+  --poply-btn-primary-text: #fff;
+}
+
+/* Neon Cyber */
+.poply-theme-neon-cyan {
+  --poply-bg: #000;
+  --poply-border: 1px solid #0ff;
+  --poply-text: #0ff;
+  --poply-accent: #0ff;
+  --poply-radius: 0;
+  --poply-shadow: 0 0 15px rgba(0,255,255,0.5);
+  font-family: 'Courier New', Courier, monospace;
+  --poply-input-bg: #000;
+  --poply-input-border: #0ff;
+  --poply-input-text: #0ff;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #0ff;
+  --poply-btn-primary-bg: #0ff;
+  --poply-btn-primary-text: #000;
+}
+
+/* Brutalist Black */
+.poply-theme-brutalist-black {
+  --poply-bg: #000;
+  --poply-border: 4px solid #fff;
+  --poply-text: #fff;
+  --poply-accent: #fff;
+  --poply-radius: 0;
+  --poply-shadow: 10px 10px 0px #fff;
+  font-family: Impact, sans-serif;
+  text-transform: uppercase;
+  --poply-input-bg: #000;
+  --poply-input-border: 4px solid #fff;
+  --poply-input-text: #fff;
+  --poply-btn-bg: #000;
+  --poply-btn-text: #fff;
+  --poply-btn-primary-bg: #fff;
+  --poply-btn-primary-text: #000;
+}
+.poply-theme-brutalist-black .poply-btn {
+  border: 4px solid #fff;
+  font-weight: bold;
+}
+
+/* Flat Green */
+.poply-theme-flat-green {
+  --poply-bg: #2ecc71;
+  --poply-border: none;
+  --poply-text: #fff;
+  --poply-accent: #27ae60;
+  --poply-radius: 4px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #fff;
+  --poply-btn-primary-bg: #27ae60;
+  --poply-btn-primary-text: #fff;
+}
+
+/* Gradient Sunset */
+.poply-theme-gradient-sunset {
+  --poply-bg: linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+  --poply-border: none;
+  --poply-text: #333;
+  --poply-accent: #ff0844;
+  --poply-radius: 16px;
+  --poply-btn-bg: rgba(255,255,255,0.5);
+  --poply-btn-text: #333;
+  --poply-btn-primary-bg: #ff0844;
+  --poply-btn-primary-text: #fff;
+}
+

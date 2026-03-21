@@ -1,0 +1,121 @@
+{
+  "name": "poply-ui",
+  "version": "1.0.0",
+  "description": "Beautiful, ready-made popup components. 150+ themes. Zero friction.",
+  "keywords": [
+    "popup",
+    "modal",
+    "alert",
+    "confirm",
+    "prompt",
+    "toast",
+    "notification",
+    "dialog",
+    "ui",
+    "components",
+    "ios",
+    "glass",
+    "neon",
+    "material",
+    "theme",
+    "poply",
+    "poply-ui"
+  ],
+  "author": "Your Name <you@example.com>",
+  "license": "MIT",
+  "homepage": "https://poply-ui.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/poply-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/poply-ui/issues"
+  },
+  "main": "dist/poply-ui.cjs.js",
+  "module": "dist/poply-ui.esm.js",
+  "browser": "dist/poply-ui.umd.min.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/poply-ui.esm.js",
+      "require": "./dist/poply-ui.cjs.js",
+      "types": "./dist/types/index.d.ts"
+    },
+    "./react": {
+      "import": "./dist/adapters/react/index.esm.js",
+      "require": "./dist/adapters/react/index.cjs.js",
+      "types": "./dist/adapters/react/index.d.ts"
+    },
+    "./vue": {
+      "import": "./dist/adapters/vue/index.esm.js",
+      "require": "./dist/adapters/vue/index.cjs.js",
+      "types": "./dist/adapters/vue/index.d.ts"
+    },
+    "./svelte": {
+      "import": "./dist/adapters/svelte/index.esm.js",
+      "types": "./dist/adapters/svelte/index.d.ts"
+    },
+    "./dist/poply-ui.css": "./dist/poply-ui.css"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run build:lib && npm run build:types",
+    "build:lib": "rollup -c rollup.config.mjs",
+    "build:types": "tsc --emitDeclarationOnly --outDir dist/types",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src --ext .ts,.tsx",
+    "format": "prettier --write src",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "prepublishOnly": "npm run build && npm run test",
+    "release": "npm run prepublishOnly && npm publish --access public",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "vue": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "vue": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@rollup/plugin-commonjs": "^29.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^1.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "conventional-changelog-cli": "^4.0.0",
+    "eslint": "^8.0.0",
+    "jsdom": "^29.0.1",
+    "prettier": "^3.0.0",
+    "rollup": "^4.0.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "vitepress": "^1.0.0",
+    "vitest": "^1.0.0"
+  }
+}
