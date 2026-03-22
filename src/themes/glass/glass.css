@@ -1,0 +1,580 @@
+/* Glass Morphism Themes (16-28) */
+
+/* 16. Glass Clear - Ultra-transparent frosted card */
+.poply-theme-glass-clear {
+  --poply-bg: rgba(255, 255, 255, 0.15);
+  --poply-border: 1px solid rgba(255, 255, 255, 0.25);
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ffffff;
+  --poply-backdrop-bg: rgba(100, 100, 100, 0.5);
+  --poply-backdrop-blur: 25px;
+  --poply-radius: 20px;
+  --poply-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  --poply-font: "Inter", -apple-system, sans-serif;
+  --poply-btn-bg: rgba(255, 255, 255, 0.2);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: rgba(255, 255, 255, 0.95);
+  --poply-btn-primary-text: #333333;
+  --poply-input-bg: rgba(255, 255, 255, 0.1);
+  --poply-input-border: rgba(255, 255, 255, 0.2);
+  --poply-input-text: #ffffff;
+  backdrop-filter: blur(30px) saturate(180%);
+  -webkit-backdrop-filter: blur(30px) saturate(180%);
+}
+.poply-theme-glass-clear .poply-btn {
+  border-radius: 12px;
+  font-weight: 500;
+  padding: 12px 24px;
+}
+.poply-theme-glass-clear .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+/* 17. Glass Blue - Blue-tinted frosted glass card */
+.poply-theme-glass-blue {
+  --poply-bg: rgba(59, 130, 246, 0.2);
+  --poply-border: 1px solid rgba(96, 165, 250, 0.35);
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #60a5fa;
+  --poply-backdrop-bg: rgba(30, 58, 138, 0.6);
+  --poply-backdrop-blur: 20px;
+  --poply-radius: 24px;
+  --poply-shadow:
+    0 25px 60px rgba(59, 130, 246, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  --poply-font: "Inter", -apple-system, sans-serif;
+  --poply-btn-bg: rgba(96, 165, 250, 0.25);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #3b82f6;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.1);
+  --poply-input-border: rgba(96, 165, 250, 0.4);
+  --poply-input-text: #ffffff;
+  backdrop-filter: blur(25px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+}
+.poply-theme-glass-blue .poply-btn {
+  border-radius: 14px;
+  font-weight: 600;
+  padding: 14px 28px;
+}
+.poply-theme-glass-blue .poply-title {
+  font-size: 22px;
+  font-weight: 700;
+  text-shadow: 0 2px 10px rgba(59, 130, 246, 0.5);
+}
+
+/* 18. Glass Purple - Purple hue frosted popup */
+.poply-theme-glass-purple {
+  --poply-bg: rgba(147, 51, 234, 0.2);
+  --poply-border: 1px solid rgba(192, 132, 252, 0.35);
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #c084fc;
+  --poply-backdrop-bg: rgba(88, 28, 135, 0.6);
+  --poply-backdrop-blur: 20px;
+  --poply-radius: 24px;
+  --poply-shadow:
+    0 25px 60px rgba(147, 51, 234, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  --poply-font: "Inter", -apple-system, sans-serif;
+  --poply-btn-bg: rgba(192, 132, 252, 0.25);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #a855f7;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.1);
+  --poply-input-border: rgba(192, 132, 252, 0.4);
+  --poply-input-text: #ffffff;
+  backdrop-filter: blur(25px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+}
+.poply-theme-glass-purple .poply-btn {
+  border-radius: 14px;
+  font-weight: 600;
+  padding: 14px 28px;
+}
+.poply-theme-glass-purple .poply-title {
+  font-size: 22px;
+  font-weight: 700;
+  text-shadow: 0 2px 10px rgba(147, 51, 234, 0.5);
+}
+
+/* 19. Glass Dark - Dark frosted glass, barely-there background */
+.poply-theme-glass-dark {
+  --poply-bg: rgba(15, 15, 15, 0.7);
+  --poply-border: 1px solid rgba(255, 255, 255, 0.08);
+  --poply-text: #e5e5e5;
+  --poply-title-color: #ffffff;
+  --poply-accent: #a3a3a3;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.8);
+  --poply-backdrop-blur: 30px;
+  --poply-radius: 20px;
+  --poply-shadow:
+    0 30px 70px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  --poply-font: "Inter", -apple-system, sans-serif;
+  --poply-btn-bg: rgba(255, 255, 255, 0.08);
+  --poply-btn-text: #e5e5e5;
+  --poply-btn-primary-bg: rgba(255, 255, 255, 0.15);
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.05);
+  --poply-input-border: rgba(255, 255, 255, 0.1);
+  --poply-input-text: #ffffff;
+  backdrop-filter: blur(35px) saturate(150%);
+  -webkit-backdrop-filter: blur(35px) saturate(150%);
+}
+.poply-theme-glass-dark .poply-btn {
+  border-radius: 12px;
+  font-weight: 500;
+  padding: 12px 24px;
+}
+.poply-theme-glass-dark .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* 20. Glass Sunset - Warm orange/pink frosted gradient glass */
+.poply-theme-glass-sunset {
+  --poply-bg: linear-gradient(
+    135deg,
+    rgba(251, 146, 60, 0.25) 0%,
+    rgba(244, 114, 182, 0.25) 100%
+  );
+  --poply-border: 1px solid rgba(251, 191, 36, 0.3);
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #fbbf24;
+  --poply-backdrop-bg: rgba(120, 53, 15, 0.6);
+  --poply-backdrop-blur: 20px;
+  --poply-radius: 24px;
+  --poply-shadow:
+    0 25px 60px rgba(251, 146, 60, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  --poply-font: "Inter", -apple-system, sans-serif;
+  --poply-btn-bg: rgba(251, 191, 36, 0.25);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: linear-gradient(135deg, #f97316 0%, #ec4899 100%);
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.1);
+  --poply-input-border: rgba(251, 191, 36, 0.4);
+  --poply-input-text: #ffffff;
+  backdrop-filter: blur(25px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+}
+.poply-theme-glass-sunset .poply-btn {
+  border-radius: 14px;
+  font-weight: 600;
+  padding: 14px 28px;
+}
+.poply-theme-glass-sunset .poply-title {
+  font-size: 22px;
+  font-weight: 700;
+  text-shadow: 0 2px 15px rgba(251, 146, 60, 0.4);
+}
+
+/* 21. Glass Ocean - Deep teal glass with wave texture */
+@keyframes wave-shimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+.poply-theme-glass-ocean {
+  --poply-bg: rgba(19, 78, 74, 0.5);
+  --poply-border: 1px solid rgba(45, 212, 191, 0.3);
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #2dd4bf;
+  --poply-backdrop-bg: rgba(6, 78, 59, 0.7);
+  --poply-backdrop-blur: 15px;
+  --poply-radius: 24px;
+  --poply-shadow:
+    0 25px 60px rgba(19, 78, 74, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  --poply-font: "Inter", -apple-system, sans-serif;
+  --poply-btn-bg: rgba(45, 212, 191, 0.2);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #14b8a6;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.08);
+  --poply-input-border: rgba(45, 212, 191, 0.35);
+  --poply-input-text: #ffffff;
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+}
+.poply-theme-glass-ocean::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(45, 212, 191, 0.1),
+    transparent
+  );
+  animation: wave-shimmer 3s ease-in-out infinite;
+  background-size: 200% 100%;
+  pointer-events: none;
+  border-radius: 0 0 24px 24px;
+}
+.poply-theme-glass-ocean .poply-btn {
+  border-radius: 14px;
+  font-weight: 600;
+  padding: 14px 28px;
+}
+
+/* 22. Glass Aurora - Multicolour aurora borealis frosted card */
+@keyframes aurora-shift {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+.poply-theme-glass-aurora {
+  --poply-bg: rgba(30, 30, 40, 0.6);
+  --poply-border: 1px solid rgba(255, 255, 255, 0.1);
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #a78bfa;
+  --poply-backdrop-bg: rgba(15, 15, 25, 0.85);
+  --poply-backdrop-blur: 25px;
+  --poply-radius: 24px;
+  --poply-shadow:
+    0 30px 70px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  --poply-font: "Inter", -apple-system, sans-serif;
+  --poply-btn-bg: rgba(255, 255, 255, 0.1);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: linear-gradient(
+    135deg,
+    #8b5cf6 0%,
+    #06b6d4 50%,
+    #10b981 100%
+  );
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.06);
+  --poply-input-border: rgba(255, 255, 255, 0.12);
+  --poply-input-text: #ffffff;
+  backdrop-filter: blur(30px) saturate(150%);
+  -webkit-backdrop-filter: blur(30px) saturate(150%);
+}
+.poply-theme-glass-aurora::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background:
+    radial-gradient(
+      ellipse at 20% 30%,
+      rgba(139, 92, 246, 0.3) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse at 80% 50%,
+      rgba(6, 182, 212, 0.25) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse at 50% 80%,
+      rgba(16, 185, 129, 0.2) 0%,
+      transparent 50%
+    );
+  animation: aurora-shift 8s ease-in-out infinite;
+  pointer-events: none;
+  z-index: -1;
+}
+.poply-theme-glass-aurora .poply-btn {
+  border-radius: 14px;
+  font-weight: 600;
+  padding: 14px 28px;
+}
+.poply-theme-glass-aurora .poply-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* 23. Glass Mono - Black and white frosted glass, grayscale only */
+.poply-theme-glass-mono {
+  --poply-bg: rgba(255, 255, 255, 0.08);
+  --poply-border: 1px solid rgba(255, 255, 255, 0.12);
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ffffff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.7);
+  --poply-backdrop-blur: 25px;
+  --poply-radius: 20px;
+  --poply-shadow:
+    0 25px 60px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  --poply-font: "SF Mono", "Fira Code", monospace;
+  --poply-btn-bg: rgba(255, 255, 255, 0.1);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #000000;
+  --poply-input-bg: rgba(255, 255, 255, 0.05);
+  --poply-input-border: rgba(255, 255, 255, 0.15);
+  --poply-input-text: #ffffff;
+  backdrop-filter: blur(30px) grayscale(100%);
+  -webkit-backdrop-filter: blur(30px) grayscale(100%);
+}
+.poply-theme-glass-mono .poply-btn {
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 12px 24px;
+  letter-spacing: 0.5px;
+}
+.poply-theme-glass-mono .poply-title {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.poply-theme-glass-mono .poply-body {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* 24. Glass Neon - Frosted glass with neon green border glow */
+.poply-theme-glass-neon {
+  --poply-bg: rgba(0, 0, 0, 0.6);
+  --poply-border: 2px solid #39ff14;
+  --poply-text: #ffffff;
+  --poply-title-color: #39ff14;
+  --poply-accent: #39ff14;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.8);
+  --poply-backdrop-blur: 10px;
+  --poply-radius: 16px;
+  --poply-shadow:
+    0 0 30px rgba(57, 255, 20, 0.4), 0 0 60px rgba(57, 255, 20, 0.2),
+    inset 0 1px 0 rgba(57, 255, 20, 0.2);
+  --poply-font: "Inter", -apple-system, sans-serif;
+  --poply-btn-bg: rgba(57, 255, 20, 0.15);
+  --poply-btn-text: #39ff14;
+  --poply-btn-primary-bg: #39ff14;
+  --poply-btn-primary-text: #000000;
+  --poply-input-bg: rgba(0, 0, 0, 0.5);
+  --poply-input-border: rgba(57, 255, 20, 0.4);
+  --poply-input-text: #39ff14;
+  backdrop-filter: blur(20px) saturate(150%);
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
+}
+.poply-theme-glass-neon .poply-btn {
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.poply-theme-glass-neon .poply-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-shadow: 0 0 20px rgba(57, 255, 20, 0.6);
+}
+
+/* 25. Glass Rose - Warm pink frosted glass card */
+.poply-theme-glass-rose {
+  --poply-bg: rgba(244, 63, 94, 0.2);
+  --poply-border: 1px solid rgba(244, 100, 131, 0.35);
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #fb7185;
+  --poply-backdrop-bg: rgba(136, 24, 49, 0.6);
+  --poply-backdrop-blur: 20px;
+  --poply-radius: 24px;
+  --poply-shadow:
+    0 25px 60px rgba(244, 63, 94, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  --poply-font: "Inter", -apple-system, sans-serif;
+  --poply-btn-bg: rgba(251, 113, 133, 0.25);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #f43f5e;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.1);
+  --poply-input-border: rgba(251, 113, 133, 0.4);
+  --poply-input-text: #ffffff;
+  backdrop-filter: blur(25px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+}
+.poply-theme-glass-rose .poply-btn {
+  border-radius: 14px;
+  font-weight: 600;
+  padding: 14px 28px;
+}
+.poply-theme-glass-rose .poply-title {
+  font-size: 22px;
+  font-weight: 700;
+  text-shadow: 0 2px 10px rgba(244, 63, 94, 0.5);
+}
+
+/* 26. Glass Amber - Golden amber frosted card */
+.poply-theme-glass-amber {
+  --poply-bg: rgba(245, 158, 11, 0.2);
+  --poply-border: 1px solid rgba(252, 211, 77, 0.35);
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #fbbf24;
+  --poply-backdrop-bg: rgba(146, 64, 14, 0.6);
+  --poply-backdrop-blur: 20px;
+  --poply-radius: 24px;
+  --poply-shadow:
+    0 25px 60px rgba(245, 158, 11, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  --poply-font: "Inter", -apple-system, sans-serif;
+  --poply-btn-bg: rgba(252, 211, 77, 0.25);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #f59e0b;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.1);
+  --poply-input-border: rgba(252, 211, 77, 0.4);
+  --poply-input-text: #ffffff;
+  backdrop-filter: blur(25px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+}
+.poply-theme-glass-amber .poply-btn {
+  border-radius: 14px;
+  font-weight: 600;
+  padding: 14px 28px;
+}
+.poply-theme-glass-amber .poply-title {
+  font-size: 22px;
+  font-weight: 700;
+  text-shadow: 0 2px 10px rgba(245, 158, 11, 0.5);
+}
+
+/* 27. Glass Ink - Deep navy frosted glass with ink-drop feel */
+.poply-theme-glass-ink {
+  --poply-bg: rgba(15, 23, 42, 0.7);
+  --poply-border: 1px solid rgba(100, 116, 139, 0.25);
+  --poply-text: #f1f5f9;
+  --poply-title-color: #f1f5f9;
+  --poply-accent: #64748b;
+  --poply-backdrop-bg: rgba(2, 6, 23, 0.85);
+  --poply-backdrop-blur: 25px;
+  --poply-radius: 20px;
+  --poply-shadow:
+    0 25px 60px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  --poply-font: "Inter", -apple-system, sans-serif;
+  --poply-btn-bg: rgba(100, 116, 139, 0.2);
+  --poply-btn-text: #f1f5f9;
+  --poply-btn-primary-bg: #475569;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(30, 41, 59, 0.6);
+  --poply-input-border: rgba(100, 116, 139, 0.3);
+  --poply-input-text: #f1f5f9;
+  backdrop-filter: blur(30px) saturate(140%);
+  -webkit-backdrop-filter: blur(30px) saturate(140%);
+}
+.poply-theme-glass-ink::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  height: 60px;
+  background: radial-gradient(
+    circle,
+    rgba(100, 116, 139, 0.3) 0%,
+    transparent 70%
+  );
+  border-radius: 50%;
+  pointer-events: none;
+}
+.poply-theme-glass-ink .poply-btn {
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 12px 24px;
+}
+.poply-theme-glass-ink .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* 28. Glass Holographic - Holographic rainbow shimmer glass card */
+@keyframes holographic-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.poply-theme-glass-holographic {
+  --poply-bg: rgba(255, 255, 255, 0.1);
+  --poply-border: 1px solid rgba(255, 255, 255, 0.2);
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ffffff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.7);
+  --poply-backdrop-blur: 25px;
+  --poply-radius: 24px;
+  --poply-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+  --poply-font: "Inter", -apple-system, sans-serif;
+  --poply-btn-bg: rgba(255, 255, 255, 0.15);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: linear-gradient(
+    135deg,
+    #f472b6 0%,
+    #818cf8 25%,
+    #22d3ee 50%,
+    #a3e635 75%,
+    #fbbf24 100%
+  );
+  --poply-btn-primary-text: #000000;
+  --poply-input-bg: rgba(255, 255, 255, 0.08);
+  --poply-input-border: rgba(255, 255, 255, 0.2);
+  --poply-input-text: #ffffff;
+  backdrop-filter: blur(30px) saturate(180%);
+  -webkit-backdrop-filter: blur(30px) saturate(180%);
+}
+.poply-theme-glass-holographic::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(
+    135deg,
+    #f472b6,
+    #818cf8,
+    #22d3ee,
+    #a3e635,
+    #fbbf24,
+    #f472b6
+  );
+  background-size: 300% 300%;
+  animation: holographic-shift 4s ease infinite;
+  border-radius: 26px;
+  z-index: -1;
+  filter: blur(8px);
+  opacity: 0.5;
+}
+.poply-theme-glass-holographic::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  border-radius: 24px;
+  pointer-events: none;
+}
+.poply-theme-glass-holographic .poply-btn {
+  border-radius: 14px;
+  font-weight: 600;
+  padding: 14px 28px;
+}
+.poply-theme-glass-holographic .poply-title {
+  font-size: 22px;
+  font-weight: 700;
+}

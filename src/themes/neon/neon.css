@@ -1,0 +1,684 @@
+/* Neon & Cyberpunk Themes (69-78) */
+
+/* 69. Neon Green - Pure neon green on black, CRT glow */
+.poply-theme-neon-green {
+  --poply-bg: #000000;
+  --poply-border: 2px solid #39ff14;
+  --poply-text: #39ff14;
+  --poply-title-color: #39ff14;
+  --poply-accent: #39ff14;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.95);
+  --poply-radius: 0;
+  --poply-shadow:
+    0 0 20px #39ff14, 0 0 40px rgba(57, 255, 20, 0.5),
+    0 0 60px rgba(57, 255, 20, 0.3);
+  --poply-font: "Courier New", Courier, monospace;
+  --poply-padding: 28px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #39ff14;
+  --poply-btn-primary-bg: #39ff14;
+  --poply-btn-primary-text: #000000;
+  --poply-input-bg: #000000;
+  --poply-input-border: 2px solid #39ff14;
+  --poply-input-text: #39ff14;
+}
+.poply-theme-neon-green::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(57, 255, 20, 0.03) 2px,
+    rgba(57, 255, 20, 0.03) 4px
+  );
+  pointer-events: none;
+}
+.poply-theme-neon-green .poply-btn {
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 2px solid #39ff14;
+}
+.poply-theme-neon-green .poply-btn:hover {
+  background: #39ff14;
+  color: #000000;
+  box-shadow: 0 0 20px #39ff14;
+}
+.poply-theme-neon-green .poply-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #39ff14;
+}
+.poply-theme-neon-green .poply-body {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* 70. Neon Pink - Hot pink neon glow, dark background */
+.poply-theme-neon-pink {
+  --poply-bg: #0a0008;
+  --poply-border: 2px solid #ff10f0;
+  --poply-text: #ff10f0;
+  --poply-title-color: #ff10f0;
+  --poply-accent: #ff10f0;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.92);
+  --poply-radius: 0;
+  --poply-shadow:
+    0 0 20px #ff10f0, 0 0 40px rgba(255, 16, 240, 0.5),
+    0 0 60px rgba(255, 16, 240, 0.3);
+  --poply-font: "Courier New", Courier, monospace;
+  --poply-padding: 28px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #ff10f0;
+  --poply-btn-primary-bg: #ff10f0;
+  --poply-btn-primary-text: #0a0008;
+  --poply-input-bg: #0a0008;
+  --poply-input-border: 2px solid #ff10f0;
+  --poply-input-text: #ff10f0;
+}
+.poply-theme-neon-pink::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(255, 16, 240, 0.03) 2px,
+    rgba(255, 16, 240, 0.03) 4px
+  );
+  pointer-events: none;
+}
+.poply-theme-neon-pink .poply-btn {
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 2px solid #ff10f0;
+}
+.poply-theme-neon-pink .poply-btn:hover {
+  background: #ff10f0;
+  color: #0a0008;
+  box-shadow: 0 0 20px #ff10f0;
+}
+.poply-theme-neon-pink .poply-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #ff10f0;
+}
+.poply-theme-neon-pink .poply-body {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.poply-theme-neon-pink .poply-btn-danger {
+  background: #ff10f0;
+  color: #0a0008;
+  border-color: #ff10f0;
+}
+
+/* 71. Neon Blue - Electric blue neon borders on black */
+.poply-theme-neon-blue {
+  --poply-bg: #000510;
+  --poply-border: 2px solid #00d4ff;
+  --poply-text: #00d4ff;
+  --poply-title-color: #00d4ff;
+  --poply-accent: #00d4ff;
+  --poply-backdrop-bg: rgba(0, 5, 16, 0.95);
+  --poply-radius: 0;
+  --poply-shadow:
+    0 0 20px #00d4ff, 0 0 40px rgba(0, 212, 255, 0.5),
+    0 0 60px rgba(0, 212, 255, 0.3);
+  --poply-font: "Courier New", Courier, monospace;
+  --poply-padding: 28px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #00d4ff;
+  --poply-btn-primary-bg: #00d4ff;
+  --poply-btn-primary-text: #000510;
+  --poply-input-bg: #000510;
+  --poply-input-border: 2px solid #00d4ff;
+  --poply-input-text: #00d4ff;
+}
+.poply-theme-neon-blue::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 212, 255, 0.03) 2px,
+    rgba(0, 212, 255, 0.03) 4px
+  );
+  pointer-events: none;
+}
+.poply-theme-neon-blue .poply-btn {
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 2px solid #00d4ff;
+}
+.poply-theme-neon-blue .poply-btn:hover {
+  background: #00d4ff;
+  color: #000510;
+  box-shadow: 0 0 20px #00d4ff;
+}
+.poply-theme-neon-blue .poply-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #00d4ff;
+}
+.poply-theme-neon-blue .poply-body {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* 72. Neon Cyan - Teal/cyan neon sci-fi terminal style */
+.poply-theme-neon-cyan {
+  --poply-bg: #000000;
+  --poply-border: 2px solid #00ffff;
+  --poply-text: #00ffff;
+  --poply-title-color: #00ffff;
+  --poply-accent: #00ffff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.92);
+  --poply-radius: 0;
+  --poply-shadow:
+    0 0 20px #00ffff, 0 0 40px rgba(0, 255, 255, 0.5),
+    0 0 60px rgba(0, 255, 255, 0.3);
+  --poply-font: "Courier New", Courier, monospace;
+  --poply-padding: 28px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #00ffff;
+  --poply-btn-primary-bg: #00ffff;
+  --poply-btn-primary-text: #000000;
+  --poply-input-bg: #000000;
+  --poply-input-border: 2px solid #00ffff;
+  --poply-input-text: #00ffff;
+}
+.poply-theme-neon-cyan::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 255, 255, 0.03) 2px,
+    rgba(0, 255, 255, 0.03) 4px
+  );
+  pointer-events: none;
+}
+.poply-theme-neon-cyan .poply-btn {
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 2px solid #00ffff;
+}
+.poply-theme-neon-cyan .poply-btn:hover {
+  background: #00ffff;
+  color: #000000;
+  box-shadow: 0 0 20px #00ffff;
+}
+.poply-theme-neon-cyan .poply-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #00ffff;
+}
+.poply-theme-neon-cyan .poply-body {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* 73. Neon Yellow - Bright yellow neon on near-black grey */
+.poply-theme-neon-yellow {
+  --poply-bg: #0d0d00;
+  --poply-border: 2px solid #ffff00;
+  --poply-text: #ffff00;
+  --poply-title-color: #ffff00;
+  --poply-accent: #ffff00;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 0;
+  --poply-shadow: 0 0 20px #ffff00, 0 0 40px rgba(255, 255, 0, 0.5);
+  --poply-font: "Courier New", Courier, monospace;
+  --poply-padding: 28px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #ffff00;
+  --poply-btn-primary-bg: #ffff00;
+  --poply-btn-primary-text: #0d0d00;
+  --poply-input-bg: #0d0d00;
+  --poply-input-border: 2px solid #ffff00;
+  --poply-input-text: #ffff00;
+}
+.poply-theme-neon-yellow .poply-btn {
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 2px solid #ffff00;
+}
+.poply-theme-neon-yellow .poply-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #ffff00;
+}
+
+/* 74. Neon Red - Danger red neon alert, glitch animation */
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.poply-theme-neon-red {
+  --poply-bg: #0a0000;
+  --poply-border: 2px solid #ff0000;
+  --poply-text: #ff0000;
+  --poply-title-color: #ff0000;
+  --poply-accent: #ff0000;
+  --poply-backdrop-bg: rgba(20, 0, 0, 0.95);
+  --poply-radius: 0;
+  --poply-shadow:
+    0 0 20px #ff0000, 0 0 40px rgba(255, 0, 0, 0.5),
+    0 0 60px rgba(255, 0, 0, 0.3);
+  --poply-font: "Courier New", Courier, monospace;
+  --poply-padding: 28px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #ff0000;
+  --poply-btn-primary-bg: #ff0000;
+  --poply-btn-primary-text: #0a0000;
+  --poply-input-bg: #0a0000;
+  --poply-input-border: 2px solid #ff0000;
+  --poply-input-text: #ff0000;
+}
+.poply-theme-neon-red .poply-btn {
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 2px solid #ff0000;
+}
+.poply-theme-neon-red .poply-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #ff0000;
+  animation: glitch 0.3s ease-in-out infinite;
+}
+.poply-theme-neon-red .poply-body {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* 75. Cyber Grid - Dark card with cyan grid-line texture */
+.poply-theme-cyber-grid {
+  --poply-bg: #0a0e14;
+  --poply-border: 1px solid #00ffff;
+  --poply-text: #00ffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #00ffff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.92);
+  --poply-radius: 4px;
+  --poply-shadow:
+    0 0 30px rgba(0, 255, 255, 0.2), inset 0 0 60px rgba(0, 255, 255, 0.05);
+  --poply-font: "Rajdhani", "Orbitron", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #00ffff;
+  --poply-btn-primary-bg: #00ffff;
+  --poply-btn-primary-text: #0a0e14;
+  --poply-input-bg: rgba(0, 255, 255, 0.05);
+  --poply-input-border: 1px solid #00ffff;
+  --poply-input-text: #00ffff;
+}
+.poply-theme-cyber-grid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(0, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 30px 30px;
+  pointer-events: none;
+}
+.poply-theme-cyber-grid::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #00ffff, transparent);
+  box-shadow: 0 0 10px #00ffff;
+}
+.poply-theme-cyber-grid .poply-btn {
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 12px 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px solid #00ffff;
+}
+.poply-theme-cyber-grid .poply-title {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* 76. Hologram - Translucent blue hologram-screen effect */
+@keyframes hologram-flicker {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  92% {
+    opacity: 1;
+  }
+  93% {
+    opacity: 0.8;
+  }
+  94% {
+    opacity: 1;
+  }
+  97% {
+    opacity: 0.9;
+  }
+  98% {
+    opacity: 1;
+  }
+}
+.poply-theme-hologram {
+  --poply-bg: rgba(0, 20, 40, 0.7);
+  --poply-border: 1px solid rgba(0, 200, 255, 0.5);
+  --poply-text: #00c8ff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #00c8ff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.8);
+  --poply-backdrop-blur: 10px;
+  --poply-radius: 8px;
+  --poply-shadow:
+    0 0 40px rgba(0, 200, 255, 0.3), inset 0 0 30px rgba(0, 200, 255, 0.1);
+  --poply-font: "Rajdhani", "Orbitron", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(0, 200, 255, 0.15);
+  --poply-btn-text: #00c8ff;
+  --poply-btn-primary-bg: rgba(0, 200, 255, 0.3);
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(0, 200, 255, 0.08);
+  --poply-input-border: rgba(0, 200, 255, 0.4);
+  --poply-input-text: #00c8ff;
+  backdrop-filter: blur(10px);
+  animation: hologram-flicker 4s ease-in-out infinite;
+}
+.poply-theme-hologram::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #00c8ff, transparent);
+  box-shadow: 0 0 10px #00c8ff;
+}
+.poply-theme-hologram::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 3px,
+    rgba(0, 200, 255, 0.02) 3px,
+    rgba(0, 200, 255, 0.02) 6px
+  );
+  pointer-events: none;
+}
+.poply-theme-hologram .poply-btn {
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 1px solid rgba(0, 200, 255, 0.5);
+}
+.poply-theme-hologram .poply-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(0, 200, 255, 0.6);
+}
+
+/* 77. Glitch - Text glitch animation, RGB split effect */
+@keyframes rgb-split {
+  0% {
+    text-shadow:
+      2px 0 #ff0000,
+      -2px 0 #00ffff;
+  }
+  25% {
+    text-shadow:
+      -2px 0 #ff0000,
+      2px 0 #00ffff;
+  }
+  50% {
+    text-shadow:
+      2px 2px #ff0000,
+      -2px -2px #00ffff;
+  }
+  75% {
+    text-shadow:
+      -2px 2px #ff0000,
+      2px -2px #00ffff;
+  }
+  100% {
+    text-shadow:
+      2px 0 #ff0000,
+      -2px 0 #00ffff;
+  }
+}
+@keyframes scan-line {
+  0% {
+    top: -100%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+.poply-theme-glitch {
+  --poply-bg: #0a0a0a;
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ff0055;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 0;
+  --poply-shadow: none;
+  --poply-font: "Rajdhani", "Orbitron", -apple-system, sans-serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ff0055;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 0, 85, 0.1);
+  --poply-input-border: #ff0055;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-glitch::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(transparent, rgba(255, 0, 85, 0.3), transparent);
+  animation: scan-line 2s linear infinite;
+}
+.poply-theme-glitch::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(255, 255, 255, 0.03) 2px,
+    rgba(255, 255, 255, 0.03) 4px
+  );
+  pointer-events: none;
+}
+.poply-theme-glitch .poply-btn {
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 14px 28px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: 2px solid #ffffff;
+}
+.poply-theme-glitch .poply-btn:hover {
+  background: #ff0055;
+  border-color: #ff0055;
+}
+.poply-theme-glitch .poply-title {
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  animation: rgb-split 0.5s ease-in-out infinite;
+}
+.poply-theme-glitch .poply-body {
+  font-size: 14px;
+  color: #888888;
+  letter-spacing: 1px;
+}
+
+/* 78. Matrix Rain - Green falling code background, black card */
+@keyframes matrix-fall {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(400%);
+    opacity: 0;
+  }
+}
+.poply-theme-matrix-rain {
+  --poply-bg: #000000;
+  --poply-border: 2px solid #00ff00;
+  --poply-text: #00ff00;
+  --poply-title-color: #00ff00;
+  --poply-accent: #00ff00;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 0;
+  --poply-shadow: 0 0 30px rgba(0, 255, 0, 0.3);
+  --poply-font: "Courier New", Courier, monospace;
+  --poply-padding: 28px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #00ff00;
+  --poply-btn-primary-bg: #00ff00;
+  --poply-btn-primary-text: #000000;
+  --poply-input-bg: #000000;
+  --poply-input-border: 2px solid #00ff00;
+  --poply-input-text: #00ff00;
+}
+.poply-theme-matrix-rain::before {
+  content: "01001 10110 01101 11010 00101 11001 10010 01110 10101 01011 11001 00110 10111 01010 10001 01100 11011 00101 10110 01001 11010 01101 10101 10010 01011 11001 00110 01110 10111 01010";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 10px;
+  line-height: 1.2;
+  color: rgba(0, 255, 0, 0.15);
+  word-wrap: break-word;
+  overflow: hidden;
+  pointer-events: none;
+  text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+}
+.poply-theme-matrix-rain::after {
+  content: "-matrix>";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 12px;
+  color: rgba(0, 255, 0, 0.6);
+  animation: matrix-fall 3s linear infinite;
+}
+.poply-theme-matrix-rain .poply-btn {
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 2px solid #00ff00;
+}
+.poply-theme-matrix-rain .poply-btn:hover {
+  background: #00ff00;
+  color: #000000;
+  box-shadow: 0 0 20px #00ff00;
+}
+.poply-theme-matrix-rain .poply-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #00ff00;
+}
+.poply-theme-matrix-rain .poply-body {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #00cc00;
+}

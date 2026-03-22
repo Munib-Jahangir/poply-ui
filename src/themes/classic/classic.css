@@ -1,0 +1,693 @@
+/* Classic & Vintage Themes (99-108) */
+
+/* 99. Classic - Timeless grey box, system-dialog feel */
+.poply-theme-classic {
+  --poply-bg: #c0c0c0;
+  --poply-border: 2px outset #dfdfdf;
+  --poply-text: #000000;
+  --poply-title-color: #000000;
+  --poply-accent: #000080;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 0;
+  --poply-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  --poply-font: "MS Sans Serif", "Segoe UI", Tahoma, sans-serif;
+  --poply-padding: 16px;
+  --poply-btn-bg: #c0c0c0;
+  --poply-btn-text: #000000;
+  --poply-btn-primary-bg: #c0c0c0;
+  --poply-btn-primary-text: #000000;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: 2px inset #dfdfdf;
+  --poply-input-text: #000000;
+}
+.poply-theme-classic::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 32px;
+  background: linear-gradient(90deg, #000080, #1084d0);
+  margin: -16px -16px 16px -16px;
+  padding: 4px 8px;
+}
+.poply-theme-classic .poply-header {
+  position: relative;
+  padding-top: 20px;
+  margin-bottom: 8px;
+}
+.poply-theme-classic .poply-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: none;
+}
+.poply-theme-classic .poply-btn {
+  border-radius: 0;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 6px 20px;
+  border: 2px outset #dfdfdf;
+  min-width: 80px;
+}
+.poply-theme-classic .poply-btn:active {
+  border-style: inset;
+}
+.poply-theme-classic .poply-body {
+  font-size: 12px;
+}
+
+/* 100. Windows 98 - Win98 system dialog with pixel borders */
+.poply-theme-windows-98 {
+  --poply-bg: #c0c0c0;
+  --poply-border: 2px solid;
+  --poply-text: #000000;
+  --poply-title-color: #ffffff;
+  --poply-accent: #000080;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 0;
+  --poply-shadow: none;
+  --poply-font: "MS Sans Serif", "Segoe UI", Tahoma, sans-serif;
+  --poply-padding: 0;
+  --poply-btn-bg: #c0c0c0;
+  --poply-btn-text: #000000;
+  --poply-btn-primary-bg: #c0c0c0;
+  --poply-btn-primary-text: #000000;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: 2px inset #808080;
+  --poply-input-text: #000000;
+}
+.poply-theme-windows-98::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 24px;
+  background: linear-gradient(180deg, #000080 0%, #1084d0 100%);
+  border-bottom: 1px solid #ffffff;
+}
+.poply-theme-windows-98::after {
+  content: "×";
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  z-index: 1;
+}
+.poply-theme-windows-98 .poply-header {
+  position: relative;
+  padding: 6px 8px 8px 8px;
+  margin-top: 0;
+  gap: 8px;
+}
+.poply-theme-windows-98 .poply-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.poply-theme-windows-98 .poply-body {
+  padding: 16px 12px;
+  font-size: 12px;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+.poply-theme-windows-98 .poply-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}
+.poply-theme-windows-98 .poply-footer {
+  padding: 8px 12px 12px;
+  justify-content: flex-end;
+}
+.poply-theme-windows-98 .poply-btn {
+  border-radius: 0;
+  font-size: 12px;
+  padding: 6px 18px;
+  border: 2px outset #dfdfdf;
+  min-width: 75px;
+}
+.poply-theme-windows-98 .poply-btn:active {
+  border-style: inset;
+}
+
+/* 101. Windows XP - Luna blue XP style with close/min/max buttons */
+.poply-theme-windows-xp {
+  --poply-bg: linear-gradient(180deg, #ebeff5 0%, #d4dce8 100%);
+  --poply-border: 1px solid #4476a5;
+  --poply-text: #1f3a59;
+  --poply-title-color: #1f3a59;
+  --poply-accent: #4476a5;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.6);
+  --poply-radius: 0;
+  --poply-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  --poply-font: "Segoe UI", Tahoma, sans-serif;
+  --poply-padding: 0;
+  --poply-btn-bg: linear-gradient(180deg, #f5f5f5 0%, #e5e5e5 100%);
+  --poply-btn-text: #1f3a59;
+  --poply-btn-primary-bg: linear-gradient(180deg, #c7dcf7 0%, #a8c8f0 100%);
+  --poply-btn-primary-text: #1f3a59;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: 1px solid #7a9bbd;
+  --poply-input-text: #1f3a59;
+}
+.poply-theme-windows-xp::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 26px;
+  background: linear-gradient(180deg, #5a9bd6 0%, #3a7abd 100%);
+  border-bottom: 1px solid #7eb5e5;
+}
+.poply-theme-windows-xp::after {
+  content: "□  ×";
+  position: absolute;
+  top: 3px;
+  right: 4px;
+  font-size: 10px;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+.poply-theme-windows-xp .poply-header {
+  position: relative;
+  padding: 6px 8px 8px 8px;
+  gap: 8px;
+}
+.poply-theme-windows-xp .poply-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.poply-theme-windows-xp .poply-body {
+  padding: 20px 16px;
+  font-size: 12px;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+.poply-theme-windows-xp .poply-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}
+.poply-theme-windows-xp .poply-footer {
+  padding: 8px 16px 16px;
+  justify-content: flex-end;
+}
+.poply-theme-windows-xp .poply-btn {
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 6px 16px;
+  border: 1px solid #8fb4d8;
+}
+
+/* 102. Terminal - Old-school green-on-black terminal prompt */
+.poply-theme-terminal {
+  --poply-bg: #0d0d0d;
+  --poply-border: 1px solid #333333;
+  --poply-text: #00ff00;
+  --poply-title-color: #00ff00;
+  --poply-accent: #00ff00;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 0;
+  --poply-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+  --poply-font: "Courier New", Courier, monospace;
+  --poply-padding: 20px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #00ff00;
+  --poply-btn-primary-bg: #00ff00;
+  --poply-btn-primary-text: #0d0d0d;
+  --poply-input-bg: transparent;
+  --poply-input-border: 1px solid #00ff00;
+  --poply-input-text: #00ff00;
+}
+.poply-theme-terminal::before {
+  content: ">_";
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  font-size: 14px;
+  color: #00ff00;
+  animation: cursor-blink 1s step-end infinite;
+}
+@keyframes cursor-blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+.poply-theme-terminal::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 255, 0, 0.03) 2px,
+    rgba(0, 255, 0, 0.03) 4px
+  );
+  pointer-events: none;
+}
+.poply-theme-terminal .poply-header {
+  padding-left: 30px;
+}
+.poply-theme-terminal .poply-title {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.poply-theme-terminal .poply-body {
+  font-size: 14px;
+  color: #00cc00;
+}
+.poply-theme-terminal .poply-footer {
+  margin-top: 16px;
+}
+.poply-theme-terminal .poply-btn {
+  border-radius: 0;
+  font-size: 14px;
+  padding: 8px 16px;
+  letter-spacing: 1px;
+}
+
+/* 103. DOS Prompt - DOS box, white on blue, pixel font */
+.poply-theme-dos-prompt {
+  --poply-bg: #0000aa;
+  --poply-border: 2px solid #ffffff;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ffff00;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 0;
+  --poply-shadow: none;
+  --poply-font: "Fixedsys", "Courier New", monospace;
+  --poply-padding: 16px;
+  --poply-btn-bg: #0000aa;
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #0000aa;
+  --poply-input-bg: #0000aa;
+  --poply-input-border: 1px solid #ffffff;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-dos-prompt .poply-header {
+  border-bottom: 1px solid #5555ff;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+.poply-theme-dos-prompt .poply-title {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.poply-theme-dos-prompt .poply-body {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.poply-theme-dos-prompt .poply-footer {
+  margin-top: 16px;
+  border-top: 1px solid #5555ff;
+  padding-top: 12px;
+}
+.poply-theme-dos-prompt .poply-btn {
+  border-radius: 0;
+  font-size: 12px;
+  padding: 6px 16px;
+}
+
+/* 104. Newspaper - Black/white newspaper print card, serif font */
+.poply-theme-newspaper {
+  --poply-bg: #f5f0e1;
+  --poply-border: 3px double #000000;
+  --poply-text: #1a1a1a;
+  --poply-title-color: #000000;
+  --poply-accent: #333333;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.6);
+  --poply-radius: 0;
+  --poply-shadow: none;
+  --poply-font: Georgia, "Times New Roman", serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #1a1a1a;
+  --poply-btn-primary-bg: #1a1a1a;
+  --poply-btn-primary-text: #f5f0e1;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: 1px solid #1a1a1a;
+  --poply-input-text: #1a1a1a;
+}
+.poply-theme-newspaper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%' height='100%' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.05;
+  pointer-events: none;
+}
+.poply-theme-newspaper .poply-header {
+  border-bottom: 2px solid #000000;
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+.poply-theme-newspaper .poply-title {
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.poply-theme-newspaper .poply-body {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #333333;
+  column-count: 1;
+}
+.poply-theme-newspaper .poply-footer {
+  border-top: 1px solid #cccccc;
+  padding-top: 12px;
+  margin-top: 16px;
+}
+.poply-theme-newspaper .poply-btn {
+  border-radius: 0;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* 105. Typewriter - Cream card with typewriter-font aesthetic */
+.poply-theme-typewriter {
+  --poply-bg: #f5f0e6;
+  --poply-border: none;
+  --poply-text: #2d2d2d;
+  --poply-title-color: #1a1a1a;
+  --poply-accent: #4a4a4a;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 2px;
+  --poply-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  --poply-font: "Courier Prime", "Courier New", Courier, monospace;
+  --poply-padding: 28px;
+  --poply-btn-bg: #e8e4da;
+  --poply-btn-text: #2d2d2d;
+  --poply-btn-primary-bg: #2d2d2d;
+  --poply-btn-primary-text: #f5f0e6;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: 1px solid #c0b8a8;
+  --poply-input-text: #2d2d2d;
+}
+.poply-theme-typewriter::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%' height='100%' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.06;
+  pointer-events: none;
+}
+.poply-theme-typewriter .poply-header {
+  border-bottom: 1px dashed #c0b8a8;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+.poply-theme-typewriter .poply-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.poply-theme-typewriter .poply-body {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #4a4a4a;
+}
+.poply-theme-typewriter .poply-footer {
+  margin-top: 16px;
+}
+.poply-theme-typewriter .poply-btn {
+  border-radius: 2px;
+  font-size: 14px;
+  padding: 10px 18px;
+}
+
+/* 106. Vintage Stamp - Stamp/seal style card with dotted border */
+.poply-theme-vintage-stamp {
+  --poply-bg: #f5f0e1;
+  --poply-border: 3px dotted #8b7355;
+  --poply-text: #3d2e1f;
+  --poply-title-color: #2d1f0f;
+  --poply-accent: #8b7355;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.4);
+  --poply-radius: 0;
+  --poply-shadow: 0 4px 16px rgba(139, 115, 85, 0.2);
+  --poply-font: Georgia, "Times New Roman", serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: #e8e3d5;
+  --poply-btn-text: #3d2e1f;
+  --poply-btn-primary-bg: #8b7355;
+  --poply-btn-primary-text: #f5f0e1;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: 1px solid #c0b8a8;
+  --poply-input-text: #3d2e1f;
+}
+.poply-theme-vintage-stamp .poply-header {
+  justify-content: center;
+  border-bottom: 1px solid #c0b8a8;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+.poply-theme-vintage-stamp .poply-icon {
+  font-size: 32px;
+  opacity: 0.7;
+}
+.poply-theme-vintage-stamp .poply-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+.poply-theme-vintage-stamp .poply-body {
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: center;
+  color: #5a4a3a;
+}
+.poply-theme-vintage-stamp .poply-footer {
+  justify-content: center;
+  margin-top: 16px;
+}
+.poply-theme-vintage-stamp .poply-btn {
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* 107. Film Noir - Black/white 1940s film poster style */
+.poply-theme-film-noir {
+  --poply-bg: #1a1a1a;
+  --poply-border: none;
+  --poply-text: #e8e8e8;
+  --poply-title-color: #ffffff;
+  --poply-accent: #888888;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.95);
+  --poply-radius: 0;
+  --poply-shadow: none;
+  --poply-font: "Playfair Display", Georgia, serif;
+  --poply-padding: 40px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #e8e8e8;
+  --poply-btn-primary-bg: #e8e8e8;
+  --poply-btn-primary-text: #1a1a1a;
+  --poply-input-bg: transparent;
+  --poply-input-border: 1px solid #666666;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-film-noir::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.03) 0%,
+    transparent 30%,
+    transparent 70%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  pointer-events: none;
+}
+.poply-theme-film-noir::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 40%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  pointer-events: none;
+}
+.poply-theme-film-noir .poply-header {
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.poply-theme-film-noir .poply-icon {
+  font-size: 36px;
+  opacity: 0.6;
+}
+.poply-theme-film-noir .poply-title {
+  font-size: 24px;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.poply-theme-film-noir .poply-body {
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: center;
+  color: #aaaaaa;
+  position: relative;
+  z-index: 1;
+}
+.poply-theme-film-noir .poply-footer {
+  justify-content: center;
+  margin-top: 24px;
+  position: relative;
+  z-index: 1;
+}
+.poply-theme-film-noir .poply-btn {
+  border-radius: 0;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 12px 24px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: 1px solid #888888;
+}
+
+/* 108. Retro 80s - Neon on dark with 80s grid perspective */
+@keyframes retro-glow {
+  0%,
+  100% {
+    text-shadow:
+      0 0 10px #ff00ff,
+      0 0 20px #ff00ff,
+      0 0 30px #ff00ff;
+  }
+  50% {
+    text-shadow:
+      0 0 15px #00ffff,
+      0 0 25px #00ffff,
+      0 0 35px #00ffff;
+  }
+}
+.poply-theme-retro-80s {
+  --poply-bg: #0a0a0f;
+  --poply-border: 3px solid #ff00ff;
+  --poply-text: #ffffff;
+  --poply-title-color: #ff00ff;
+  --poply-accent: #00ffff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 0;
+  --poply-shadow:
+    0 0 30px rgba(255, 0, 255, 0.4), inset 0 0 60px rgba(255, 0, 255, 0.1);
+  --poply-font: "Orbitron", "Rajdhani", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #00ffff;
+  --poply-btn-primary-bg: #ff00ff;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 0, 255, 0.1);
+  --poply-input-border: 2px solid #ff00ff;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-retro-80s::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background:
+    linear-gradient(transparent 0%, rgba(255, 0, 255, 0.05) 100%),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 20px,
+      rgba(255, 0, 255, 0.1) 20px,
+      rgba(255, 0, 255, 0.1) 21px
+    );
+  transform: perspective(500px) rotateX(60deg);
+  transform-origin: bottom center;
+  pointer-events: none;
+}
+.poply-theme-retro-80s::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #ff00ff,
+    #00ffff,
+    #ff00ff,
+    transparent
+  );
+}
+.poply-theme-retro-80s .poply-header {
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.poply-theme-retro-80s .poply-icon {
+  font-size: 32px;
+}
+.poply-theme-retro-80s .poply-title {
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  animation: retro-glow 2s ease-in-out infinite;
+}
+.poply-theme-retro-80s .poply-body {
+  font-size: 14px;
+  text-align: center;
+  color: #cccccc;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 1;
+}
+.poply-theme-retro-80s .poply-footer {
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+}
+.poply-theme-retro-80s .poply-btn {
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 12px 28px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: 2px solid #00ffff;
+}

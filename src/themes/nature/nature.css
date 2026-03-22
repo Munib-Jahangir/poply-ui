@@ -1,0 +1,527 @@
+/* Nature & Organic Themes (119-126) */
+
+/* 119. Forest - Dark green, moss texture, tree-ring border */
+.poply-theme-forest {
+  --poply-bg: linear-gradient(180deg, #1a2f1a 0%, #0d1f0d 100%);
+  --poply-border: 3px solid #2d4a2d;
+  --poply-text: #c8e6c8;
+  --poply-title-color: #a5d6a7;
+  --poply-accent: #66bb6a;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.7);
+  --poply-radius: 8px;
+  --poply-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(102, 187, 106, 0.2);
+  --poply-btn-text: #a5d6a7;
+  --poply-btn-primary-bg: #66bb6a;
+  --poply-btn-primary-text: #0d1f0d;
+  --poply-input-bg: rgba(0, 0, 0, 0.3);
+  --poply-input-border: rgba(102, 187, 106, 0.3);
+  --poply-input-text: #c8e6c8;
+}
+.poply-theme-forest::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(
+      ellipse at 20% 80%,
+      rgba(45, 74, 45, 0.3) 0%,
+      transparent 40%
+    ),
+    radial-gradient(
+      ellipse at 80% 20%,
+      rgba(45, 74, 45, 0.2) 0%,
+      transparent 30%
+    );
+  border-radius: 8px;
+  pointer-events: none;
+}
+.poply-theme-forest .poply-header {
+  justify-content: center;
+  gap: 12px;
+}
+.poply-theme-forest .poply-icon {
+  font-size: 28px;
+}
+.poply-theme-forest .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.poply-theme-forest .poply-body {
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(200, 230, 200, 0.8);
+}
+
+/* 120. Ocean Wave - Wave animation at bottom, deep blue/teal */
+@keyframes wave-motion {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+.poply-theme-ocean-wave {
+  --poply-bg: linear-gradient(180deg, #006994 0%, #004d6e 50%, #003352 100%);
+  --poply-border: none;
+  --poply-text: #e0f7ff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #00bcd4;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 0;
+  --poply-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.2);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #00bcd4;
+  --poply-btn-primary-text: #003352;
+  --poply-input-bg: rgba(255, 255, 255, 0.15);
+  --poply-input-border: rgba(255, 255, 255, 0.3);
+  --poply-input-text: #ffffff;
+}
+.poply-theme-ocean-wave::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(
+    90deg,
+    #004d6e 0%,
+    #00bcd4 25%,
+    #4dd0e1 50%,
+    #00bcd4 75%,
+    #004d6e 100%
+  );
+  background-size: 200% 100%;
+  animation: wave-motion 4s ease-in-out infinite;
+  border-radius: 0 0 0 0;
+}
+.poply-theme-ocean-wave::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: linear-gradient(
+    90deg,
+    #006994 0%,
+    #00acc1 25%,
+    #26c6da 50%,
+    #00acc1 75%,
+    #006994 100%
+  );
+  background-size: 200% 100%;
+  animation: wave-motion 4s ease-in-out infinite reverse;
+  opacity: 0.7;
+}
+.poply-theme-ocean-wave .poply-header {
+  justify-content: center;
+  gap: 12px;
+  position: relative;
+  z-index: 1;
+}
+.poply-theme-ocean-wave .poply-icon {
+  font-size: 32px;
+}
+.poply-theme-ocean-wave .poply-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+.poply-theme-ocean-wave .poply-body {
+  font-size: 15px;
+  line-height: 1.6;
+  color: rgba(224, 247, 255, 0.9);
+  position: relative;
+  z-index: 1;
+}
+
+/* 121. Sunset Sky - Warm orange/purple horizon gradient */
+.poply-theme-sunset-sky {
+  --poply-bg: linear-gradient(
+    180deg,
+    #ff7e5f 0%,
+    #feb47b 30%,
+    #ffcc80 60%,
+    #87ceeb 100%
+  );
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ff6b6b;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.2);
+  --poply-radius: 20px;
+  --poply-shadow: 0 15px 50px rgba(255, 126, 95, 0.4);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.3);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #ff7e5f;
+  --poply-input-bg: rgba(255, 255, 255, 0.2);
+  --poply-input-border: rgba(255, 255, 255, 0.4);
+  --poply-input-text: #ffffff;
+}
+.poply-theme-sunset-sky::before {
+  content: "";
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, #fff700 0%, #ff9500 50%, transparent 70%);
+  border-radius: 50%;
+  box-shadow: 0 0 60px rgba(255, 149, 0, 0.6);
+}
+.poply-theme-sunset-sky .poply-header {
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.poply-theme-sunset-sky .poply-icon {
+  font-size: 28px;
+}
+.poply-theme-sunset-sky .poply-title {
+  font-size: 18px;
+  font-weight: 600;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.poply-theme-sunset-sky .poply-body {
+  font-size: 14px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  z-index: 1;
+}
+.poply-theme-sunset-sky .poply-footer {
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.poply-theme-sunset-sky .poply-btn {
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 24px;
+}
+
+/* 122. Leaf Green - Fresh bright green, eco-friendly aesthetic */
+.poply-theme-leaf-green {
+  --poply-bg: linear-gradient(135deg, #00c853 0%, #00a844 100%);
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #b9f6ca;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.4);
+  --poply-radius: 16px;
+  --poply-shadow: 0 15px 50px rgba(0, 200, 83, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.2);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #00a844;
+  --poply-input-bg: rgba(255, 255, 255, 0.15);
+  --poply-input-border: rgba(255, 255, 255, 0.3);
+  --poply-input-text: #ffffff;
+}
+.poply-theme-leaf-green::before {
+  content: "🌿";
+  position: absolute;
+  top: -20px;
+  right: -10px;
+  font-size: 40px;
+  opacity: 0.3;
+  transform: rotate(30deg);
+}
+.poply-theme-leaf-green .poply-header {
+  justify-content: center;
+  gap: 12px;
+}
+.poply-theme-leaf-green .poply-icon {
+  font-size: 28px;
+}
+.poply-theme-leaf-green .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.poply-theme-leaf-green .poply-body {
+  font-size: 15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+.poply-theme-leaf-green .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.poply-theme-leaf-green .poply-btn {
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 24px;
+}
+
+/* 123. Stone - Grey stone texture, earthy and grounded */
+.poply-theme-stone {
+  --poply-bg: linear-gradient(135deg, #8d8d8d 0%, #6e6e6e 50%, #5a5a5a 100%);
+  --poply-border: 2px solid #4a4a4a;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #bdbdbd;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 4px;
+  --poply-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(0, 0, 0, 0.2);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #4a4a4a;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(0, 0, 0, 0.2);
+  --poply-input-border: rgba(255, 255, 255, 0.2);
+  --poply-input-text: #ffffff;
+}
+.poply-theme-stone::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%' height='100%' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.15;
+  border-radius: 4px;
+  pointer-events: none;
+}
+.poply-theme-stone .poply-header {
+  justify-content: center;
+  gap: 12px;
+}
+.poply-theme-stone .poply-icon {
+  font-size: 28px;
+}
+.poply-theme-stone .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.poply-theme-stone .poply-body {
+  font-size: 15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* 124. Sakura - Japanese cherry blossom pink with petals */
+@keyframes petal-fall {
+  0% {
+    transform: translateY(-10px) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100px) rotate(360deg);
+    opacity: 0;
+  }
+}
+.poply-theme-sakura {
+  --poply-bg: linear-gradient(180deg, #fff0f5 0%, #ffe4e9 100%);
+  --poply-border: 2px solid #ffb6c1;
+  --poply-text: #5d4037;
+  --poply-title-color: #d81b60;
+  --poply-accent: #ff80ab;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.2);
+  --poply-backdrop-blur: 8px;
+  --poply-radius: 24px;
+  --poply-shadow: 0 15px 50px rgba(219, 27, 96, 0.15);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 182, 193, 0.4);
+  --poply-btn-text: #d81b60;
+  --poply-btn-primary-bg: #ff80ab;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.7);
+  --poply-input-border: rgba(255, 128, 171, 0.4);
+  --poply-input-text: #5d4037;
+}
+.poply-theme-sakura::before,
+.poply-theme-sakura::after {
+  content: "🌸";
+  position: absolute;
+  font-size: 16px;
+  opacity: 0.5;
+  animation: petal-fall 6s ease-in-out infinite;
+}
+.poply-theme-sakura::before {
+  top: 20px;
+  left: 20px;
+  animation-delay: 0s;
+}
+.poply-theme-sakura::after {
+  top: 30px;
+  right: 30px;
+  animation-delay: 2s;
+}
+.poply-theme-sakura .poply-header {
+  justify-content: center;
+  gap: 12px;
+}
+.poply-theme-sakura .poply-icon {
+  font-size: 32px;
+}
+.poply-theme-sakura .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.poply-theme-sakura .poply-body {
+  font-size: 15px;
+  text-align: center;
+  color: #795548;
+}
+
+/* 125. Desert Sand - Warm beige/tan earthy card */
+.poply-theme-desert-sand {
+  --poply-bg: linear-gradient(135deg, #d4a574 0%, #c49a6c 100%);
+  --poply-border: none;
+  --poply-text: #5d4037;
+  --poply-title-color: #3e2723;
+  --poply-accent: #8d6e63;
+  --poply-backdrop-bg: rgba(93, 64, 55, 0.3);
+  --poply-radius: 12px;
+  --poply-shadow: 0 15px 50px rgba(139, 115, 85, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.4);
+  --poply-btn-text: #5d4037;
+  --poply-btn-primary-bg: #8d6e63;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.4);
+  --poply-input-border: rgba(139, 115, 85, 0.4);
+  --poply-input-text: #3e2723;
+}
+.poply-theme-desert-sand::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(
+      circle at 20% 80%,
+      rgba(139, 115, 85, 0.2) 0%,
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 80% 20%,
+      rgba(139, 115, 85, 0.15) 0%,
+      transparent 25%
+    );
+  border-radius: 12px;
+  pointer-events: none;
+}
+.poply-theme-desert-sand .poply-header {
+  justify-content: center;
+  gap: 12px;
+}
+.poply-theme-desert-sand .poply-icon {
+  font-size: 28px;
+}
+.poply-theme-desert-sand .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.poply-theme-desert-sand .poply-body {
+  font-size: 15px;
+  text-align: center;
+  color: #6d4c41;
+}
+
+/* 126. Aurora Borealis - Live animated aurora colours in backdrop */
+@keyframes aurora-wave {
+  0% {
+    transform: translateX(-10%) scaleY(1);
+  }
+  50% {
+    transform: translateX(10%) scaleY(1.1);
+  }
+  100% {
+    transform: translateX(-10%) scaleY(1);
+  }
+}
+.poply-theme-aurora-borealis {
+  --poply-bg: linear-gradient(180deg, #0a1628 0%, #1a2f4f 50%, #0a1628 100%);
+  --poply-border: 1px solid rgba(100, 255, 218, 0.3);
+  --poply-text: #e0f7fa;
+  --poply-title-color: #80deea;
+  --poply-accent: #64ffda;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.7);
+  --poply-radius: 20px;
+  --poply-shadow: 0 20px 60px rgba(100, 255, 218, 0.2);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: rgba(100, 255, 218, 0.15);
+  --poply-btn-text: #64ffda;
+  --poply-btn-primary-bg: #64ffda;
+  --poply-btn-primary-text: #0a1628;
+  --poply-input-bg: rgba(0, 0, 0, 0.3);
+  --poply-input-border: rgba(100, 255, 218, 0.3);
+  --poply-input-text: #64ffda;
+}
+.poply-theme-aurora-borealis::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(100, 255, 218, 0.1) 0%,
+    rgba(80, 200, 255, 0.15) 30%,
+    rgba(150, 100, 255, 0.1) 60%,
+    rgba(100, 255, 218, 0.05) 100%
+  );
+  border-radius: 20px;
+  animation: aurora-wave 8s ease-in-out infinite;
+}
+.poply-theme-aurora-borealis::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(2px 2px at 15% 25%, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(1px 1px at 35% 45%, rgba(255, 255, 255, 0.5), transparent),
+    radial-gradient(2px 2px at 55% 15%, rgba(255, 255, 255, 0.6), transparent),
+    radial-gradient(1px 1px at 75% 65%, rgba(255, 255, 255, 0.7), transparent),
+    radial-gradient(2px 2px at 85% 35%, rgba(255, 255, 255, 0.5), transparent),
+    radial-gradient(1px 1px at 25% 75%, rgba(255, 255, 255, 0.6), transparent);
+  background-size: 200px 200px;
+  border-radius: 20px;
+  pointer-events: none;
+}
+.poply-theme-aurora-borealis .poply-header {
+  justify-content: center;
+  gap: 12px;
+  position: relative;
+  z-index: 1;
+}
+.poply-theme-aurora-borealis .poply-icon {
+  font-size: 32px;
+  text-shadow: 0 0 20px rgba(100, 255, 218, 0.6);
+}
+.poply-theme-aurora-borealis .poply-title {
+  font-size: 22px;
+  font-weight: 600;
+  text-shadow: 0 0 20px rgba(100, 255, 218, 0.4);
+}
+.poply-theme-aurora-borealis .poply-body {
+  font-size: 15px;
+  text-align: center;
+  color: rgba(224, 247, 250, 0.85);
+  line-height: 1.7;
+  position: relative;
+  z-index: 1;
+}

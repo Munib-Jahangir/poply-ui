@@ -1,0 +1,704 @@
+/* Dark & Moody Themes (29-42) */
+
+/* 29. Minimal Dark - Near-black card, white text, no fluff */
+.poply-theme-minimal-dark {
+  --poply-bg: #0a0a0a;
+  --poply-border: 1px solid #1f1f1f;
+  --poply-text: #e5e5e5;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ffffff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.85);
+  --poply-radius: 6px;
+  --poply-shadow: 0 25px 80px rgba(0, 0, 0, 0.6);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: #1a1a1a;
+  --poply-btn-text: #e5e5e5;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #000000;
+  --poply-input-bg: #0f0f0f;
+  --poply-input-border: #2a2a2a;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-minimal-dark .poply-btn {
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 20px;
+  letter-spacing: 0.3px;
+}
+.poply-theme-minimal-dark .poply-title {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+}
+.poply-theme-minimal-dark .poply-body {
+  font-size: 14px;
+  color: #888888;
+  line-height: 1.6;
+}
+
+/* 30. Obsidian - Pure black, sharp corners, thin white border */
+.poply-theme-obsidian {
+  --poply-bg: #000000;
+  --poply-border: 1px solid #ffffff;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ffffff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.95);
+  --poply-radius: 0;
+  --poply-shadow: none;
+  --poply-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #000000;
+  --poply-input-bg: #000000;
+  --poply-input-border: #ffffff;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-obsidian .poply-btn {
+  border-radius: 0;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 12px 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+}
+.poply-theme-obsidian .poply-btn:hover {
+  background: #ffffff;
+  color: #000000;
+}
+.poply-theme-obsidian .poply-title {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.poply-theme-obsidian .poply-body {
+  font-size: 13px;
+  color: #999999;
+  line-height: 1.7;
+}
+.poply-theme-obsidian .poply-btn-danger {
+  background: #ff0000;
+  color: #ffffff;
+  border-color: #ff0000;
+}
+
+/* 31. Charcoal - Soft dark grey card with ember-orange accent */
+.poply-theme-charcoal {
+  --poply-bg: #1c1c1c;
+  --poply-border: 1px solid #2a2a2a;
+  --poply-text: #d4d4d4;
+  --poply-title-color: #fafafa;
+  --poply-accent: #ff6b35;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.85);
+  --poply-radius: 12px;
+  --poply-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.5), 0 0 40px rgba(255, 107, 53, 0.1);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: #2a2a2a;
+  --poply-btn-text: #d4d4d4;
+  --poply-btn-primary-bg: #ff6b35;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #141414;
+  --poply-input-border: #333333;
+  --poply-input-text: #fafafa;
+}
+.poply-theme-charcoal::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #ff6b35, #ff8c5a, #ff6b35);
+  border-radius: 0 0 12px 12px;
+}
+.poply-theme-charcoal .poply-btn {
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 12px 22px;
+}
+.poply-theme-charcoal .poply-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* 32. Dracula - Dracula colour scheme: purple/pink/cyan on dark */
+.poply-theme-dracula {
+  --poply-bg: #282a36;
+  --poply-border: 1px solid #44475a;
+  --poply-text: #f8f8f2;
+  --poply-title-color: #ff79c6;
+  --poply-accent: #bd93f9;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 8px;
+  --poply-shadow:
+    0 15px 50px rgba(0, 0, 0, 0.5), 0 0 30px rgba(189, 147, 249, 0.1);
+  --poply-font: "Fira Code", "SF Mono", Consolas, monospace;
+  --poply-padding: 24px;
+  --poply-btn-bg: #44475a;
+  --poply-btn-text: #f8f8f2;
+  --poply-btn-primary-bg: #50fa7b;
+  --poply-btn-primary-text: #282a36;
+  --poply-input-bg: #1e1f29;
+  --poply-input-border: #6272a4;
+  --poply-input-text: #f8f8f2;
+}
+.poply-theme-dracula .poply-btn {
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 18px;
+}
+.poply-theme-dracula .poply-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.poply-theme-dracula .poply-body {
+  color: #6272a4;
+}
+.poply-theme-dracula .poply-icon {
+  color: #8be9fd;
+}
+.poply-theme-dracula .poply-btn-danger {
+  background: #ff5555;
+  color: #f8f8f2;
+}
+
+/* 33. Midnight - Deep blue-black card with starfield backdrop */
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.poply-theme-midnight {
+  --poply-bg: linear-gradient(180deg, #0d1b2a 0%, #1b263b 100%);
+  --poply-border: 1px solid rgba(100, 149, 237, 0.2);
+  --poply-text: #e0e1dd;
+  --poply-title-color: #e0e1dd;
+  --poply-accent: #778da9;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 16px;
+  --poply-shadow:
+    0 25px 70px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(100, 149, 237, 0.15);
+  --poply-btn-text: #e0e1dd;
+  --poply-btn-primary-bg: #415a77;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(0, 0, 0, 0.3);
+  --poply-input-border: rgba(100, 149, 237, 0.3);
+  --poply-input-text: #e0e1dd;
+}
+.poply-theme-midnight::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(
+      2px 2px at 20px 30px,
+      rgba(255, 255, 255, 0.8),
+      transparent
+    ),
+    radial-gradient(
+      2px 2px at 40px 70px,
+      rgba(255, 255, 255, 0.5),
+      transparent
+    ),
+    radial-gradient(
+      1px 1px at 90px 40px,
+      rgba(255, 255, 255, 0.6),
+      transparent
+    ),
+    radial-gradient(
+      2px 2px at 130px 80px,
+      rgba(255, 255, 255, 0.4),
+      transparent
+    ),
+    radial-gradient(
+      1px 1px at 160px 120px,
+      rgba(255, 255, 255, 0.7),
+      transparent
+    );
+  background-size: 200px 150px;
+  animation: twinkle 4s ease-in-out infinite;
+  border-radius: 16px;
+  pointer-events: none;
+}
+.poply-theme-midnight .poply-btn {
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 12px 22px;
+}
+.poply-theme-midnight .poply-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* 34. Ink Black - Newspaper-inspired dark ink card */
+.poply-theme-ink-black {
+  --poply-bg: #0a0a0a;
+  --poply-border: none;
+  --poply-text: #c9c9c9;
+  --poply-title-color: #ffffff;
+  --poply-accent: #666666;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.95);
+  --poply-radius: 0;
+  --poply-shadow: 0 30px 80px rgba(0, 0, 0, 0.7);
+  --poply-font: Georgia, "Times New Roman", serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #c9c9c9;
+  --poply-btn-primary-bg: #c9c9c9;
+  --poply-btn-primary-text: #0a0a0a;
+  --poply-input-bg: #0a0a0a;
+  --poply-input-border: #333333;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-ink-black .poply-btn {
+  border-radius: 0;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 12px 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 1px solid #666666;
+}
+.poply-theme-ink-black .poply-title {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #333333;
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+.poply-theme-ink-black .poply-body {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #999999;
+}
+
+/* 35. Raven - Matte black card with subtle feather texture border */
+.poply-theme-raven {
+  --poply-bg: #0f0f0f;
+  --poply-border: 2px solid #1a1a1a;
+  --poply-text: #a0a0a0;
+  --poply-title-color: #e0e0e0;
+  --poply-accent: #707070;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.92);
+  --poply-radius: 4px;
+  --poply-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: #1a1a1a;
+  --poply-btn-text: #a0a0a0;
+  --poply-btn-primary-bg: #2a2a2a;
+  --poply-btn-primary-text: #e0e0e0;
+  --poply-input-bg: #0a0a0a;
+  --poply-input-border: #222222;
+  --poply-input-text: #e0e0e0;
+}
+.poply-theme-raven::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 2px,
+    rgba(255, 255, 255, 0.01) 2px,
+    rgba(255, 255, 255, 0.01) 4px
+  );
+  border-radius: 4px 4px 0 0;
+}
+.poply-theme-raven .poply-btn {
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 10px 18px;
+}
+.poply-theme-raven .poply-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* 36. Deep Space - Deep purple-black with floating star particles */
+@keyframes float-particle {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100px) translateX(20px);
+    opacity: 0;
+  }
+}
+.poply-theme-deep-space {
+  --poply-bg: linear-gradient(180deg, #0d0015 0%, #1a0a2e 50%, #0d0015 100%);
+  --poply-border: 1px solid rgba(138, 43, 226, 0.3);
+  --poply-text: #e0d4f7;
+  --poply-title-color: #e0d4f7;
+  --poply-accent: #9d4edd;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.95);
+  --poply-radius: 20px;
+  --poply-shadow:
+    0 30px 80px rgba(138, 43, 226, 0.15), 0 0 60px rgba(138, 43, 226, 0.1);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(157, 78, 221, 0.2);
+  --poply-btn-text: #e0d4f7;
+  --poply-btn-primary-bg: #9d4edd;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(0, 0, 0, 0.4);
+  --poply-input-border: rgba(157, 78, 221, 0.4);
+  --poply-input-text: #e0d4f7;
+}
+.poply-theme-deep-space::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(2px 2px at 25% 25%, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(1px 1px at 50% 50%, rgba(255, 255, 255, 0.5), transparent),
+    radial-gradient(2px 2px at 75% 75%, rgba(255, 255, 255, 0.6), transparent),
+    radial-gradient(1px 1px at 90% 30%, rgba(255, 255, 255, 0.7), transparent);
+  background-size: 150px 150px;
+  border-radius: 20px;
+  pointer-events: none;
+}
+.poply-theme-deep-space::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  border-radius: 50%;
+  top: 30%;
+  left: 20%;
+  animation: float-particle 6s ease-in-out infinite;
+  box-shadow:
+    60px 20px 0 0 rgba(255, 255, 255, 0.5),
+    100px 60px 0 0 rgba(255, 255, 255, 0.3),
+    30px 80px 0 0 rgba(255, 255, 255, 0.4);
+}
+.poply-theme-deep-space .poply-btn {
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 12px 24px;
+}
+.poply-theme-deep-space .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-shadow: 0 0 20px rgba(157, 78, 221, 0.5);
+}
+
+/* 37. Void - True black, zero border-radius, minimal animation */
+.poply-theme-void {
+  --poply-bg: #000000;
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ffffff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.98);
+  --poply-radius: 0;
+  --poply-shadow: none;
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 20px 24px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #000000;
+  --poply-input-bg: #000000;
+  --poply-input-border: #333333;
+  --poply-input-text: #ffffff;
+  max-width: 300px;
+}
+.poply-theme-void .poply-header {
+  display: none;
+}
+.poply-theme-void .poply-body {
+  font-size: 12px;
+  text-align: center;
+  color: #888888;
+}
+.poply-theme-void .poply-footer {
+  justify-content: center;
+  margin-top: 16px;
+}
+.poply-theme-void .poply-btn {
+  border-radius: 0;
+  font-weight: 600;
+  font-size: 11px;
+  padding: 8px 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* 38. Carbon - Carbon fibre texture dark card */
+.poply-theme-carbon {
+  --poply-bg: #1a1a1a;
+  --poply-border: 1px solid #2d2d2d;
+  --poply-text: #d4d4d4;
+  --poply-title-color: #f5f5f5;
+  --poply-accent: #737373;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 4px;
+  --poply-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: #2d2d2d;
+  --poply-btn-text: #d4d4d4;
+  --poply-btn-primary-bg: #404040;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #0f0f0f;
+  --poply-input-border: #333333;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-carbon::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(255, 255, 255, 0.02) 2px,
+      rgba(255, 255, 255, 0.02) 4px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 2px,
+      rgba(255, 255, 255, 0.02) 2px,
+      rgba(255, 255, 255, 0.02) 4px
+    );
+  border-radius: 4px;
+  pointer-events: none;
+}
+.poply-theme-carbon .poply-btn {
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 10px 18px;
+}
+.poply-theme-carbon .poply-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* 39. Shadow - Layered box-shadow dark card with depth */
+.poply-theme-shadow {
+  --poply-bg: #1a1a1a;
+  --poply-border: 1px solid #2a2a2a;
+  --poply-text: #e5e5e5;
+  --poply-title-color: #ffffff;
+  --poply-accent: #888888;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.85);
+  --poply-radius: 2px;
+  --poply-shadow:
+    0 1px 1px rgba(0, 0, 0, 0.9), 0 2px 2px rgba(0, 0, 0, 0.7),
+    0 4px 4px rgba(0, 0, 0, 0.6), 0 8px 8px rgba(0, 0, 0, 0.5),
+    0 16px 16px rgba(0, 0, 0, 0.4), 0 32px 32px rgba(0, 0, 0, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: #262626;
+  --poply-btn-text: #e5e5e5;
+  --poply-btn-primary-bg: #404040;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #0f0f0f;
+  --poply-input-border: #333333;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-shadow .poply-btn {
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 10px 18px;
+}
+.poply-theme-shadow .poply-title {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* 40. Dark Gradient - Diagonal dark to darker gradient card */
+.poply-theme-dark-gradient {
+  --poply-bg: linear-gradient(145deg, #1a1a1a 0%, #0d0d0d 100%);
+  --poply-border: none;
+  --poply-text: #e5e5e5;
+  --poply-title-color: #ffffff;
+  --poply-accent: #666666;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 12px;
+  --poply-shadow: 0 25px 70px rgba(0, 0, 0, 0.5);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.08);
+  --poply-btn-text: #e5e5e5;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #000000;
+  --poply-input-bg: rgba(0, 0, 0, 0.4);
+  --poply-input-border: rgba(255, 255, 255, 0.1);
+  --poply-input-text: #ffffff;
+}
+.poply-theme-dark-gradient .poply-btn {
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 12px 22px;
+}
+.poply-theme-dark-gradient .poply-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* 41. Eclipse - Dark card with glowing orange/red eclipse ring */
+@keyframes eclipse-glow {
+  0%,
+  100% {
+    box-shadow:
+      0 25px 70px rgba(0, 0, 0, 0.5),
+      inset 0 0 40px rgba(255, 87, 34, 0.2),
+      0 0 30px rgba(255, 87, 34, 0.1);
+  }
+  50% {
+    box-shadow:
+      0 25px 70px rgba(0, 0, 0, 0.5),
+      inset 0 0 60px rgba(255, 87, 34, 0.3),
+      0 0 50px rgba(255, 87, 34, 0.2);
+  }
+}
+.poply-theme-eclipse {
+  --poply-bg: linear-gradient(180deg, #1a0a0a 0%, #0a0505 100%);
+  --poply-border: 2px solid transparent;
+  --poply-text: #f5e6e6;
+  --poply-title-color: #ff6b35;
+  --poply-accent: #ff6b35;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.92);
+  --poply-radius: 50%;
+  --poply-shadow: none;
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 40px;
+  --poply-btn-bg: rgba(255, 107, 53, 0.15);
+  --poply-btn-text: #ff6b35;
+  --poply-btn-primary-bg: #ff6b35;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(0, 0, 0, 0.4);
+  --poply-input-border: rgba(255, 107, 53, 0.3);
+  --poply-input-text: #ffffff;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  animation: eclipse-glow 3s ease-in-out infinite;
+  border-image: linear-gradient(145deg, #ff6b35, #ff4500, #ff6b35) 1;
+}
+.poply-theme-eclipse::before {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 107, 53, 0.3);
+}
+.poply-theme-eclipse .poply-header {
+  justify-content: center;
+}
+.poply-theme-eclipse .poply-icon {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+.poply-theme-eclipse .poply-title {
+  font-size: 18px;
+  font-weight: 600;
+  text-shadow: 0 0 20px rgba(255, 107, 53, 0.6);
+}
+.poply-theme-eclipse .poply-body {
+  font-size: 13px;
+  color: rgba(245, 230, 230, 0.7);
+  display: none;
+}
+.poply-theme-eclipse .poply-footer {
+  margin-top: 20px;
+  justify-content: center;
+}
+.poply-theme-eclipse .poply-btn {
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 10px 20px;
+}
+
+/* 42. Phantom - Semi-transparent dark card, blends into page */
+.poply-theme-phantom {
+  --poply-bg: rgba(20, 20, 20, 0.85);
+  --poply-border: 1px solid rgba(255, 255, 255, 0.05);
+  --poply-text: #c0c0c0;
+  --poply-title-color: #e0e0e0;
+  --poply-accent: #808080;
+  --poply-backdrop-bg: transparent;
+  --poply-radius: 8px;
+  --poply-shadow: none;
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 16px 20px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.05);
+  --poply-btn-text: #c0c0c0;
+  --poply-btn-primary-bg: rgba(255, 255, 255, 0.1);
+  --poply-btn-primary-text: #e0e0e0;
+  --poply-input-bg: rgba(0, 0, 0, 0.3);
+  --poply-input-border: rgba(255, 255, 255, 0.08);
+  --poply-input-text: #ffffff;
+  max-width: 280px;
+}
+.poply-theme-phantom .poply-header {
+  gap: 10px;
+}
+.poply-theme-phantom .poply-icon {
+  font-size: 18px;
+}
+.poply-theme-phantom .poply-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+.poply-theme-phantom .poply-body {
+  font-size: 12px;
+  color: #888888;
+  display: none;
+}
+.poply-theme-phantom .poply-footer {
+  margin-top: 12px;
+}
+.poply-theme-phantom .poply-btn {
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 8px 14px;
+}

@@ -1,0 +1,419 @@
+/* Flat & Material Design Themes (79-88) */
+
+/* 79. Material Blue - Google Material Design 3, blue accent */
+.poply-theme-material-blue {
+  --poply-bg: #ffffff;
+  --poply-border: none;
+  --poply-text: #1f1f1f;
+  --poply-title-color: #1f1f1f;
+  --poply-accent: #1976d2;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.4);
+  --poply-radius: 28px;
+  --poply-shadow: 0 8px 30px rgba(0, 0, 0, 0.12), 0 2px 8px rgba(0, 0, 0, 0.08);
+  --poply-font:
+    -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: #e7e7e7;
+  --poply-btn-text: #1f1f1f;
+  --poply-btn-primary-bg: #1976d2;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #f5f5f5;
+  --poply-input-border: #e0e0e0;
+  --poply-input-text: #1f1f1f;
+}
+.poply-theme-material-blue .poply-btn {
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 24px;
+  min-width: 90px;
+}
+.poply-theme-material-blue .poply-title {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+}
+.poply-theme-material-blue .poply-body {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #5f6368;
+}
+
+/* 80. Material Elevated - Material card with dramatic elevation */
+.poply-theme-material-elevated {
+  --poply-bg: #ffffff;
+  --poply-border: none;
+  --poply-text: #323232;
+  --poply-title-color: #212121;
+  --poply-accent: #6200ee;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 4px;
+  --poply-shadow:
+    0 2px 1px rgba(0, 0, 0, 0.06), 0 3px 1px rgba(0, 0, 0, 0.08),
+    0 5px 5px rgba(0, 0, 0, 0.1), 0 8px 10px rgba(0, 0, 0, 0.1),
+    0 15px 20px rgba(0, 0, 0, 0.12), 0 25px 30px rgba(0, 0, 0, 0.15);
+  --poply-font:
+    -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #6200ee;
+  --poply-btn-primary-bg: #6200ee;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #f5f5f5;
+  --poply-input-border: #e0e0e0;
+  --poply-input-text: #212121;
+}
+.poply-theme-material-elevated::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: #6200ee;
+  border-radius: 0 0 4px 0;
+}
+.poply-theme-material-elevated .poply-btn {
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.poply-theme-material-elevated .poply-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+.poply-theme-material-elevated .poply-body {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #5f6368;
+}
+
+/* 81. Material You - M3 dynamic colour system, coral accent */
+.poply-theme-material-you {
+  --poply-bg: #fdf8fd;
+  --poply-border: none;
+  --poply-text: #1d1b20;
+  --poply-title-color: #1d1b20;
+  --poply-accent: #6750a4;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.3);
+  --poply-radius: 28px;
+  --poply-shadow: 0 4px 20px rgba(103, 80, 164, 0.15);
+  --poply-font:
+    -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(103, 80, 164, 0.08);
+  --poply-btn-text: #6750a4;
+  --poply-btn-primary-bg: #6750a4;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(103, 80, 164, 0.05);
+  --poply-input-border: rgba(103, 80, 164, 0.2);
+  --poply-input-text: #1d1b20;
+}
+.poply-theme-material-you .poply-btn {
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 24px;
+  min-width: 90px;
+}
+.poply-theme-material-you .poply-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.poply-theme-material-you .poply-body {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #49454f;
+}
+
+/* 82. Flat Red - Flat design, bright red, bold sans-serif */
+.poply-theme-flat-red {
+  --poply-bg: #ef4444;
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ffffff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 8px;
+  --poply-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.2);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #ef4444;
+  --poply-input-bg: rgba(255, 255, 255, 0.15);
+  --poply-input-border: rgba(255, 255, 255, 0.3);
+  --poply-input-text: #ffffff;
+}
+.poply-theme-flat-red .poply-btn {
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 22px;
+}
+.poply-theme-flat-red .poply-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.poply-theme-flat-red .poply-body {
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.9);
+}
+.poply-theme-flat-red .poply-btn-danger {
+  background: #b91c1c;
+  color: #ffffff;
+}
+
+/* 83. Flat Green - Clean flat green success card */
+.poply-theme-flat-green {
+  --poply-bg: #22c55e;
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ffffff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.4);
+  --poply-radius: 12px;
+  --poply-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.2);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #22c55e;
+  --poply-input-bg: rgba(255, 255, 255, 0.15);
+  --poply-input-border: rgba(255, 255, 255, 0.3);
+  --poply-input-text: #ffffff;
+}
+.poply-theme-flat-green .poply-header {
+  justify-content: center;
+}
+.poply-theme-flat-green .poply-icon {
+  font-size: 32px;
+}
+.poply-theme-flat-green .poply-title {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+.poply-theme-flat-green .poply-body {
+  font-size: 14px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+.poply-theme-flat-green .poply-footer {
+  justify-content: center;
+}
+.poply-theme-flat-green .poply-btn {
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 24px;
+}
+
+/* 84. Flat Yellow - Yellow flat warning card */
+.poply-theme-flat-yellow {
+  --poply-bg: #facc15;
+  --poply-border: none;
+  --poply-text: #422006;
+  --poply-title-color: #422006;
+  --poply-accent: #854d0e;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.3);
+  --poply-radius: 8px;
+  --poply-shadow: 0 4px 12px rgba(250, 204, 21, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(65, 30, 5, 0.15);
+  --poply-btn-text: #422006;
+  --poply-btn-primary-bg: #422006;
+  --poply-btn-primary-text: #facc15;
+  --poply-input-bg: rgba(65, 30, 5, 0.1);
+  --poply-input-border: rgba(65, 30, 5, 0.3);
+  --poply-input-text: #422006;
+}
+.poply-theme-flat-yellow .poply-btn {
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 22px;
+}
+.poply-theme-flat-yellow .poply-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* 85. Flat Purple - Purple flat notification */
+.poply-theme-flat-purple {
+  --poply-bg: #a855f7;
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #e9d5ff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.4);
+  --poply-radius: 12px;
+  --poply-shadow: 0 4px 12px rgba(168, 85, 247, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.2);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #a855f7;
+  --poply-input-bg: rgba(255, 255, 255, 0.15);
+  --poply-input-border: rgba(255, 255, 255, 0.3);
+  --poply-input-text: #ffffff;
+}
+.poply-theme-flat-purple .poply-btn {
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 22px;
+}
+.poply-theme-flat-purple .poply-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* 86. Flat Teal - Flat teal/mint success card */
+.poply-theme-flat-teal {
+  --poply-bg: #14b8a6;
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ffffff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.4);
+  --poply-radius: 12px;
+  --poply-shadow: 0 4px 12px rgba(20, 184, 166, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.2);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #14b8a6;
+  --poply-input-bg: rgba(255, 255, 255, 0.15);
+  --poply-input-border: rgba(255, 255, 255, 0.3);
+  --poply-input-text: #ffffff;
+}
+.poply-theme-flat-teal .poply-header {
+  justify-content: center;
+}
+.poply-theme-flat-teal .poply-icon {
+  font-size: 28px;
+}
+.poply-theme-flat-teal .poply-title {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+.poply-theme-flat-teal .poply-body {
+  font-size: 14px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+.poply-theme-flat-teal .poply-footer {
+  justify-content: center;
+}
+.poply-theme-flat-teal .poply-btn {
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+/* 87. Fluent UI - Microsoft Fluent Design with acrylic effect */
+.poply-theme-fluent-ui {
+  --poply-bg: rgba(243, 242, 241, 0.85);
+  --poply-border: 1px solid rgba(0, 0, 0, 0.08);
+  --poply-text: #323130;
+  --poply-title-color: #201f1e;
+  --poply-accent: #0078d4;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.3);
+  --poply-backdrop-blur: 20px;
+  --poply-radius: 8px;
+  --poply-shadow: 0 8px 32px rgba(0, 0, 0, 0.1), 0 2px 8px rgba(0, 0, 0, 0.05);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: #edebe9;
+  --poply-btn-text: #323130;
+  --poply-btn-primary-bg: #0078d4;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: #c8c6c4;
+  --poply-input-text: #323130;
+  backdrop-filter: blur(30px) saturate(180%);
+  -webkit-backdrop-filter: blur(30px) saturate(180%);
+}
+.poply-theme-fluent-ui .poply-btn {
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 20px;
+}
+.poply-theme-fluent-ui .poply-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.poply-theme-fluent-ui .poply-body {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #605e5c;
+}
+
+/* 88. Bootstrap Alert - Bootstrap 5 style modal, familiar look */
+.poply-theme-bootstrap {
+  --poply-bg: #ffffff;
+  --poply-border: 1px solid rgba(0, 0, 0, 0.2);
+  --poply-text: #212529;
+  --poply-title-color: #212529;
+  --poply-accent: #0d6efd;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 8px;
+  --poply-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: #6c757d;
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #0d6efd;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: #ced4da;
+  --poply-input-text: #212529;
+}
+.poply-theme-bootstrap::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #0d6efd;
+  border-radius: 8px 8px 0 0;
+}
+.poply-theme-bootstrap .poply-header {
+  padding-top: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 16px;
+  margin-bottom: 8px;
+}
+.poply-theme-bootstrap .poply-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.poply-theme-bootstrap .poply-btn {
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 8px 16px;
+}
+.poply-theme-bootstrap .poply-body {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #495057;
+}

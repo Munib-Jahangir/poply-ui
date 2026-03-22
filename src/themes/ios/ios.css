@@ -1,0 +1,714 @@
+/* iOS & Apple-Inspired Themes (1-15) */
+
+/* 1. iOS Glass - Frosted glass card, SF-style typography */
+.poply-theme-ios-glass {
+  --poply-bg: rgba(255, 255, 255, 0.72);
+  --poply-border: 1px solid rgba(255, 255, 255, 0.5);
+  --poply-text: #1d1d1f;
+  --poply-title-color: #1d1d1f;
+  --poply-accent: #007aff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.4);
+  --poply-backdrop-blur: 20px;
+  --poply-radius: 14px;
+  --poply-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  --poply-font:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: rgba(118, 118, 128, 0.12);
+  --poply-btn-text: #007aff;
+  --poply-btn-primary-bg: #007aff;
+  --poply-btn-primary-text: #ffffff;
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+}
+.poply-theme-ios-glass .poply-btn {
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 12px 20px;
+  min-width: 100px;
+}
+.poply-theme-ios-glass .poply-btn:hover {
+  background: rgba(118, 118, 128, 0.18);
+}
+.poply-theme-ios-glass .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+.poply-theme-ios-glass .poply-body {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #86868b;
+}
+
+/* 2. iOS Dark - Dark mode iOS system alert replica */
+.poply-theme-ios-dark {
+  --poply-bg: rgba(44, 44, 46, 0.95);
+  --poply-border: none;
+  --poply-text: #f5f5f7;
+  --poply-title-color: #f5f5f7;
+  --poply-accent: #0a84ff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.6);
+  --poply-backdrop-blur: 10px;
+  --poply-radius: 14px;
+  --poply-shadow: 0 25px 80px rgba(0, 0, 0, 0.5);
+  --poply-font: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: rgba(118, 118, 128, 0.3);
+  --poply-btn-text: #0a84ff;
+  --poply-btn-primary-bg: #0a84ff;
+  --poply-btn-primary-text: #ffffff;
+  backdrop-filter: blur(40px);
+}
+.poply-theme-ios-dark .poply-btn {
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 12px 20px;
+  min-width: 100px;
+}
+.poply-theme-ios-dark .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.poply-theme-ios-dark .poply-body {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #98989d;
+}
+.poply-theme-ios-dark .poply-btn-danger {
+  background: rgba(255, 69, 58, 0.2);
+  color: #ff453a;
+}
+
+/* 3. iOS Light - Pure white iOS alert with rounded buttons */
+.poply-theme-ios-light {
+  --poply-bg: #ffffff;
+  --poply-border: none;
+  --poply-text: #000000;
+  --poply-title-color: #000000;
+  --poply-accent: #007aff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.3);
+  --poply-radius: 14px;
+  --poply-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  --poply-font: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: rgba(118, 118, 128, 0.08);
+  --poply-btn-text: #007aff;
+  --poply-btn-primary-bg: #007aff;
+  --poply-btn-primary-text: #ffffff;
+}
+.poply-theme-ios-light .poply-btn {
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 12px 20px;
+  min-width: 100px;
+}
+.poply-theme-ios-light .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.poply-theme-ios-light .poply-body {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #3c3c43;
+}
+
+/* 4. macOS Ventura - macOS dialog window with traffic lights */
+.poply-theme-macos-ventura {
+  --poply-bg: rgba(246, 246, 246, 0.95);
+  --poply-border: 1px solid rgba(0, 0, 0, 0.1);
+  --poply-text: #1d1d1f;
+  --poply-title-color: #1d1d1f;
+  --poply-accent: #007aff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.4);
+  --poply-radius: 10px;
+  --poply-shadow: 0 15px 50px rgba(0, 0, 0, 0.25);
+  --poply-font: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+  --poply-padding: 0;
+  --poply-btn-bg: rgba(118, 118, 128, 0.12);
+  --poply-btn-text: #007aff;
+  --poply-btn-primary-bg: #007aff;
+  --poply-btn-primary-text: #ffffff;
+}
+.poply-theme-macos-ventura::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(246, 246, 246, 0.9) 100%
+  );
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+.poply-theme-macos-ventura::after {
+  content: "● ● ●";
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-size: 8px;
+  letter-spacing: 4px;
+  color: #ff5f56;
+  text-shadow:
+    10px 0 0 #febc2e,
+    20px 0 0 #28c840;
+}
+.poply-theme-macos-ventura .poply-header {
+  padding-top: 52px;
+}
+.poply-theme-macos-ventura .poply-btn {
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 16px;
+}
+.poply-theme-macos-ventura .poply-title {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 8px;
+}
+
+/* 5. macOS Dark - Dark macOS system dialog */
+.poply-theme-macos-dark {
+  --poply-bg: rgba(30, 30, 30, 0.98);
+  --poply-border: 1px solid rgba(255, 255, 255, 0.08);
+  --poply-text: #f5f5f7;
+  --poply-title-color: #f5f5f7;
+  --poply-accent: #0a84ff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.7);
+  --poply-radius: 10px;
+  --poply-shadow: 0 25px 80px rgba(0, 0, 0, 0.6);
+  --poply-font: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+  --poply-padding: 0;
+  --poply-btn-bg: rgba(118, 118, 128, 0.2);
+  --poply-btn-text: #0a84ff;
+  --poply-btn-primary-bg: #0a84ff;
+  --poply-btn-primary-text: #ffffff;
+}
+.poply-theme-macos-dark::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  background: linear-gradient(
+    180deg,
+    rgba(50, 50, 50, 0.9) 0%,
+    rgba(30, 30, 30, 0.98) 100%
+  );
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+.poply-theme-macos-dark::after {
+  content: "● ● ●";
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-size: 8px;
+  letter-spacing: 4px;
+  color: #ff5f56;
+  text-shadow:
+    10px 0 0 #febc2e,
+    20px 0 0 #28c840;
+}
+.poply-theme-macos-dark .poply-header {
+  padding-top: 52px;
+}
+.poply-theme-macos-dark .poply-btn {
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 16px;
+}
+
+/* 6. Apple Watch - Rounded, compact, dark circular card */
+.poply-theme-apple-watch {
+  --poply-bg: rgba(30, 30, 30, 0.95);
+  --poply-border: 1px solid rgba(255, 255, 255, 0.1);
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ff9f0a;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.8);
+  --poply-radius: 40px;
+  --poply-shadow:
+    0 10px 40px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  --poply-font: -apple-system, BlinkMacSystemFont, "SF Pro Rounded", sans-serif;
+  --poply-padding: 20px 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.15);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #000000;
+  max-width: 280px;
+}
+.poply-theme-apple-watch .poply-header {
+  justify-content: center;
+}
+.poply-theme-apple-watch .poply-icon {
+  font-size: 32px;
+}
+.poply-theme-apple-watch .poply-title {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+.poply-theme-apple-watch .poply-body {
+  font-size: 14px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.poply-theme-apple-watch .poply-btn {
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 24px;
+  min-width: 120px;
+}
+
+/* 7. iPadOS Split - Wide, two-panel iPadOS dialog */
+.poply-theme-ipados-split {
+  --poply-bg: rgba(255, 255, 255, 0.95);
+  --poply-border: 1px solid rgba(0, 0, 0, 0.08);
+  --poply-text: #1d1d1f;
+  --poply-title-color: #1d1d1f;
+  --poply-accent: #007aff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.35);
+  --poply-backdrop-blur: 15px;
+  --poply-radius: 18px;
+  --poply-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  --poply-font: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(118, 118, 128, 0.12);
+  --poply-btn-text: #007aff;
+  --poply-btn-primary-bg: #007aff;
+  --poply-btn-primary-text: #ffffff;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: center;
+}
+.poply-theme-ipados-split::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  bottom: 20px;
+  width: 1px;
+  background: rgba(0, 0, 0, 0.08);
+}
+.poply-theme-ipados-split .poply-header {
+  grid-column: 1 / -1;
+  justify-content: center;
+}
+.poply-theme-ipados-split .poply-body {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #86868b;
+}
+.poply-theme-ipados-split .poply-footer {
+  grid-column: 1 / -1;
+  justify-content: center;
+}
+.poply-theme-ipados-split .poply-btn {
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 14px 32px;
+  min-width: 140px;
+}
+
+/* 8. iOS Action Sheet - Bottom sheet with stacked options */
+.poply-theme-ios-action-sheet {
+  --poply-bg: rgba(255, 255, 255, 0.95);
+  --poply-border: none;
+  --poply-text: #1d1d1f;
+  --poply-title-color: #1d1d1f;
+  --poply-accent: #007aff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.4);
+  --poply-radius: 14px;
+  --poply-shadow: 0 -5px 40px rgba(0, 0, 0, 0.15);
+  --poply-font: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+  --poply-padding: 12px;
+  --poply-btn-bg: rgba(118, 118, 128, 0.12);
+  --poply-btn-text: #007aff;
+  --poply-btn-primary-bg: #007aff;
+  --poply-btn-primary-text: #ffffff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  border-radius: 14px 14px 0 0;
+  margin: 0;
+  padding-bottom: env(safe-area-inset-bottom, 20px);
+}
+.poply-theme-ios-action-sheet .poply-btn {
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 18px 20px;
+  width: 100%;
+  text-align: center;
+  margin: 4px 0;
+  background: rgba(118, 118, 128, 0.06);
+}
+.poply-theme-ios-action-sheet .poply-btn:hover {
+  background: rgba(118, 118, 128, 0.12);
+}
+.poply-theme-ios-action-sheet .poply-footer {
+  background: rgba(118, 118, 128, 0.12);
+  border-radius: 14px;
+  margin-top: 8px;
+  padding: 4px;
+}
+.poply-theme-ios-action-sheet .poply-footer .poply-btn {
+  font-weight: 600;
+  background: transparent;
+}
+.poply-theme-ios-action-sheet .poply-body {
+  font-size: 13px;
+  text-align: center;
+  color: #86868b;
+  padding: 4px 20px 12px;
+}
+
+/* 9. Apple Silicon - Premium dark card with subtle gradient border */
+.poply-theme-apple-silicon {
+  --poply-bg: linear-gradient(
+    145deg,
+    rgba(30, 30, 32, 0.98) 0%,
+    rgba(20, 20, 22, 0.98) 100%
+  );
+  --poply-border: 1px solid transparent;
+  --poply-text: #f5f5f7;
+  --poply-title-color: #f5f5f7;
+  --poply-accent: #bf5af2;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.7);
+  --poply-radius: 20px;
+  --poply-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.1), 0 30px 80px rgba(0, 0, 0, 0.5);
+  --poply-font: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(118, 118, 128, 0.2);
+  --poply-btn-text: #bf5af2;
+  --poply-btn-primary-bg: linear-gradient(135deg, #bf5af2 0%, #5e5ce6 100%);
+  --poply-btn-primary-text: #ffffff;
+  background-image:
+    linear-gradient(145deg, rgba(30, 30, 32, 0.98), rgba(20, 20, 22, 0.98)),
+    linear-gradient(145deg, rgba(191, 90, 242, 0.3), rgba(94, 92, 230, 0.3));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+.poply-theme-apple-silicon .poply-btn {
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 14px 28px;
+  min-width: 120px;
+}
+.poply-theme-apple-silicon .poply-title {
+  font-size: 22px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #f5f5f7 0%, #a0a0a5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.poply-theme-apple-silicon .poply-body {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #86868b;
+}
+
+/* 10. AirDrop - Blue radial glow card with icon */
+.poply-theme-airdrop {
+  --poply-bg: radial-gradient(
+    ellipse at top,
+    rgba(0, 149, 255, 0.15) 0%,
+    rgba(0, 0, 0, 0.95) 70%
+  );
+  --poply-border: 1px solid rgba(0, 149, 255, 0.4);
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #0095ff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.6);
+  --poply-radius: 16px;
+  --poply-shadow:
+    0 0 60px rgba(0, 149, 255, 0.3), 0 20px 50px rgba(0, 0, 0, 0.4);
+  --poply-font: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: rgba(0, 149, 255, 0.2);
+  --poply-btn-text: #0095ff;
+  --poply-btn-primary-bg: #0095ff;
+  --poply-btn-primary-text: #ffffff;
+}
+.poply-theme-airdrop .poply-header {
+  justify-content: center;
+}
+.poply-theme-airdrop .poply-icon {
+  font-size: 48px;
+  animation: airdrop-pulse 2s ease-in-out infinite;
+}
+@keyframes airdrop-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+}
+.poply-theme-airdrop .poply-btn {
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 14px 28px;
+  min-width: 120px;
+}
+
+/* 11. iOS Springboard - App icon style popup with blur */
+.poply-theme-ios-springboard {
+  --poply-bg: rgba(255, 255, 255, 0.85);
+  --poply-border: none;
+  --poply-text: #1d1d1f;
+  --poply-title-color: #1d1d1f;
+  --poply-accent: #ff9500;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-backdrop-blur: 30px;
+  --poply-radius: 36px;
+  --poply-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: rgba(118, 118, 128, 0.12);
+  --poply-btn-text: #ff9500;
+  --poply-btn-primary-bg: #ff9500;
+  --poply-btn-primary-text: #ffffff;
+}
+.poply-theme-ios-springboard::before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #5856d6 0%, #af52de 50%, #ff2d55 100%);
+  border-radius: 18px;
+  margin: 0 auto 20px;
+  box-shadow: 0 10px 30px rgba(88, 86, 214, 0.4);
+}
+.poply-theme-ios-springboard .poply-header {
+  justify-content: center;
+}
+.poply-theme-ios-springboard .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.poply-theme-ios-springboard .poply-body {
+  font-size: 15px;
+  text-align: center;
+  color: #86868b;
+}
+.poply-theme-ios-springboard .poply-footer {
+  justify-content: center;
+}
+.poply-theme-ios-springboard .poply-btn {
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 14px 40px;
+  min-width: 140px;
+}
+
+/* 12. tvOS - Large, bold, TV-optimised dark popup */
+.poply-theme-tvos {
+  --poply-bg: rgba(10, 10, 10, 0.95);
+  --poply-border: 1px solid rgba(255, 255, 255, 0.08);
+  --poply-text: #f5f5f7;
+  --poply-title-color: #f5f5f7;
+  --poply-accent: #ff9500;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 24px;
+  --poply-shadow: 0 30px 100px rgba(0, 0, 0, 0.7);
+  --poply-font: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+  --poply-padding: 40px 60px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.1);
+  --poply-btn-text: #f5f5f7;
+  --poply-btn-primary-bg: #f5f5f7;
+  --poply-btn-primary-text: #000000;
+  max-width: 700px;
+}
+.poply-theme-tvos .poply-header {
+  justify-content: center;
+  gap: 20px;
+}
+.poply-theme-tvos .poply-icon {
+  font-size: 48px;
+}
+.poply-theme-tvos .poply-title {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+.poply-theme-tvos .poply-body {
+  font-size: 24px;
+  text-align: center;
+  color: #86868b;
+  line-height: 1.5;
+}
+.poply-theme-tvos .poply-footer {
+  justify-content: center;
+  gap: 20px;
+  margin-top: 24px;
+}
+.poply-theme-tvos .poply-btn {
+  border-radius: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 18px 48px;
+  min-width: 180px;
+}
+
+/* 13. iOS Haptic - Subtle warm alert with vibration feel */
+.poply-theme-ios-haptic {
+  --poply-bg: rgba(255, 249, 245, 0.98);
+  --poply-border: none;
+  --poply-text: #1d1d1f;
+  --poply-title-color: #1d1d1f;
+  --poply-accent: #ff9500;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.35);
+  --poply-radius: 16px;
+  --poply-shadow:
+    0 10px 40px rgba(255, 149, 0, 0.15), 0 5px 20px rgba(0, 0, 0, 0.1);
+  --poply-font: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 149, 0, 0.1);
+  --poply-btn-text: #ff9500;
+  --poply-btn-primary-bg: #ff9500;
+  --poply-btn-primary-text: #ffffff;
+}
+.poply-theme-ios-haptic .poply-btn {
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 14px 28px;
+  min-width: 120px;
+}
+.poply-theme-ios-haptic .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.poply-theme-ios-haptic .poply-body {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #86868b;
+}
+
+/* 14. iOS Status Bar - Slim banner like iOS notification */
+.poply-theme-ios-status-bar {
+  --poply-bg: rgba(30, 30, 30, 0.95);
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #34c759;
+  --poply-backdrop-bg: transparent;
+  --poply-radius: 14px;
+  --poply-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
+  --poply-padding: 14px 18px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #34c759;
+  --poply-btn-primary-bg: #34c759;
+  --poply-btn-primary-text: #ffffff;
+  max-width: 360px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+.poply-theme-ios-status-bar .poply-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+.poply-theme-ios-status-bar .poply-header {
+  flex: 1;
+}
+.poply-theme-ios-status-bar .poply-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+.poply-theme-ios-status-bar .poply-body {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  display: none;
+}
+.poply-theme-ios-status-bar .poply-footer {
+  margin: 0;
+}
+.poply-theme-ios-status-bar .poply-btn {
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 14px;
+}
+
+/* 15. iOS Live Activity - Dynamic island inspired compact card */
+.poply-theme-ios-live-activity {
+  --poply-bg: rgba(20, 20, 20, 0.98);
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ff9500;
+  --poply-backdrop-bg: transparent;
+  --poply-radius: 50px;
+  --poply-shadow:
+    0 10px 40px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  --poply-font: -apple-system, BlinkMacSystemFont, "SF Pro Rounded", sans-serif;
+  --poply-padding: 10px 20px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.12);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #34c759;
+  --poply-btn-primary-text: #ffffff;
+  max-width: 320px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+}
+.poply-theme-ios-live-activity .poply-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+.poply-theme-ios-live-activity .poply-header {
+  flex: 1;
+}
+.poply-theme-ios-live-activity .poply-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+.poply-theme-ios-live-activity .poply-body {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.poply-theme-ios-live-activity .poply-footer {
+  margin: 0;
+}
+.poply-theme-ios-live-activity .poply-btn {
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 16px;
+}

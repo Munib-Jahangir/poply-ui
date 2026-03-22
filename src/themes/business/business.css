@@ -1,0 +1,493 @@
+/* Business & Professional Themes (127-134) */
+
+/* 127. Executive - Midnight navy, gold trim, serif font, premium */
+.poply-theme-executive {
+  --poply-bg: linear-gradient(180deg, #0d1b2a 0%, #1b263b 100%);
+  --poply-border: 2px solid #d4af37;
+  --poply-text: #e0e1dd;
+  --poply-title-color: #d4af37;
+  --poply-accent: #d4af37;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.85);
+  --poply-radius: 4px;
+  --poply-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.5), 0 0 40px rgba(212, 175, 55, 0.1);
+  --poply-font: Georgia, "Times New Roman", serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: rgba(212, 175, 55, 0.15);
+  --poply-btn-text: #d4af37;
+  --poply-btn-primary-bg: #d4af37;
+  --poply-btn-primary-text: #0d1b2a;
+  --poply-input-bg: rgba(0, 0, 0, 0.3);
+  --poply-input-border: rgba(212, 175, 55, 0.3);
+  --poply-input-text: #e0e1dd;
+}
+.poply-theme-executive::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #d4af37, transparent);
+}
+.poply-theme-executive .poply-header {
+  justify-content: center;
+  gap: 16px;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.poply-theme-executive .poply-icon {
+  font-size: 36px;
+  color: #d4af37;
+}
+.poply-theme-executive .poply-title {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.poply-theme-executive .poply-body {
+  font-size: 15px;
+  line-height: 1.7;
+  text-align: center;
+  color: rgba(224, 225, 221, 0.8);
+}
+.poply-theme-executive .poply-footer {
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+  border-top: 1px solid rgba(212, 175, 55, 0.2);
+  padding-top: 20px;
+}
+.poply-theme-executive .poply-btn {
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 12px 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px solid #d4af37;
+}
+
+/* 128. Corporate Grey - Neutral grey, professional, Times New Roman */
+.poply-theme-corporate-grey {
+  --poply-bg: #f5f5f5;
+  --poply-border: 1px solid #d0d0d0;
+  --poply-text: #333333;
+  --poply-title-color: #1a1a1a;
+  --poply-accent: #666666;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 2px;
+  --poply-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  --poply-font: Georgia, "Times New Roman", serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: #e0e0e0;
+  --poply-btn-text: #333333;
+  --poply-btn-primary-bg: #333333;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: #cccccc;
+  --poply-input-text: #333333;
+}
+.poply-theme-corporate-grey .poply-header {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+.poply-theme-corporate-grey .poply-icon {
+  font-size: 24px;
+  color: #666666;
+}
+.poply-theme-corporate-grey .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.poply-theme-corporate-grey .poply-body {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555555;
+}
+.poply-theme-corporate-grey .poply-footer {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #e0e0e0;
+}
+.poply-theme-corporate-grey .poply-btn {
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 20px;
+}
+
+/* 129. Startup - Clean white, coral accent, friendly sans-serif */
+.poply-theme-startup {
+  --poply-bg: #ffffff;
+  --poply-border: none;
+  --poply-text: #2d3748;
+  --poply-title-color: #1a202c;
+  --poply-accent: #ff6b6b;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.4);
+  --poply-radius: 16px;
+  --poply-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: #fff5f5;
+  --poply-btn-text: #ff6b6b;
+  --poply-btn-primary-bg: #ff6b6b;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #f7fafc;
+  --poply-input-border: #e2e8f0;
+  --poply-input-text: #2d3748;
+}
+.poply-theme-startup::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: 24px;
+  width: 60px;
+  height: 4px;
+  background: #ff6b6b;
+  border-radius: 0 0 4px 4px;
+}
+.poply-theme-startup .poply-header {
+  justify-content: center;
+  gap: 14px;
+}
+.poply-theme-startup .poply-icon {
+  font-size: 32px;
+}
+.poply-theme-startup .poply-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+.poply-theme-startup .poply-body {
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.6;
+  color: #4a5568;
+}
+.poply-theme-startup .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+.poply-theme-startup .poply-btn {
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 28px;
+}
+
+/* 130. Legal - Ultra-formal dark-on-white, dense fine print style */
+.poply-theme-legal {
+  --poply-bg: #ffffff;
+  --poply-border: 3px solid #1a1a1a;
+  --poply-text: #1a1a1a;
+  --poply-title-color: #1a1a1a;
+  --poply-accent: #1a1a1a;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.6);
+  --poply-radius: 0;
+  --poply-shadow: none;
+  --poply-font: Georgia, "Times New Roman", serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #1a1a1a;
+  --poply-btn-primary-bg: #1a1a1a;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: 1px solid #1a1a1a;
+  --poply-input-text: #1a1a1a;
+}
+.poply-theme-legal .poply-header {
+  border-bottom: 2px solid #1a1a1a;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+}
+.poply-theme-legal .poply-icon {
+  display: none;
+}
+.poply-theme-legal .poply-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.poply-theme-legal .poply-body {
+  font-size: 11px;
+  line-height: 1.8;
+  color: #333333;
+}
+.poply-theme-legal .poply-footer {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #cccccc;
+  justify-content: flex-end;
+  gap: 16px;
+}
+.poply-theme-legal .poply-btn {
+  border-radius: 0;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 2px solid #1a1a1a;
+}
+
+/* 131. Medical - Clinical white, blue cross, clean hospital style */
+.poply-theme-medical {
+  --poply-bg: #ffffff;
+  --poply-border: 2px solid #e0e0e0;
+  --poply-text: #2c3e50;
+  --poply-title-color: #1a5276;
+  --poply-accent: #2980b9;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 8px;
+  --poply-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: #eaf2f8;
+  --poply-btn-text: #2980b9;
+  --poply-btn-primary-bg: #2980b9;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #f8f9fa;
+  --poply-input-border: #dee2e6;
+  --poply-input-text: #2c3e50;
+}
+.poply-theme-medical::before {
+  content: "⚕";
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 36px;
+  color: #2980b9;
+  background: #ffffff;
+  padding: 0 12px;
+}
+.poply-theme-medical .poply-header {
+  justify-content: center;
+  gap: 12px;
+  padding-top: 16px;
+}
+.poply-theme-medical .poply-icon {
+  font-size: 28px;
+}
+.poply-theme-medical .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.poply-theme-medical .poply-body {
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.6;
+  color: #34495e;
+}
+.poply-theme-medical .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.poply-theme-medical .poply-btn {
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 24px;
+}
+
+/* 132. Finance - Dark green, USD currency feel, numbers focused */
+.poply-theme-finance {
+  --poply-bg: linear-gradient(180deg, #1a472a 0%, #0d2818 100%);
+  --poply-border: 2px solid #d4af37;
+  --poply-text: #e8f5e9;
+  --poply-title-color: #81c784;
+  --poply-accent: #d4af37;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.85);
+  --poply-radius: 4px;
+  --poply-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(212, 175, 55, 0.15);
+  --poply-btn-text: #d4af37;
+  --poply-btn-primary-bg: #d4af37;
+  --poply-btn-primary-text: #0d2818;
+  --poply-input-bg: rgba(0, 0, 0, 0.3);
+  --poply-input-border: rgba(212, 175, 55, 0.3);
+  --poply-input-text: #e8f5e9;
+}
+.poply-theme-finance::before {
+  content: "$";
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  font-size: 48px;
+  font-weight: 300;
+  color: rgba(212, 175, 55, 0.15);
+  font-family: Georgia, serif;
+}
+.poply-theme-finance .poply-header {
+  justify-content: center;
+  gap: 12px;
+}
+.poply-theme-finance .poply-icon {
+  font-size: 28px;
+}
+.poply-theme-finance .poply-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.poply-theme-finance .poply-body {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  color: #a5d6a7;
+  font-family: Georgia, serif;
+}
+.poply-theme-finance .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.poply-theme-finance .poply-btn {
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* 133. Dashboard Card - Looks like a metric card from a SaaS dashboard */
+.poply-theme-dashboard-card {
+  --poply-bg: #ffffff;
+  --poply-border: none;
+  --poply-text: #6b7280;
+  --poply-title-color: #1f2937;
+  --poply-accent: #10b981;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.4);
+  --poply-radius: 12px;
+  --poply-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 20px;
+  --poply-btn-bg: #f3f4f6;
+  --poply-btn-text: #4b5563;
+  --poply-btn-primary-bg: #10b981;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #f9fafb;
+  --poply-input-border: #e5e7eb;
+  --poply-input-text: #1f2937;
+  max-width: 300px;
+}
+.poply-theme-dashboard-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #10b981, #34d399);
+  border-radius: 12px 12px 0 0;
+}
+.poply-theme-dashboard-card .poply-header {
+  padding-top: 8px;
+  gap: 12px;
+}
+.poply-theme-dashboard-card .poply-icon {
+  font-size: 24px;
+}
+.poply-theme-dashboard-card .poply-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+.poply-theme-dashboard-card .poply-body {
+  font-size: 13px;
+  color: #9ca3af;
+}
+.poply-theme-dashboard-card .poply-footer {
+  margin-top: 16px;
+}
+.poply-theme-dashboard-card .poply-btn {
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 16px;
+}
+
+/* 134. Invoice - White card styled like an invoice/receipt */
+.poply-theme-invoice {
+  --poply-bg: #ffffff;
+  --poply-border: 1px solid #e5e7eb;
+  --poply-text: #374151;
+  --poply-title-color: #1f2937;
+  --poply-accent: #374151;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 0;
+  --poply-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 0;
+  --poply-btn-bg: #f3f4f6;
+  --poply-btn-text: #374151;
+  --poply-btn-primary-bg: #374151;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: #d1d5db;
+  --poply-input-text: #374151;
+}
+.poply-theme-invoice::before {
+  content: "INVOICE";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #1f2937;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 6px 16px;
+  letter-spacing: 2px;
+}
+.poply-theme-invoice .poply-header {
+  padding: 24px 24px 16px;
+  border-bottom: 2px dashed #e5e7eb;
+  margin-bottom: 16px;
+  gap: 12px;
+}
+.poply-theme-invoice .poply-icon {
+  font-size: 24px;
+  color: #6b7280;
+}
+.poply-theme-invoice .poply-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+.poply-theme-invoice .poply-body {
+  padding: 0 24px 16px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #6b7280;
+}
+.poply-theme-invoice .poply-body::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: repeating-linear-gradient(
+    90deg,
+    #e5e7eb,
+    #e5e7eb 4px,
+    transparent 4px,
+    transparent 8px
+  );
+  margin-top: 16px;
+}
+.poply-theme-invoice .poply-footer {
+  padding: 16px 24px 24px;
+  background: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+}
+.poply-theme-invoice .poply-btn {
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 20px;
+}

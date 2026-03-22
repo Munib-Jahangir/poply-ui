@@ -1,0 +1,1073 @@
+/* Special & Experimental Themes (135-150) */
+
+/* 135. Neumorphism - Soft 3D extruded card, single colour */
+.poply-theme-neumorphism {
+  --poply-bg: #e0e5ec;
+  --poply-border: none;
+  --poply-text: #5a5a6a;
+  --poply-title-color: #3d3d4a;
+  --poply-accent: #6d6d7a;
+  --poply-backdrop-bg: #d1d9e6;
+  --poply-radius: 20px;
+  --poply-shadow:
+    8px 8px 16px rgba(163, 177, 198, 0.6),
+    -8px -8px 16px rgba(255, 255, 255, 0.8);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: #e0e5ec;
+  --poply-btn-text: #5a5a6a;
+  --poply-btn-primary-bg: #e0e5ec;
+  --poply-btn-primary-text: #3d3d4a;
+  --poply-input-bg: #e0e5ec;
+  --poply-input-border: none;
+  --poply-input-text: #3d3d4a;
+}
+.poply-theme-neumorphism .poply-btn {
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 24px;
+  box-shadow:
+    4px 4px 8px rgba(163, 177, 198, 0.6),
+    -4px -4px 8px rgba(255, 255, 255, 0.8);
+}
+.poply-theme-neumorphism .poply-btn:active {
+  box-shadow:
+    inset 4px 4px 8px rgba(163, 177, 198, 0.6),
+    inset -4px -4px 8px rgba(255, 255, 255, 0.8);
+}
+.poply-theme-neumorphism .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.poply-theme-neumorphism .poply-body {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #6a6a7a;
+}
+
+/* 136. Brutalist Black - Raw bold black, full borders, no softness */
+.poply-theme-brutalist-black {
+  --poply-bg: #000000;
+  --poply-border: 4px solid #ffffff;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ffffff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 0;
+  --poply-shadow: 12px 12px 0 #ffffff;
+  --poply-font: "Impact", "Arial Black", sans-serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: #000000;
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #000000;
+  --poply-input-bg: #000000;
+  --poply-input-border: 4px solid #ffffff;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-brutalist-black .poply-header {
+  border-bottom: 4px solid #ffffff;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+.poply-theme-brutalist-black .poply-icon {
+  display: none;
+}
+.poply-theme-brutalist-black .poply-title {
+  font-size: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.poply-theme-brutalist-black .poply-body {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #cccccc;
+}
+.poply-theme-brutalist-black .poply-footer {
+  border-top: 4px solid #ffffff;
+  padding-top: 16px;
+  margin-top: 16px;
+}
+.poply-theme-brutalist-black .poply-btn {
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 900;
+  padding: 14px 28px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: 4px solid #ffffff;
+}
+
+/* 137. Brutalist White - White background, thick black borders, bold text */
+.poply-theme-brutalist-white {
+  --poply-bg: #ffffff;
+  --poply-border: 4px solid #000000;
+  --poply-text: #000000;
+  --poply-title-color: #000000;
+  --poply-accent: #000000;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.7);
+  --poply-radius: 0;
+  --poply-shadow: 12px 12px 0 #000000;
+  --poply-font: "Impact", "Arial Black", sans-serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: #ffffff;
+  --poply-btn-text: #000000;
+  --poply-btn-primary-bg: #000000;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: 4px solid #000000;
+  --poply-input-text: #000000;
+}
+.poply-theme-brutalist-white .poply-header {
+  border-bottom: 4px solid #000000;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+.poply-theme-brutalist-white .poply-icon {
+  display: none;
+}
+.poply-theme-brutalist-white .poply-title {
+  font-size: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.poply-theme-brutalist-white .poply-body {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333333;
+}
+.poply-theme-brutalist-white .poply-footer {
+  border-top: 4px solid #000000;
+  padding-top: 16px;
+  margin-top: 16px;
+}
+.poply-theme-brutalist-white .poply-btn {
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 900;
+  padding: 14px 28px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: 4px solid #000000;
+}
+
+/* 138. Sticker - Looks like a die-cut sticker with white stroke border */
+.poply-theme-sticker {
+  --poply-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ffffff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.3);
+  --poply-radius: 30px;
+  --poply-shadow: 0 8px 30px rgba(102, 126, 234, 0.4);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.25);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #764ba2;
+  --poply-input-bg: rgba(255, 255, 255, 0.2);
+  --poply-input-border: rgba(255, 255, 255, 0.4);
+  --poply-input-text: #ffffff;
+  outline: 4px dashed rgba(255, 255, 255, 0.5);
+  outline-offset: -16px;
+}
+.poply-theme-sticker .poply-header {
+  justify-content: center;
+  gap: 12px;
+}
+.poply-theme-sticker .poply-icon {
+  font-size: 36px;
+}
+.poply-theme-sticker .poply-title {
+  font-size: 22px;
+  font-weight: 700;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.poply-theme-sticker .poply-body {
+  font-size: 15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+.poply-theme-sticker .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.poply-theme-sticker .poply-btn {
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 24px;
+}
+
+/* 139. Comic - Comic book speech bubble style with halftone dots */
+.poply-theme-comic {
+  --poply-bg: #ffffff;
+  --poply-border: 4px solid #000000;
+  --poply-text: #000000;
+  --poply-title-color: #ff0000;
+  --poply-accent: #0000ff;
+  --poply-backdrop-bg: transparent;
+  --poply-radius: 30px;
+  --poply-shadow: none;
+  --poply-font: "Bangers", "Comic Sans MS", cursive;
+  --poply-padding: 28px;
+  --poply-btn-bg: #ffff00;
+  --poply-btn-text: #000000;
+  --poply-btn-primary-bg: #ff0000;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: 3px solid #000000;
+  --poply-input-text: #000000;
+  position: relative;
+}
+.poply-theme-comic::before {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  background-image: radial-gradient(circle, #000000 1px, transparent 1px);
+  background-size: 6px 6px;
+  border-radius: 24px;
+  opacity: 0.1;
+  pointer-events: none;
+}
+.poply-theme-comic::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 40px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 25px solid #000000;
+}
+.poply-theme-comic .poply-header {
+  justify-content: center;
+  gap: 12px;
+}
+.poply-theme-comic .poply-icon {
+  font-size: 32px;
+}
+.poply-theme-comic .poply-title {
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 0 #000000;
+}
+.poply-theme-comic .poply-body {
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.4;
+}
+.poply-theme-comic .poply-footer {
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+.poply-theme-comic .poply-btn {
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 12px 24px;
+  border: 3px solid #000000;
+  box-shadow: 4px 4px 0 #000000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* 140. Watercolour - Soft watercolour bleed edges, artistic */
+.poply-theme-watercolour {
+  --poply-bg: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+  --poply-border: none;
+  --poply-text: #4a4a4a;
+  --poply-title-color: #2d2d2d;
+  --poply-accent: #7f7f7f;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.2);
+  --poply-radius: 100px;
+  --poply-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.02), 0 8px 16px rgba(0, 0, 0, 0.04),
+    0 16px 32px rgba(0, 0, 0, 0.06);
+  --poply-font: Georgia, serif;
+  --poply-padding: 32px 40px;
+  --poply-btn-bg: rgba(45, 45, 45, 0.1);
+  --poply-btn-text: #4a4a4a;
+  --poply-btn-primary-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.6);
+  --poply-input-border: rgba(102, 126, 234, 0.3);
+  --poply-input-text: #4a4a4a;
+}
+.poply-theme-watercolour::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(
+      ellipse at 20% 20%,
+      rgba(102, 126, 234, 0.15) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse at 80% 80%,
+      rgba(118, 75, 162, 0.1) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse at 50% 50%,
+      rgba(102, 126, 234, 0.05) 0%,
+      transparent 70%
+    );
+  border-radius: inherit;
+  pointer-events: none;
+  filter: blur(20px);
+}
+.poply-theme-watercolour .poply-header {
+  justify-content: center;
+  gap: 12px;
+}
+.poply-theme-watercolour .poply-icon {
+  font-size: 28px;
+  opacity: 0.7;
+}
+.poply-theme-watercolour .poply-title {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+}
+.poply-theme-watercolour .poply-body {
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.7;
+  color: #6a6a6a;
+}
+.poply-theme-watercolour .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+.poply-theme-watercolour .poply-btn {
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 28px;
+}
+
+/* 141. Emoji Burst - Giant centred emoji with minimal text, animated burst */
+@keyframes emoji-bounce {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+@keyframes burst-ring {
+  0% {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+.poply-theme-emoji-burst {
+  --poply-bg: #ffffff;
+  --poply-border: none;
+  --poply-text: #333333;
+  --poply-title-color: #1a1a1a;
+  --poply-accent: #ff6b6b;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.4);
+  --poply-radius: 50%;
+  --poply-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 40px;
+  --poply-btn-bg: #f0f0f0;
+  --poply-btn-text: #333333;
+  --poply-btn-primary-bg: #ff6b6b;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #f5f5f5;
+  --poply-input-border: #e0e0e0;
+  --poply-input-text: #333333;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.poply-theme-emoji-burst::before {
+  content: "";
+  position: absolute;
+  inset: -20px;
+  border: 3px solid #ff6b6b;
+  border-radius: 50%;
+  animation: burst-ring 1.5s ease-out infinite;
+}
+.poply-theme-emoji-burst .poply-icon {
+  font-size: 64px;
+  animation: emoji-bounce 1s ease-in-out infinite;
+}
+.poply-theme-emoji-burst .poply-title {
+  display: none;
+}
+.poply-theme-emoji-burst .poply-body {
+  display: none;
+}
+.poply-theme-emoji-burst .poply-footer {
+  position: absolute;
+  bottom: 20px;
+  justify-content: center;
+}
+.poply-theme-emoji-burst .poply-btn {
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+
+/* 142. Flip Card - Card that flips to reveal content */
+.poply-theme-flip-card {
+  --poply-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ffffff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 16px;
+  --poply-shadow: 0 20px 60px rgba(102, 126, 234, 0.4);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.2);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #764ba2;
+  --poply-input-bg: rgba(255, 255, 255, 0.15);
+  --poply-input-border: rgba(255, 255, 255, 0.3);
+  --poply-input-text: #ffffff;
+  perspective: 1000px;
+}
+.poply-theme-flip-card::before {
+  content: "🔄";
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 20px;
+  opacity: 0.6;
+}
+.poply-theme-flip-card .poply-header {
+  justify-content: center;
+  gap: 12px;
+}
+.poply-theme-flip-card .poply-icon {
+  font-size: 32px;
+}
+.poply-theme-flip-card .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.poply-theme-flip-card .poply-body {
+  font-size: 15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+.poply-theme-flip-card .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.poply-theme-flip-card .poply-btn {
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 24px;
+}
+
+/* 143. Spotlight - Dark backdrop, only popup lit up */
+.poply-theme-spotlight {
+  --poply-bg: #1a1a1a;
+  --poply-border: 1px solid #333333;
+  --poply-text: #e0e0e0;
+  --poply-title-color: #ffffff;
+  --poply-accent: #888888;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.98);
+  --poply-radius: 8px;
+  --poply-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.05), 0 30px 100px rgba(0, 0, 0, 0.8),
+    0 0 150px rgba(255, 255, 255, 0.03);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: #262626;
+  --poply-btn-text: #e0e0e0;
+  --poply-btn-primary-bg: #404040;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #0f0f0f;
+  --poply-input-border: #333333;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-spotlight::before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200%;
+  height: 200px;
+  background: radial-gradient(
+    ellipse at center top,
+    rgba(255, 255, 255, 0.08) 0%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
+.poply-theme-spotlight .poply-header {
+  justify-content: center;
+  gap: 12px;
+}
+.poply-theme-spotlight .poply-icon {
+  font-size: 28px;
+  opacity: 0.8;
+}
+.poply-theme-spotlight .poply-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.poply-theme-spotlight .poply-body {
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.6;
+  color: #a0a0a0;
+}
+.poply-theme-spotlight .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+.poply-theme-spotlight .poply-btn {
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 24px;
+}
+
+/* 144. Ticket - Event ticket tear-away stub style */
+.poply-theme-ticket {
+  --poply-bg: #ffffff;
+  --poply-border: 2px dashed #e0e0e0;
+  --poply-text: #333333;
+  --poply-title-color: #1a1a1a;
+  --poply-accent: #666666;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 0;
+  --poply-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: #f5f5f5;
+  --poply-btn-text: #333333;
+  --poply-btn-primary-bg: #1a1a1a;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: #e0e0e0;
+  --poply-input-text: #333333;
+}
+.poply-theme-ticket::before,
+.poply-theme-ticket::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 24px;
+  height: 24px;
+  background: #f5f5f5;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+.poply-theme-ticket::before {
+  left: -12px;
+}
+.poply-theme-ticket::after {
+  right: -12px;
+}
+.poply-theme-ticket .poply-header {
+  justify-content: center;
+  gap: 12px;
+  border-bottom: 1px dashed #e0e0e0;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+.poply-theme-ticket .poply-icon {
+  font-size: 28px;
+}
+.poply-theme-ticket .poply-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.poply-theme-ticket .poply-body {
+  font-size: 14px;
+  text-align: center;
+  color: #666666;
+  line-height: 1.6;
+}
+.poply-theme-ticket .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px dashed #e0e0e0;
+}
+.poply-theme-ticket .poply-btn {
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* 145. Receipt - Thermal-print receipt style, monospace font */
+.poply-theme-receipt {
+  --poply-bg: #ffffff;
+  --poply-border: none;
+  --poply-text: #000000;
+  --poply-title-color: #000000;
+  --poply-accent: #000000;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 0;
+  --poply-shadow: none;
+  --poply-font: "Courier New", Courier, monospace;
+  --poply-padding: 24px;
+  --poply-btn-bg: #f0f0f0;
+  --poply-btn-text: #000000;
+  --poply-btn-primary-bg: #000000;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: 1px solid #000000;
+  --poply-input-text: #000000;
+  position: relative;
+}
+.poply-theme-receipt::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 8px,
+    rgba(0, 0, 0, 0.03) 8px,
+    rgba(0, 0, 0, 0.03) 9px
+  );
+  pointer-events: none;
+}
+.poply-theme-receipt .poply-header {
+  border-bottom: 1px dashed #000000;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  justify-content: center;
+}
+.poply-theme-receipt .poply-icon {
+  display: none;
+}
+.poply-theme-receipt .poply-title {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.poply-theme-receipt .poply-body {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #333333;
+}
+.poply-theme-receipt .poply-footer {
+  border-top: 1px dashed #000000;
+  padding-top: 12px;
+  margin-top: 12px;
+  justify-content: center;
+}
+.poply-theme-receipt .poply-btn {
+  border-radius: 0;
+  font-size: 12px;
+  padding: 8px 16px;
+}
+
+/* 146. Polaroid - Photo polaroid frame with bottom text field */
+.poply-theme-polaroid {
+  --poply-bg: #ffffff;
+  --poply-border: none;
+  --poply-text: #333333;
+  --poply-title-color: #1a1a1a;
+  --poply-accent: #666666;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.6);
+  --poply-radius: 2px;
+  --poply-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  --poply-font: "Courier New", Courier, monospace;
+  --poply-padding: 12px 12px 48px;
+  --poply-btn-bg: #f5f5f5;
+  --poply-btn-text: #333333;
+  --poply-btn-primary-bg: #333333;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: #e0e0e0;
+  --poply-input-text: #333333;
+}
+.poply-theme-polaroid::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  right: 12px;
+  bottom: 48px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 2px;
+}
+.poply-theme-polaroid .poply-header {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  justify-content: center;
+}
+.poply-theme-polaroid .poply-icon {
+  font-size: 48px;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
+}
+.poply-theme-polaroid .poply-title {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.poply-theme-polaroid .poply-body {
+  display: none;
+}
+.poply-theme-polaroid .poply-footer {
+  display: none;
+}
+
+/* 147. Voice Note - Audio waveform visual, microphone icon */
+@keyframes wave-animate {
+  0%,
+  100% {
+    height: 8px;
+  }
+  50% {
+    height: 24px;
+  }
+}
+.poply-theme-voice-note {
+  --poply-bg: #1e1e1e;
+  --poply-border: 1px solid #333333;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #00d4ff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.85);
+  --poply-radius: 24px;
+  --poply-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: rgba(0, 212, 255, 0.15);
+  --poply-btn-text: #00d4ff;
+  --poply-btn-primary-bg: #00d4ff;
+  --poply-btn-primary-text: #1e1e1e;
+  --poply-input-bg: rgba(255, 255, 255, 0.05);
+  --poply-input-border: rgba(0, 212, 255, 0.3);
+  --poply-input-text: #ffffff;
+  max-width: 320px;
+}
+.poply-theme-voice-note::before {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  left: 24px;
+  right: 24px;
+  height: 30px;
+  background: linear-gradient(
+    90deg,
+    #00d4ff 8px,
+    transparent 8px,
+    transparent 16px,
+    #00d4ff 16px,
+    #00d4ff 20px,
+    transparent 20px,
+    transparent 28px,
+    #00d4ff 28px,
+    #00d4ff 32px,
+    transparent 32px,
+    transparent 40px,
+    #00d4ff 40px
+  );
+  background-size: 48px 100%;
+  animation: wave-animate 0.5s ease-in-out infinite;
+  opacity: 0.6;
+}
+.poply-theme-voice-note .poply-header {
+  justify-content: center;
+  gap: 12px;
+}
+.poply-theme-voice-note .poply-icon {
+  font-size: 32px;
+}
+.poply-theme-voice-note .poply-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.poply-theme-voice-note .poply-body {
+  font-size: 13px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 30px;
+}
+.poply-theme-voice-note .poply-footer {
+  margin-top: 16px;
+  justify-content: center;
+}
+.poply-theme-voice-note .poply-btn {
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+
+/* 148. Countdown - Shows an animated countdown timer before action */
+.poply-theme-countdown {
+  --poply-bg: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%);
+  --poply-border: 2px solid #0f3460;
+  --poply-text: #ffffff;
+  --poply-title-color: #e94560;
+  --poply-accent: #e94560;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.85);
+  --poply-radius: 16px;
+  --poply-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: rgba(233, 69, 96, 0.2);
+  --poply-btn-text: #e94560;
+  --poply-btn-primary-bg: #e94560;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(0, 0, 0, 0.3);
+  --poply-input-border: rgba(233, 69, 96, 0.3);
+  --poply-input-text: #ffffff;
+}
+.poply-theme-countdown::before {
+  content: "60";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 120px;
+  font-weight: 900;
+  color: rgba(233, 69, 96, 0.1);
+  font-family: "Arial Black", sans-serif;
+  z-index: 0;
+}
+.poply-theme-countdown .poply-header {
+  justify-content: center;
+  gap: 12px;
+  position: relative;
+  z-index: 1;
+}
+.poply-theme-countdown .poply-icon {
+  font-size: 28px;
+}
+.poply-theme-countdown .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.poply-theme-countdown .poply-body {
+  font-size: 15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  z-index: 1;
+}
+.poply-theme-countdown .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+}
+.poply-theme-countdown .poply-btn {
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 24px;
+}
+
+/* 149. Skeleton - Loading skeleton shimmer card placeholder */
+@keyframes shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: calc(200px + 100%) 0;
+  }
+}
+.poply-theme-skeleton {
+  --poply-bg: #f0f0f0;
+  --poply-border: 1px solid #e0e0e0;
+  --poply-text: #cccccc;
+  --poply-title-color: #cccccc;
+  --poply-accent: #cccccc;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.3);
+  --poply-radius: 8px;
+  --poply-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: #e0e0e0;
+  --poply-btn-text: #e0e0e0;
+  --poply-btn-primary-bg: #e0e0e0;
+  --poply-btn-primary-text: #e0e0e0;
+  --poply-input-bg: #e0e0e0;
+  --poply-input-border: #e0e0e0;
+  --poply-input-text: #e0e0e0;
+}
+.poply-theme-skeleton::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #f0f0f0, #e0e0e0, #f0f0f0);
+  background-size: 200px 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+.poply-theme-skeleton .poply-header {
+  gap: 12px;
+}
+.poply-theme-skeleton .poply-icon,
+.poply-theme-skeleton .poply-title,
+.poply-theme-skeleton .poply-body,
+.poply-theme-skeleton .poply-btn {
+  background: linear-gradient(90deg, #e8e8e8, #f5f5f5, #e8e8e8);
+  background-size: 200px 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+  color: transparent;
+  border-radius: 4px;
+}
+.poply-theme-skeleton .poply-icon {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.poply-theme-skeleton .poply-title {
+  width: 150px;
+  height: 20px;
+}
+.poply-theme-skeleton .poply-body {
+  width: 100%;
+  height: 60px;
+  margin-top: 8px;
+}
+.poply-theme-skeleton .poply-footer {
+  margin-top: 16px;
+}
+.poply-theme-skeleton .poply-btn {
+  width: 80px;
+  height: 36px;
+}
+
+/* 150. Confetti Burst - White card with falling confetti background */
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(-100%) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(400%) rotate(720deg);
+    opacity: 0;
+  }
+}
+.poply-theme-confetti-burst {
+  --poply-bg: #ffffff;
+  --poply-border: none;
+  --poply-text: #333333;
+  --poply-title-color: #1a1a1a;
+  --poply-accent: #ff6b6b;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.4);
+  --poply-radius: 20px;
+  --poply-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: #fff5f5;
+  --poply-btn-text: #ff6b6b;
+  --poply-btn-primary-bg: linear-gradient(
+    135deg,
+    #ff6b6b 0%,
+    #ffd93d 50%,
+    #6bcb77 100%
+  );
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #f7fafc;
+  --poply-input-border: #e2e8f0;
+  --poply-input-text: #333333;
+  position: relative;
+  overflow: visible;
+}
+.poply-theme-confetti-burst::before {
+  content: "🎊 🎉 🎊 🎉 🎊 🎉 🎊 🎉";
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  font-size: 24px;
+  white-space: nowrap;
+  animation: confetti-fall 3s linear infinite;
+  pointer-events: none;
+}
+.poply-theme-confetti-burst::after {
+  content: "🎊 🎉 🎊 🎉 🎊 🎉 🎊 🎉";
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  font-size: 24px;
+  white-space: nowrap;
+  animation: confetti-fall 3s linear infinite;
+  animation-delay: 1.5s;
+  pointer-events: none;
+}
+.poply-theme-confetti-burst .poply-header {
+  justify-content: center;
+  gap: 12px;
+  position: relative;
+  z-index: 1;
+}
+.poply-theme-confetti-burst .poply-icon {
+  font-size: 40px;
+  animation: emoji-bounce 1s ease-in-out infinite;
+}
+.poply-theme-confetti-burst .poply-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.poply-theme-confetti-burst .poply-body {
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.6;
+  color: #666666;
+  position: relative;
+  z-index: 1;
+}
+.poply-theme-confetti-burst .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+  position: relative;
+  z-index: 1;
+}
+.poply-theme-confetti-burst .poply-btn {
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 28px;
+}

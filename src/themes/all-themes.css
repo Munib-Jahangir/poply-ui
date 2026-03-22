@@ -1,0 +1,2826 @@
+/* International Modern Themes - Worldwide Designs */
+
+/* ============================================
+   RETRO COMPUTING THEMES (Mac, Windows, Linux)
+   ============================================ */
+
+/* Mac OS 7/8/9 - Classic Mac OS with platinum appearance */
+.poply-theme-macos-classic {
+  --poply-bg: #cccccc;
+  --poply-border: 2px solid;
+  --poply-text: #000000;
+  --poply-title-color: #000000;
+  --poply-accent: #000080;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 0;
+  --poply-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  --poply-font: "Chicago", "Charcoal", Geneva, sans-serif;
+  --poply-padding: 0;
+  --poply-btn-bg: #cccccc;
+  --poply-btn-text: #000000;
+  --poply-btn-primary-bg: #cccccc;
+  --poply-btn-primary-text: #000000;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: 2px inset #dfdfdf;
+  --poply-input-text: #000000;
+}
+.poply-theme-macos-classic::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background: linear-gradient(180deg, #666688 0%, #444466 100%);
+  margin: 0;
+  border-bottom: 1px solid #333344;
+}
+.poply-theme-macos-classic::after {
+  content: "● ●";
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  font-size: 8px;
+  letter-spacing: 3px;
+  color: #dddddd;
+  text-shadow: 1px 0 0 #333344;
+}
+.poply-theme-macos-classic .poply-header {
+  position: relative;
+  padding: 24px 12px 8px 12px;
+  gap: 8px;
+}
+.poply-theme-macos-classic .poply-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+.poply-theme-macos-classic .poply-body {
+  padding: 0 12px 12px;
+  font-size: 12px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.poply-theme-macos-classic .poply-icon {
+  font-size: 32px;
+}
+.poply-theme-macos-classic .poply-footer {
+  padding: 8px 12px 12px;
+  justify-content: flex-end;
+  background: #bbbbbb;
+  border-top: 1px solid #aaaaaa;
+}
+.poply-theme-macos-classic .poply-btn {
+  border-radius: 0;
+  font-size: 12px;
+  padding: 4px 20px;
+  border: 2px outset #dfdfdf;
+  min-width: 80px;
+}
+.poply-theme-macos-classic .poply-btn:active {
+  border-style: inset;
+}
+
+/* Windows 3.1 - Classic Windows 3.1 dialog */
+.poply-theme-windows-3-1 {
+  --poply-bg: #c0c0c0;
+  --poply-border: 2px solid;
+  --poply-text: #000000;
+  --poply-title-color: #ffffff;
+  --poply-accent: #000080;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 0;
+  --poply-shadow: none;
+  --poply-font: "MS Sans Serif", "Helv", Tahoma, sans-serif;
+  --poply-padding: 0;
+  --poply-btn-bg: #c0c0c0;
+  --poply-btn-text: #000000;
+  --poply-btn-primary-bg: #c0c0c0;
+  --poply-btn-primary-text: #000000;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: 2px inset #808080;
+  --poply-input-text: #000000;
+}
+.poply-theme-windows-3-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 18px;
+  background: linear-gradient(90deg, #000080, #1084d0);
+}
+.poply-theme-windows-3-1::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  font-size: 12px;
+}
+.poply-theme-windows-3-1 .poply-header {
+  position: relative;
+  padding: 20px 8px 8px;
+  gap: 8px;
+}
+.poply-theme-windows-3-1 .poply-title {
+  font-size: 11px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.poply-theme-windows-3-1 .poply-body {
+  padding: 8px;
+  font-size: 11px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.poply-theme-windows-3-1 .poply-icon {
+  font-size: 28px;
+}
+.poply-theme-windows-3-1 .poply-footer {
+  padding: 8px;
+  justify-content: flex-end;
+}
+.poply-theme-windows-3-1 .poply-btn {
+  border-radius: 0;
+  font-size: 11px;
+  padding: 4px 16px;
+  border: 2px outset #dfdfdf;
+  min-width: 70px;
+}
+.poply-theme-windows-3-1 .poply-btn:active {
+  border-style: inset;
+}
+
+/* Windows 2000/XP Classic */
+.poply-theme-windows-2000 {
+  --poply-bg: linear-gradient(180deg, #dfdfdf 0%, #c8c8c8 100%);
+  --poply-border: 1px solid #0a246a;
+  --poply-text: #000000;
+  --poply-title-color: #ffffff;
+  --poply-accent: #0a246a;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 0;
+  --poply-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  --poply-font: "Segoe UI", Tahoma, sans-serif;
+  --poply-padding: 0;
+  --poply-btn-bg: linear-gradient(180deg, #f0f0f0 0%, #d4d4d4 100%);
+  --poply-btn-text: #000000;
+  --poply-btn-primary-bg: linear-gradient(180deg, #b8d4f0 0%, #a0c4e8 100%);
+  --poply-btn-primary-text: #000000;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: 1px solid #7a9bbd;
+  --poply-input-text: #000000;
+}
+.poply-theme-windows-2000::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 26px;
+  background: linear-gradient(180deg, #0a246a 0%, #a6c9e8 100%);
+  border-bottom: 1px solid #a6c9e8;
+}
+.poply-theme-windows-2000::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  font-size: 10px;
+  color: #ffffff;
+  letter-spacing: 4px;
+}
+.poply-theme-windows-2000 .poply-header {
+  position: relative;
+  padding: 6px 60px 8px 8px;
+  gap: 8px;
+}
+.poply-theme-windows-2000 .poply-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.poply-theme-windows-2000 .poply-body {
+  padding: 16px 12px;
+  font-size: 12px;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+.poply-theme-windows-2000 .poply-icon {
+  font-size: 32px;
+}
+.poply-theme-windows-2000 .poply-footer {
+  padding: 8px 12px 12px;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.poply-theme-windows-2000 .poply-btn {
+  border-radius: 0;
+  font-size: 11px;
+  padding: 5px 16px;
+  border: 1px solid #7a9bbd;
+  min-width: 75px;
+}
+
+/* Windows Vista/7 Aero */
+.poply-theme-windows-aero {
+  --poply-bg: linear-gradient(
+    180deg,
+    rgba(229, 229, 230, 0.95) 0%,
+    rgba(201, 201, 202, 0.95) 100%
+  );
+  --poply-border: 1px solid #5691d0;
+  --poply-text: #1e1e1e;
+  --poply-title-color: #1e1e1e;
+  --poply-accent: #0078d4;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.4);
+  --poply-backdrop-blur: 8px;
+  --poply-radius: 6px;
+  --poply-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  --poply-font: "Segoe UI", Tahoma, sans-serif;
+  --poply-padding: 0;
+  --poply-btn-bg: linear-gradient(180deg, #f5f5f5 0%, #e5e5e5 100%);
+  --poply-btn-text: #1e1e1e;
+  --poply-btn-primary-bg: linear-gradient(180deg, #83b9f5 0%, #5aadf2 100%);
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: 1px solid #a0a0a0;
+  --poply-input-text: #1e1e1e;
+}
+.poply-theme-windows-aero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 32px;
+  background: linear-gradient(
+    180deg,
+    rgba(30, 115, 190, 0.95) 0%,
+    rgba(20, 90, 160, 0.95) 100%
+  );
+  border-radius: 6px 6px 0 0;
+}
+.poply-theme-windows-aero::after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  font-size: 11px;
+  color: #ffffff;
+  letter-spacing: 6px;
+}
+.poply-theme-windows-aero .poply-header {
+  position: relative;
+  padding: 8px 80px 8px 12px;
+  gap: 8px;
+}
+.poply-theme-windows-aero .poply-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.poply-theme-windows-aero .poply-body {
+  padding: 20px 16px;
+  font-size: 13px;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+.poply-theme-windows-aero .poply-icon {
+  font-size: 36px;
+}
+.poply-theme-windows-aero .poply-footer {
+  padding: 8px 16px 16px;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.poply-theme-windows-aero .poply-btn {
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 6px 18px;
+  border: 1px solid #a0a0a0;
+}
+
+/* Ubuntu/GNOME Linux */
+.poply-theme-ubuntu-gnome {
+  --poply-bg: #3c3c3c;
+  --poply-border: 1px solid #5e5e5e;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #dd4814;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.7);
+  --poply-radius: 8px;
+  --poply-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  --poply-font: "Ubuntu", "Cantarell", sans-serif;
+  --poply-padding: 0;
+  --poply-btn-bg: #4a4a4a;
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #dd4814;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #2d2d2d;
+  --poply-input-border: 1px solid #5e5e5e;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-ubuntu-gnome::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 36px;
+  background: linear-gradient(180deg, #5e5e5e 0%, #3c3c3c 100%);
+  border-radius: 8px 8px 0 0;
+}
+.poply-theme-ubuntu-gnome::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  font-size: 10px;
+  letter-spacing: 6px;
+  color: #2c2c2c;
+}
+.poply-theme-ubuntu-gnome .poply-header {
+  position: relative;
+  padding: 8px 40px 12px 80px;
+  gap: 8px;
+}
+.poply-theme-ubuntu-gnome .poply-title {
+  font-size: 13px;
+  font-weight: 500;
+}
+.poply-theme-ubuntu-gnome .poply-body {
+  padding: 8px 16px 16px;
+  font-size: 13px;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+.poply-theme-ubuntu-gnome .poply-icon {
+  font-size: 36px;
+}
+.poply-theme-ubuntu-gnome .poply-footer {
+  padding: 12px 16px 16px;
+  justify-content: flex-end;
+  gap: 8px;
+  background: #333333;
+  border-radius: 0 0 8px 8px;
+}
+.poply-theme-ubuntu-gnome .poply-btn {
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 18px;
+  border: 1px solid #5e5e5e;
+}
+
+/* macOS Big Sur/Catalina */
+.poply-theme-macos-big-sur {
+  --poply-bg: rgba(246, 246, 246, 0.85);
+  --poply-border: none;
+  --poply-text: #1d1d1f;
+  --poply-title-color: #1d1d1f;
+  --poply-accent: #007aff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.4);
+  --poply-backdrop-blur: 20px;
+  --poply-radius: 12px;
+  --poply-shadow: 0 14px 48px rgba(0, 0, 0, 0.2);
+  --poply-font: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+  --poply-padding: 0;
+  --poply-btn-bg: rgba(118, 118, 128, 0.12);
+  --poply-btn-text: #007aff;
+  --poply-btn-primary-bg: #007aff;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(118, 118, 128, 0.08);
+  --poply-input-border: rgba(118, 118, 128, 0.2);
+  --poply-input-text: #1d1d1f;
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.poply-theme-macos-big-sur::before {
+  content: "● ● ●";
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 8px;
+  letter-spacing: 4px;
+  color: #ff5f57;
+  text-shadow:
+    10px 0 0 #febc2e,
+    20px 0 0 #28c840;
+}
+.poply-theme-macos-big-sur .poply-header {
+  padding: 32px 20px 8px;
+  gap: 12px;
+}
+.poply-theme-macos-big-sur .poply-title {
+  font-size: 17px;
+  font-weight: 600;
+}
+.poply-theme-macos-big-sur .poply-body {
+  padding: 4px 20px 16px;
+  font-size: 13px;
+  color: #86868b;
+}
+.poply-theme-macos-big-sur .poply-icon {
+  display: none;
+}
+.poply-theme-macos-big-sur .poply-footer {
+  padding: 12px 20px 20px;
+  justify-content: center;
+  gap: 12px;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+.poply-theme-macos-big-sur .poply-btn {
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 24px;
+  flex: 1;
+  max-width: 200px;
+}
+
+/* Chrome OS / Chromebook */
+.poply-theme-chrome-os {
+  --poply-bg: #ffffff;
+  --poply-border: none;
+  --poply-text: #3c4043;
+  --poply-title-color: #202124;
+  --poply-accent: #1a73e8;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 8px;
+  --poply-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  --poply-font: "Google Sans", "Roboto", sans-serif;
+  --poply-padding: 0;
+  --poply-btn-bg: #f1f3f4;
+  --poply-btn-text: #3c4043;
+  --poply-btn-primary-bg: #1a73e8;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #f1f3f4;
+  --poply-input-border: transparent;
+  --poply-input-text: #3c4043;
+}
+.poply-theme-chrome-os::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #4285f4, #34a853, #fbbc05, #ea4335);
+  border-radius: 8px 8px 0 0;
+}
+.poply-theme-chrome-os .poply-header {
+  padding: 16px 20px 8px;
+  gap: 12px;
+}
+.poply-theme-chrome-os .poply-icon {
+  font-size: 40px;
+}
+.poply-theme-chrome-os .poply-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+.poply-theme-chrome-os .poply-body {
+  padding: 4px 20px 16px;
+  font-size: 13px;
+  color: #5f6368;
+}
+.poply-theme-chrome-os .poply-footer {
+  padding: 12px 20px 20px;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.poply-theme-chrome-os .poply-btn {
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 16px;
+}
+
+/* ============================================
+   PAYMENT & CREDIT CARDS
+   ============================================ */
+
+/* Visa Card Style */
+.poply-theme-visa-card {
+  --poply-bg: linear-gradient(135deg, #1a1f71 0%, #0d1342 100%);
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #f7b600;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.6);
+  --poply-radius: 16px;
+  --poply-shadow: 0 15px 45px rgba(0, 0, 0, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.15);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #f7b600;
+  --poply-btn-primary-text: #1a1f71;
+  --poply-input-bg: rgba(255, 255, 255, 0.1);
+  --poply-input-border: rgba(255, 255, 255, 0.2);
+  --poply-input-text: #ffffff;
+  min-width: 340px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.poply-theme-visa-card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(
+    circle,
+    rgba(247, 182, 0, 0.3) 0%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
+.poply-theme-visa-card .poply-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 48px;
+}
+.poply-theme-visa-card .poply-title {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  opacity: 0.8;
+}
+.poply-theme-visa-card .poply-body {
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 4px;
+  font-family: "Courier New", monospace;
+  margin-top: auto;
+}
+.poply-theme-visa-card .poply-footer {
+  display: none;
+}
+
+/* Mastercard Style */
+.poply-theme-mastercard {
+  --poply-bg: linear-gradient(135deg, #eb001b 0%, #f79e1b 100%);
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ff5f00;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.6);
+  --poply-radius: 16px;
+  --poply-shadow: 0 15px 45px rgba(0, 0, 0, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.15);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #eb001b;
+  min-width: 340px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.poply-theme-mastercard::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, #f79e1b 0%, #ff5f00 100%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.9;
+}
+.poply-theme-mastercard::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, #eb001b 0%, #ff5f00 100%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.9;
+}
+.poply-theme-mastercard .poply-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 48px;
+}
+.poply-theme-mastercard .poply-title {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+.poply-theme-mastercard .poply-body {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-family: "Courier New", monospace;
+  z-index: 1;
+}
+.poply-theme-mastercard .poply-footer {
+  display: none;
+}
+
+/* Amex Card Style */
+.poply-theme-amex-card {
+  --poply-bg: linear-gradient(135deg, #006fcf 0%, #003087 100%);
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #fadc6c;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.6);
+  --poply-radius: 16px;
+  --poply-shadow: 0 15px 45px rgba(0, 0, 0, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 28px;
+  min-width: 340px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.poply-theme-amex-card .poply-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 36px;
+  color: #fadc6c;
+}
+.poply-theme-amex-card .poply-title {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+.poply-theme-amex-card .poply-body {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 6px;
+  font-family: "Courier New", monospace;
+}
+.poply-theme-amex-card .poply-footer {
+  display: none;
+}
+
+/* ============================================
+   SMART DEVICES & GADGETS
+   ============================================ */
+
+/* iPhone Notification */
+.poply-theme-iphone-notification {
+  --poply-bg: rgba(0, 0, 0, 0.9);
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #007aff;
+  --poply-backdrop-bg: transparent;
+  --poply-radius: 20px;
+  --poply-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 16px;
+  --poply-btn-bg: #007aff;
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #007aff;
+  --poply-btn-primary-text: #ffffff;
+  max-width: 320px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+.poply-theme-iphone-notification::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 6px;
+  background: #000;
+  border-radius: 3px;
+}
+.poply-theme-iphone-notification .poply-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}
+.poply-theme-iphone-notification .poply-header {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+.poply-theme-iphone-notification .poply-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+.poply-theme-iphone-notification .poply-body {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  display: none;
+}
+.poply-theme-iphone-notification .poply-footer {
+  display: none;
+}
+
+/* Apple Watch Ultra */
+.poply-theme-apple-watch-ultra {
+  --poply-bg: linear-gradient(180deg, #1c1c1e 0%, #000000 100%);
+  --poply-border: 2px solid #ff9500;
+  --poply-text: #ffffff;
+  --poply-title-color: #ff9500;
+  --poply-accent: #ff9500;
+  --poply-backdrop-bg: transparent;
+  --poply-radius: 40px;
+  --poply-shadow: 0 0 30px rgba(255, 149, 0, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, "SF Pro Rounded", sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: rgba(255, 149, 0, 0.2);
+  --poply-btn-text: #ff9500;
+  --poply-btn-primary-bg: #ff9500;
+  --poply-btn-primary-text: #000000;
+  max-width: 200px;
+}
+.poply-theme-apple-watch-ultra .poply-header {
+  justify-content: center;
+}
+.poply-theme-apple-watch-ultra .poply-icon {
+  font-size: 36px;
+}
+.poply-theme-apple-watch-ultra .poply-title {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+.poply-theme-apple-watch-ultra .poply-body {
+  font-size: 12px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  display: none;
+}
+.poply-theme-apple-watch-ultra .poply-footer {
+  justify-content: center;
+  margin-top: 16px;
+}
+.poply-theme-apple-watch-ultra .poply-btn {
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 20px;
+  min-width: 100px;
+}
+
+/* Android Notification */
+.poply-theme-android-notification {
+  --poply-bg: #1e1e1e;
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #4caf50;
+  --poply-backdrop-bg: transparent;
+  --poply-radius: 8px;
+  --poply-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  --poply-font: "Roboto", sans-serif;
+  --poply-padding: 12px;
+  max-width: 360px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 12px;
+}
+.poply-theme-android-notification::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #4caf50;
+  border-radius: 8px 8px 0 0;
+}
+.poply-theme-android-notification .poply-icon {
+  font-size: 40px;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  background: #3d3d3d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+.poply-theme-android-notification .poply-header {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+.poply-theme-android-notification .poply-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+.poply-theme-android-notification .poply-body {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.poply-theme-android-notification .poply-footer {
+  display: none;
+}
+
+/* Smart Speaker (Echo Dot style) */
+.poply-theme-smart-speaker {
+  --poply-bg: #1a1a1a;
+  --poply-border: 2px solid #00d4ff;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #00d4ff;
+  --poply-backdrop-bg: transparent;
+  --poply-radius: 50%;
+  --poply-shadow: 0 0 40px rgba(0, 212, 255, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: rgba(0, 212, 255, 0.2);
+  --poply-btn-text: #00d4ff;
+  --poply-btn-primary-bg: #00d4ff;
+  --poply-btn-primary-text: #1a1a1a;
+  width: 240px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.poply-theme-smart-speaker::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at center,
+    rgba(0, 212, 255, 0.1) 0%,
+    transparent 70%
+  );
+  animation: pulse-ring 2s ease-out infinite;
+}
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.1);
+    opacity: 0;
+  }
+}
+.poply-theme-smart-speaker .poply-icon {
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+.poply-theme-smart-speaker .poply-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.poply-theme-smart-speaker .poply-body {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  display: none;
+}
+.poply-theme-smart-speaker .poply-footer {
+  margin-top: 16px;
+}
+.poply-theme-smart-speaker .poply-btn {
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 16px;
+}
+
+/* ============================================
+   APPS & SERVICES
+   ============================================ */
+
+/* Spotify */
+.poply-theme-spotify {
+  --poply-bg: #181818;
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #1db954;
+  --poply-accent: #1db954;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 8px;
+  --poply-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: #1db954;
+  --poply-btn-text: #000000;
+  --poply-btn-primary-bg: #1db954;
+  --poply-btn-primary-text: #000000;
+  --poply-input-bg: #404040;
+  --poply-input-border: transparent;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-spotify .poply-header {
+  justify-content: center;
+  gap: 16px;
+}
+.poply-theme-spotify .poply-icon {
+  font-size: 48px;
+}
+.poply-theme-spotify .poply-title {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+.poply-theme-spotify .poply-body {
+  font-size: 15px;
+  text-align: center;
+  color: #b3b3b3;
+}
+.poply-theme-spotify .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+.poply-theme-spotify .poply-btn {
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 14px 32px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* YouTube */
+.poply-theme-youtube {
+  --poply-bg: #0f0f0f;
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ff0000;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.95);
+  --poply-radius: 12px;
+  --poply-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: #272727;
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ff0000;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #121212;
+  --poply-input-border: 1px solid #303030;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-youtube .poply-header {
+  justify-content: center;
+  gap: 12px;
+}
+.poply-theme-youtube .poply-icon {
+  font-size: 48px;
+  color: #ff0000;
+}
+.poply-theme-youtube .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.poply-theme-youtube .poply-body {
+  font-size: 14px;
+  text-align: center;
+  color: #aaaaaa;
+}
+.poply-theme-youtube .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.poply-theme-youtube .poply-btn {
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 24px;
+}
+
+/* Netflix */
+.poply-theme-netflix {
+  --poply-bg: #141414;
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #e50914;
+  --poply-accent: #e50914;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 4px;
+  --poply-shadow: 0 8px 32px rgba(229, 9, 20, 0.2);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: #e50914;
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #e50914;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #333333;
+  --poply-input-border: transparent;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-netflix .poply-header {
+  justify-content: center;
+  gap: 16px;
+}
+.poply-theme-netflix .poply-icon {
+  font-size: 48px;
+}
+.poply-theme-netflix .poply-title {
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+.poply-theme-netflix .poply-body {
+  font-size: 15px;
+  text-align: center;
+  color: #8c8c8c;
+}
+.poply-theme-netflix .poply-footer {
+  justify-content: center;
+  margin-top: 24px;
+}
+.poply-theme-netflix .poply-btn {
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Instagram */
+.poply-theme-instagram {
+  --poply-bg: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ffffff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 16px;
+  --poply-shadow: 0 10px 40px rgba(225, 48, 108, 0.4);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.25);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #e6683c;
+  --poply-input-bg: rgba(255, 255, 255, 0.2);
+  --poply-input-border: rgba(255, 255, 255, 0.3);
+  --poply-input-text: #ffffff;
+}
+.poply-theme-instagram .poply-header {
+  justify-content: center;
+  gap: 16px;
+}
+.poply-theme-instagram .poply-icon {
+  font-size: 48px;
+}
+.poply-theme-instagram .poply-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+.poply-theme-instagram .poply-body {
+  font-size: 15px;
+  text-align: center;
+}
+.poply-theme-instagram .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+.poply-theme-instagram .poply-btn {
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 28px;
+}
+
+/* WhatsApp */
+.poply-theme-whatsapp {
+  --poply-bg: #ffffff;
+  --poply-border: 1px solid #d1d7db;
+  --poply-text: #111b21;
+  --poply-title-color: #111b21;
+  --poply-accent: #25d366;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 8px;
+  --poply-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 20px;
+  --poply-btn-bg: #f0f2f5;
+  --poply-btn-text: #111b21;
+  --poply-btn-primary-bg: #25d366;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #f0f2f5;
+  --poply-input-border: transparent;
+  --poply-input-text: #111b21;
+}
+.poply-theme-whatsapp::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: #d9fdd3;
+  border-radius: 0 0 8px 8px;
+}
+.poply-theme-whatsapp .poply-header {
+  gap: 14px;
+}
+.poply-theme-whatsapp .poply-icon {
+  font-size: 40px;
+}
+.poply-theme-whatsapp .poply-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.poply-theme-whatsapp .poply-body {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #667781;
+}
+.poply-theme-whatsapp .poply-footer {
+  margin-top: 16px;
+  justify-content: flex-end;
+}
+.poply-theme-whatsapp .poply-btn {
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+
+/* Slack */
+.poply-theme-slack {
+  --poply-bg: #ffffff;
+  --poply-border: none;
+  --poply-text: #1d1c1d;
+  --poply-title-color: #1d1c1d;
+  --poply-accent: #611f69;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.6);
+  --poply-radius: 8px;
+  --poply-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: #f4ede4;
+  --poply-btn-text: #611f69;
+  --poply-btn-primary-bg: #611f69;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #f4ede4;
+  --poply-input-border: transparent;
+  --poply-input-text: #1d1c1d;
+}
+.poply-theme-slack .poply-header {
+  justify-content: flex-start;
+  gap: 16px;
+}
+.poply-theme-slack .poply-icon {
+  font-size: 40px;
+}
+.poply-theme-slack .poply-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+.poply-theme-slack .poply-body {
+  font-size: 14px;
+  color: #616061;
+}
+.poply-theme-slack .poply-footer {
+  margin-top: 20px;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.poply-theme-slack .poply-btn {
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 18px;
+}
+
+/* Discord */
+.poply-theme-discord {
+  --poply-bg: #36393f;
+  --poply-border: none;
+  --poply-text: #dcddde;
+  --poply-title-color: #ffffff;
+  --poply-accent: #5865f2;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.8);
+  --poply-radius: 5px;
+  --poply-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: #4f545c;
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #5865f2;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #40444b;
+  --poply-input-border: transparent;
+  --poply-input-text: #dcddde;
+}
+.poply-theme-discord::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: #5865f2;
+  border-radius: 5px 0 0 5px;
+}
+.poply-theme-discord .poply-header {
+  gap: 14px;
+}
+.poply-theme-discord .poply-icon {
+  font-size: 40px;
+}
+.poply-theme-discord .poply-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.poply-theme-discord .poply-body {
+  font-size: 14px;
+  color: #b9bbbe;
+}
+.poply-theme-discord .poply-footer {
+  margin-top: 20px;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.poply-theme-discord .poply-btn {
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 16px;
+}
+
+/* ============================================
+   TRANSPORTATION
+   ============================================ */
+
+/* Tesla Screen */
+.poply-theme-tesla {
+  --poply-bg: #1a1a1a;
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #cc0000;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 0;
+  --poply-shadow: none;
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: #333333;
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #cc0000;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #2a2a2a;
+  --poply-input-border: transparent;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-tesla .poply-header {
+  justify-content: center;
+  gap: 16px;
+}
+.poply-theme-tesla .poply-icon {
+  font-size: 40px;
+}
+.poply-theme-tesla .poply-title {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.poply-theme-tesla .poply-body {
+  font-size: 14px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+.poply-theme-tesla .poply-footer {
+  justify-content: center;
+  gap: 16px;
+  margin-top: 28px;
+}
+.poply-theme-tesla .poply-btn {
+  border-radius: 0;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 14px 36px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 1px solid #444444;
+}
+
+/* BMW iDrive */
+.poply-theme-bmw-idrive {
+  --poply-bg: linear-gradient(180deg, #1a1a1a 0%, #0d0d0d 100%);
+  --poply-border: 1px solid #333333;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #0066b1;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 0;
+  --poply-shadow: 0 0 0 1px #000000, 0 10px 40px rgba(0, 0, 0, 0.5);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: #262626;
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #0066b1;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #1a1a1a;
+  --poply-input-border: #333333;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-bmw-idrive::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(180deg, #0066b1 0%, #003d6b 100%);
+}
+.poply-theme-bmw-idrive .poply-header {
+  gap: 14px;
+}
+.poply-theme-bmw-idrive .poply-icon {
+  font-size: 36px;
+}
+.poply-theme-bmw-idrive .poply-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+.poply-theme-bmw-idrive .poply-body {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.poply-theme-bmw-idrive .poply-footer {
+  margin-top: 20px;
+  justify-content: flex-end;
+  gap: 12px;
+}
+.poply-theme-bmw-idrive .poply-btn {
+  border-radius: 0;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Flight Board */
+.poply-theme-flight-board {
+  --poply-bg: #0a0a0a;
+  --poply-border: none;
+  --poply-text: #00ff00;
+  --poply-title-color: #ffffff;
+  --poply-accent: #00ff00;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.95);
+  --poply-radius: 0;
+  --poply-shadow: 0 0 30px rgba(0, 255, 0, 0.2);
+  --poply-font: "Courier New", monospace;
+  --poply-padding: 24px;
+  --poply-btn-bg: #0a0a0a;
+  --poply-btn-text: #00ff00;
+  --poply-btn-primary-bg: #00ff00;
+  --poply-btn-primary-text: #0a0a0a;
+  --poply-input-bg: #0a0a0a;
+  --poply-input-border: 1px solid #00ff00;
+  --poply-input-text: #00ff00;
+}
+.poply-theme-flight-board::before {
+  content: "═══════════════════════════════════════════════";
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  right: 12px;
+  color: rgba(0, 255, 0, 0.3);
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+.poply-theme-flight-board::after {
+  content: "═══════════════════════════════════════════════";
+  position: absolute;
+  bottom: 8px;
+  left: 12px;
+  right: 12px;
+  color: rgba(0, 255, 0, 0.3);
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+.poply-theme-flight-board .poply-header {
+  justify-content: center;
+  gap: 16px;
+  padding-top: 12px;
+}
+.poply-theme-flight-board .poply-icon {
+  font-size: 32px;
+}
+.poply-theme-flight-board .poply-title {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.poply-theme-flight-board .poply-body {
+  font-size: 14px;
+  text-align: center;
+  color: rgba(0, 255, 0, 0.8);
+  font-family: "Courier New", monospace;
+}
+.poply-theme-flight-board .poply-footer {
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+  padding-bottom: 12px;
+}
+.poply-theme-flight-board .poply-btn {
+  border-radius: 0;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px solid #00ff00;
+}
+
+/* ============================================
+   SPORTS & FITNESS
+   ============================================ */
+
+/* Nike Running */
+.poply-theme-nike-run {
+  --poply-bg: #111111;
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ff6b35;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.85);
+  --poply-radius: 0;
+  --poply-shadow: none;
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: #ff6b35;
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ff6b35;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #222222;
+  --poply-input-border: transparent;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-nike-run .poply-header {
+  justify-content: center;
+  gap: 20px;
+}
+.poply-theme-nike-run .poply-icon {
+  font-size: 56px;
+}
+.poply-theme-nike-run .poply-title {
+  font-size: 36px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.poply-theme-nike-run .poply-body {
+  font-size: 18px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 300;
+}
+.poply-theme-nike-run .poply-footer {
+  justify-content: center;
+  margin-top: 28px;
+}
+.poply-theme-nike-run .poply-btn {
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 16px 48px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* FIFA/UEFA */
+.poply-theme-fifa {
+  --poply-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  --poply-border: 2px solid #ffd700;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffd700;
+  --poply-accent: #ffd700;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.85);
+  --poply-radius: 0;
+  --poply-shadow: 0 0 40px rgba(255, 215, 0, 0.2);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 215, 0, 0.2);
+  --poply-btn-text: #ffd700;
+  --poply-btn-primary-bg: #ffd700;
+  --poply-btn-primary-text: #1a1a2e;
+  --poply-input-bg: rgba(0, 0, 0, 0.3);
+  --poply-input-border: #ffd700;
+  --poply-input-text: #ffd700;
+}
+.poply-theme-fifa::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #1a1a2e, #ffd700, #1a1a2e);
+}
+.poply-theme-fifa .poply-header {
+  justify-content: center;
+  gap: 16px;
+}
+.poply-theme-fifa .poply-icon {
+  font-size: 48px;
+}
+.poply-theme-fifa .poply-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.poply-theme-fifa .poply-body {
+  font-size: 15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+.poply-theme-fifa .poply-footer {
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+.poply-theme-fifa .poply-btn {
+  border-radius: 0;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 12px 28px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 2px solid #ffd700;
+}
+
+/* NBA */
+.poply-theme-nba {
+  --poply-bg: linear-gradient(180deg, #1d428a 0%, #0d1f3c 100%);
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #c8102e;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.8);
+  --poply-radius: 4px;
+  --poply-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: #ffffff;
+  --poply-btn-text: #1d428a;
+  --poply-btn-primary-bg: #c8102e;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.1);
+  --poply-input-border: transparent;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-nba .poply-header {
+  justify-content: center;
+  gap: 16px;
+}
+.poply-theme-nba .poply-icon {
+  font-size: 48px;
+}
+.poply-theme-nba .poply-title {
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.poply-theme-nba .poply-body {
+  font-size: 15px;
+  text-align: center;
+}
+.poply-theme-nba .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+.poply-theme-nba .poply-btn {
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 12px 28px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ============================================
+   FOOD & DINING
+   ============================================ */
+
+/* Starbucks */
+.poply-theme-starbucks {
+  --poply-bg: linear-gradient(135deg, #00704a 0%, #1e3932 100%);
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #d4a574;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.6);
+  --poply-radius: 12px;
+  --poply-shadow: 0 10px 40px rgba(0, 112, 74, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.15);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #d4a574;
+  --poply-btn-primary-text: #1e3932;
+  --poply-input-bg: rgba(255, 255, 255, 0.1);
+  --poply-input-border: transparent;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-starbucks .poply-header {
+  justify-content: center;
+  gap: 16px;
+}
+.poply-theme-starbucks .poply-icon {
+  font-size: 48px;
+}
+.poply-theme-starbucks .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.poply-theme-starbucks .poply-body {
+  font-size: 15px;
+  text-align: center;
+}
+.poply-theme-starbucks .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.poply-theme-starbucks .poply-btn {
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 28px;
+}
+
+/* McDonald's */
+.poply-theme-mcdonalds {
+  --poply-bg: #ffc72c;
+  --poply-border: none;
+  --poply-text: #1a1a1a;
+  --poply-title-color: #da291c;
+  --poply-accent: #da291c;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 0;
+  --poply-shadow: none;
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: #da291c;
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #da291c;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: transparent;
+  --poply-input-text: #1a1a1a;
+}
+.poply-theme-mcdonalds .poply-header {
+  justify-content: center;
+  gap: 16px;
+}
+.poply-theme-mcdonalds .poply-icon {
+  font-size: 48px;
+}
+.poply-theme-mcdonalds .poply-title {
+  font-size: 22px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.poply-theme-mcdonalds .poply-body {
+  font-size: 15px;
+  text-align: center;
+  color: #333333;
+}
+.poply-theme-mcdonalds .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.poply-theme-mcdonalds .poply-btn {
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 14px 32px;
+  text-transform: uppercase;
+}
+
+/* Uber Eats */
+.poply-theme-uber-eats {
+  --poply-bg: #06c167;
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ffffff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 16px;
+  --poply-shadow: 0 8px 32px rgba(6, 193, 103, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: #ffffff;
+  --poply-btn-text: #06c167;
+  --poply-btn-primary-bg: #ffffff;
+  --poply-btn-primary-text: #06c167;
+  --poply-input-bg: rgba(255, 255, 255, 0.2);
+  --poply-input-border: transparent;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-uber-eats .poply-header {
+  justify-content: center;
+  gap: 16px;
+}
+.poply-theme-uber-eats .poply-icon {
+  font-size: 48px;
+}
+.poply-theme-uber-eats .poply-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.poply-theme-uber-eats .poply-body {
+  font-size: 15px;
+  text-align: center;
+}
+.poply-theme-uber-eats .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.poply-theme-uber-eats .poply-btn {
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 14px 32px;
+}
+
+/* ============================================
+   MUSIC & ENTERTAINMENT
+   ============================================ */
+
+/* Vinyl Record */
+.poply-theme-vinyl-record {
+  --poply-bg: #1a1a1a;
+  --poply-border: 2px solid #333333;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ff4444;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 50%;
+  --poply-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 48px;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.poply-theme-vinyl-record::before {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border-radius: 50%;
+  background: repeating-radial-gradient(
+    circle at center,
+    transparent 0,
+    transparent 3px,
+    rgba(40, 40, 40, 0.8) 3px,
+    rgba(40, 40, 40, 0.8) 4px
+  );
+  pointer-events: none;
+}
+.poply-theme-vinyl-record::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  background: #1a1a1a;
+  border-radius: 50%;
+  border: 3px solid #333333;
+}
+.poply-theme-vinyl-record .poply-icon {
+  font-size: 32px;
+  margin-bottom: 8px;
+  z-index: 1;
+}
+.poply-theme-vinyl-record .poply-title {
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 1;
+}
+.poply-theme-vinyl-record .poply-body {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  z-index: 1;
+}
+.poply-theme-vinyl-record .poply-footer {
+  display: none;
+}
+
+/* Cassette Tape */
+.poply-theme-cassette {
+  --poply-bg: linear-gradient(180deg, #2d2d2d 0%, #1a1a1a 100%);
+  --poply-border: 2px solid #444444;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #ff6b35;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.85);
+  --poply-radius: 8px;
+  --poply-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 20px;
+  --poply-btn-bg: #333333;
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ff6b35;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #222222;
+  --poply-input-border: transparent;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-cassette::before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+  height: 80px;
+  background: #1a1a1a;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.poply-theme-cassette::after {
+  content: "";
+  position: absolute;
+  top: 44px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: #333333;
+  letter-spacing: 20px;
+}
+.poply-theme-cassette .poply-header {
+  position: relative;
+  z-index: 1;
+  padding-top: 100px;
+  justify-content: center;
+  gap: 12px;
+}
+.poply-theme-cassette .poply-icon {
+  font-size: 28px;
+}
+.poply-theme-cassette .poply-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.poply-theme-cassette .poply-body {
+  font-size: 13px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  position: relative;
+  z-index: 1;
+}
+.poply-theme-cassette .poply-footer {
+  position: relative;
+  z-index: 1;
+  margin-top: 16px;
+  justify-content: center;
+}
+.poply-theme-cassette .poply-btn {
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 16px;
+}
+
+/* CD/DVD Disc */
+.poply-theme-cd-disc {
+  --poply-bg: linear-gradient(135deg, #1e3a5f 0%, #0d1b2a 50%, #1e3a5f 100%);
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #00d4ff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.85);
+  --poply-radius: 50%;
+  --poply-shadow: 0 0 50px rgba(0, 212, 255, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 48px;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.poply-theme-cd-disc::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background:
+    radial-gradient(
+      circle at center,
+      transparent 0%,
+      transparent 20%,
+      rgba(255, 255, 255, 0.1) 21%,
+      transparent 22%
+    ),
+    repeating-radial-gradient(
+      circle at center,
+      transparent 0%,
+      transparent 4%,
+      rgba(255, 255, 255, 0.05) 5%,
+      transparent 6%
+    );
+  pointer-events: none;
+}
+.poply-theme-cd-disc::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
+  border-radius: 50%;
+  border: 2px solid #444444;
+}
+.poply-theme-cd-disc .poply-icon {
+  font-size: 32px;
+  margin-bottom: 8px;
+  z-index: 1;
+}
+.poply-theme-cd-disc .poply-title {
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 1;
+}
+.poply-theme-cd-disc .poply-body {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  z-index: 1;
+}
+.poply-theme-cd-disc .poply-footer {
+  display: none;
+}
+
+/* ============================================
+   WEATHER & NATURE
+   ============================================ */
+
+/* Weather Alert */
+.poply-theme-weather-alert {
+  --poply-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ff9500;
+  --poply-accent: #ff9500;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.8);
+  --poply-radius: 16px;
+  --poply-shadow: 0 10px 40px rgba(255, 149, 0, 0.2);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: rgba(255, 149, 0, 0.2);
+  --poply-btn-text: #ff9500;
+  --poply-btn-primary-bg: #ff9500;
+  --poply-btn-primary-text: #1a1a2e;
+  --poply-input-bg: rgba(0, 0, 0, 0.3);
+  --poply-input-border: transparent;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-weather-alert::before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 48px;
+  color: rgba(255, 149, 0, 0.2);
+}
+.poply-theme-weather-alert .poply-header {
+  gap: 12px;
+}
+.poply-theme-weather-alert .poply-icon {
+  font-size: 48px;
+}
+.poply-theme-weather-alert .poply-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.poply-theme-weather-alert .poply-body {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.poply-theme-weather-alert .poply-footer {
+  margin-top: 16px;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.poply-theme-weather-alert .poply-btn {
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+
+/* ============================================
+   SPACE & SCI-FI
+   ============================================ */
+
+/* Space Station */
+.poply-theme-space-station {
+  --poply-bg: linear-gradient(180deg, #0a0a15 0%, #151525 100%);
+  --poply-border: 1px solid rgba(0, 212, 255, 0.3);
+  --poply-text: #e0e8f0;
+  --poply-title-color: #00d4ff;
+  --poply-accent: #00d4ff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.95);
+  --poply-radius: 4px;
+  --poply-shadow: 0 0 40px rgba(0, 212, 255, 0.15);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: rgba(0, 212, 255, 0.15);
+  --poply-btn-text: #00d4ff;
+  --poply-btn-primary-bg: #00d4ff;
+  --poply-btn-primary-text: #0a0a15;
+  --poply-input-bg: rgba(0, 212, 255, 0.1);
+  --poply-input-border: rgba(0, 212, 255, 0.3);
+  --poply-input-text: #00d4ff;
+}
+.poply-theme-space-station::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(1px 1px at 20% 30%, rgba(255, 255, 255, 0.5), transparent),
+    radial-gradient(1px 1px at 40% 70%, rgba(255, 255, 255, 0.4), transparent),
+    radial-gradient(1px 1px at 60% 20%, rgba(255, 255, 255, 0.6), transparent),
+    radial-gradient(1px 1px at 80% 60%, rgba(255, 255, 255, 0.3), transparent);
+  background-size: 200px 200px;
+  pointer-events: none;
+}
+.poply-theme-space-station .poply-header {
+  position: relative;
+  z-index: 1;
+  justify-content: center;
+  gap: 14px;
+}
+.poply-theme-space-station .poply-icon {
+  font-size: 40px;
+}
+.poply-theme-space-station .poply-title {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.poply-theme-space-station .poply-body {
+  position: relative;
+  z-index: 1;
+  font-size: 13px;
+  text-align: center;
+  color: rgba(224, 232, 240, 0.7);
+}
+.poply-theme-space-station .poply-footer {
+  position: relative;
+  z-index: 1;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 12px;
+}
+.poply-theme-space-station .poply-btn {
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 1px solid rgba(0, 212, 255, 0.5);
+}
+
+/* ============================================
+   GAMING CONSOLES
+   ============================================ */
+
+/* PlayStation */
+.poply-theme-playstation {
+  --poply-bg: linear-gradient(180deg, #003087 0%, #001f3f 100%);
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #00d4ff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 4px;
+  --poply-shadow: 0 10px 40px rgba(0, 48, 135, 0.4);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.1);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #00d4ff;
+  --poply-btn-primary-text: #003087;
+  --poply-input-bg: rgba(0, 0, 0, 0.3);
+  --poply-input-border: transparent;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-playstation::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #00d4ff, #0070d1, #00d4ff);
+}
+.poply-theme-playstation .poply-header {
+  justify-content: center;
+  gap: 16px;
+}
+.poply-theme-playstation .poply-icon {
+  font-size: 48px;
+}
+.poply-theme-playstation .poply-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.poply-theme-playstation .poply-body {
+  font-size: 14px;
+  text-align: center;
+}
+.poply-theme-playstation .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+.poply-theme-playstation .poply-btn {
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 12px 28px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Xbox */
+.poply-theme-xbox {
+  --poply-bg: linear-gradient(180deg, #107c10 0%, #0e6b0e 100%);
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #52b043;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 0;
+  --poply-shadow: 0 10px 40px rgba(16, 124, 16, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.15);
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #52b043;
+  --poply-btn-primary-text: #0e6b0e;
+  --poply-input-bg: rgba(0, 0, 0, 0.2);
+  --poply-input-border: transparent;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-xbox .poply-header {
+  justify-content: center;
+  gap: 16px;
+}
+.poply-theme-xbox .poply-icon {
+  font-size: 48px;
+}
+.poply-theme-xbox .poply-title {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.poply-theme-xbox .poply-body {
+  font-size: 14px;
+  text-align: center;
+}
+.poply-theme-xbox .poply-footer {
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+.poply-theme-xbox .poply-btn {
+  border-radius: 0;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 12px 28px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Nintendo Switch */
+.poply-theme-nintendo-switch {
+  --poply-bg: linear-gradient(180deg, #e60012 0%, #c70010 100%);
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #00a0e9;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.85);
+  --poply-radius: 16px;
+  --poply-shadow: 0 10px 40px rgba(230, 0, 18, 0.4);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: #ffffff;
+  --poply-btn-text: #e60012;
+  --poply-btn-primary-bg: #00a0e9;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.15);
+  --poply-input-border: transparent;
+  --poply-input-text: #ffffff;
+}
+.poply-theme-nintendo-switch::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  width: 30px;
+  height: 30px;
+  background: #222222;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  border: 4px solid #444444;
+}
+.poply-theme-nintendo-switch::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  background: #222222;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  border: 4px solid #444444;
+}
+.poply-theme-nintendo-switch .poply-header {
+  position: relative;
+  z-index: 1;
+  justify-content: center;
+  gap: 60px;
+}
+.poply-theme-nintendo-switch .poply-icon {
+  font-size: 48px;
+}
+.poply-theme-nintendo-switch .poply-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.poply-theme-nintendo-switch .poply-body {
+  position: relative;
+  z-index: 1;
+  font-size: 14px;
+  text-align: center;
+}
+.poply-theme-nintendo-switch .poply-footer {
+  position: relative;
+  z-index: 1;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.poply-theme-nintendo-switch .poply-btn {
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 12px 24px;
+}
+
+/* Steam */
+.poply-theme-steam {
+  --poply-bg: linear-gradient(180deg, #1b2838 0%, #171a21 100%);
+  --poply-border: none;
+  --poply-text: #c5c3c0;
+  --poply-title-color: #ffffff;
+  --poply-accent: #66c0f4;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 4px;
+  --poply-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: #2a475e;
+  --poply-btn-text: #c5c3c0;
+  --poply-btn-primary-bg: #66c0f4;
+  --poply-btn-primary-text: #171a21;
+  --poply-input-bg: #2a475e;
+  --poply-input-border: transparent;
+  --poply-input-text: #c5c3c0;
+}
+.poply-theme-steam .poply-header {
+  justify-content: flex-start;
+  gap: 14px;
+}
+.poply-theme-steam .poply-icon {
+  font-size: 40px;
+}
+.poply-theme-steam .poply-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.poply-theme-steam .poply-body {
+  font-size: 13px;
+  color: #8f98a0;
+}
+.poply-theme-steam .poply-footer {
+  margin-top: 20px;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.poply-theme-steam .poply-btn {
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 16px;
+}
+
+/* ============================================
+   LUXURY & FASHION
+   ============================================ */
+
+/* Rolex Style */
+.poply-theme-rolex {
+  --poply-bg: linear-gradient(180deg, #1a1a1a 0%, #0d0d0d 100%);
+  --poply-border: 2px solid #d4af37;
+  --poply-text: #ffffff;
+  --poply-title-color: #d4af37;
+  --poply-accent: #d4af37;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.95);
+  --poply-radius: 4px;
+  --poply-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.6), 0 0 40px rgba(212, 175, 55, 0.1);
+  --poply-font: "Georgia", serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: rgba(212, 175, 55, 0.15);
+  --poply-btn-text: #d4af37;
+  --poply-btn-primary-bg: #d4af37;
+  --poply-btn-primary-text: #0d0d0d;
+  --poply-input-bg: rgba(212, 175, 55, 0.1);
+  --poply-input-border: rgba(212, 175, 55, 0.3);
+  --poply-input-text: #d4af37;
+}
+.poply-theme-rolex::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #d4af37, transparent);
+}
+.poply-theme-rolex .poply-header {
+  justify-content: center;
+  gap: 16px;
+}
+.poply-theme-rolex .poply-icon {
+  font-size: 48px;
+  color: #d4af37;
+}
+.poply-theme-rolex .poply-title {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+.poply-theme-rolex .poply-body {
+  font-size: 14px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.poply-theme-rolex .poply-footer {
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+.poply-theme-rolex .poply-btn {
+  border-radius: 0;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 12px 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border: 1px solid #d4af37;
+}
+
+/* ============================================
+   MINIMALIST MODERN
+   ============================================ */
+
+/* Ultra Minimal */
+.poply-theme-ultra-minimal {
+  --poply-bg: transparent;
+  --poply-border: none;
+  --poply-text: #000000;
+  --poply-title-color: #000000;
+  --poply-accent: #000000;
+  --poply-backdrop-bg: rgba(255, 255, 255, 0.9);
+  --poply-radius: 0;
+  --poply-shadow: none;
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 0;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #000000;
+  --poply-btn-primary-bg: #000000;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: transparent;
+  --poply-input-border: #000000;
+  --poply-input-text: #000000;
+  max-width: 320px;
+}
+.poply-theme-ultra-minimal .poply-header {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.poply-theme-ultra-minimal .poply-icon {
+  display: none;
+}
+.poply-theme-ultra-minimal .poply-title {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+}
+.poply-theme-ultra-minimal .poply-body {
+  padding: 16px 0;
+  font-size: 13px;
+  color: #666666;
+}
+.poply-theme-ultra-minimal .poply-footer {
+  padding-top: 16px;
+  border-top: 1px solid #e5e5e5;
+  justify-content: flex-end;
+}
+.poply-theme-ultra-minimal .poply-btn {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 16px;
+  letter-spacing: 0.3px;
+}
+
+/* Japanese Zen */
+.poply-theme-japanese-zen {
+  --poply-bg: #f5f5f0;
+  --poply-border: none;
+  --poply-text: #3d3d3d;
+  --poply-title-color: #1a1a1a;
+  --poply-accent: #8b4513;
+  --poply-backdrop-bg: rgba(245, 245, 240, 0.9);
+  --poply-radius: 0;
+  --poply-shadow: none;
+  --poply-font: "Noto Serif JP", Georgia, serif;
+  --poply-padding: 40px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #1a1a1a;
+  --poply-btn-primary-bg: #1a1a1a;
+  --poply-btn-primary-text: #f5f5f0;
+  --poply-input-bg: transparent;
+  --poply-input-border: #d4d4d4;
+  --poply-input-text: #1a1a1a;
+}
+.poply-theme-japanese-zen::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: #d4d4d4;
+}
+.poply-theme-japanese-zen .poply-header {
+  padding-top: 40px;
+  justify-content: center;
+}
+.poply-theme-japanese-zen .poply-icon {
+  display: none;
+}
+.poply-theme-japanese-zen .poply-title {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+.poply-theme-japanese-zen .poply-body {
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.8;
+  color: #666666;
+}
+.poply-theme-japanese-zen .poply-footer {
+  margin-top: 32px;
+  justify-content: center;
+}
+.poply-theme-japanese-zen .poply-btn {
+  border-radius: 0;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 12px 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/* Swiss Design */
+.poply-theme-swiss-design {
+  --poply-bg: #ffffff;
+  --poply-border: none;
+  --poply-text: #000000;
+  --poply-title-color: #000000;
+  --poply-accent: #ff0000;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 0;
+  --poply-shadow: 4px 4px 0 #000000;
+  --poply-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: #000000;
+  --poply-btn-text: #ffffff;
+  --poply-btn-primary-bg: #ff0000;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #ffffff;
+  --poply-input-border: #000000;
+  --poply-input-text: #000000;
+}
+.poply-theme-swiss-design .poply-header {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #000000;
+}
+.poply-theme-swiss-design .poply-icon {
+  display: none;
+}
+.poply-theme-swiss-design .poply-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+}
+.poply-theme-swiss-design .poply-body {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.poply-theme-swiss-design .poply-footer {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 2px solid #000000;
+  justify-content: flex-end;
+}
+.poply-theme-swiss-design .poply-btn {
+  border-radius: 0;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid #000000;
+}
+
+/* ============================================
+   NOTIFICATION STYLES
+   ============================================ */
+
+/* Banner Notification */
+.poply-theme-banner-notification {
+  --poply-bg: #ffffff;
+  --poply-border: none;
+  --poply-text: #333333;
+  --poply-title-color: #333333;
+  --poply-accent: #007aff;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.4);
+  --poply-radius: 12px;
+  --poply-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 16px 20px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #007aff;
+  --poply-btn-primary-bg: #007aff;
+  --poply-btn-primary-text: #ffffff;
+  max-width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+.poply-theme-banner-notification .poply-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+.poply-theme-banner-notification .poply-header {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+.poply-theme-banner-notification .poply-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+.poply-theme-banner-notification .poply-body {
+  font-size: 13px;
+  color: #666666;
+  display: none;
+}
+.poply-theme-banner-notification .poply-footer {
+  display: none;
+}
+
+/* Snackbar */
+.poply-theme-snackbar {
+  --poply-bg: #323232;
+  --poply-border: none;
+  --poply-text: #ffffff;
+  --poply-title-color: #ffffff;
+  --poply-accent: #bb86fc;
+  --poply-backdrop-bg: transparent;
+  --poply-radius: 4px;
+  --poply-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 14px 16px;
+  --poply-btn-bg: transparent;
+  --poply-btn-text: #bb86fc;
+  --poply-btn-primary-bg: #bb86fc;
+  --poply-btn-primary-text: #000000;
+  max-width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+.poply-theme-snackbar .poply-icon {
+  display: none;
+}
+.poply-theme-snackbar .poply-header {
+  flex: 1;
+}
+.poply-theme-snackbar .poply-title {
+  font-size: 14px;
+  font-weight: 400;
+}
+.poply-theme-snackbar .poply-body {
+  display: none;
+}
+.poply-theme-snackbar .poply-footer {
+  margin: 0;
+}
+.poply-theme-snackbar .poply-btn {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ============================================
+   CALENDAR & TIME
+   ============================================ */
+
+/* Calendar Event */
+.poply-theme-calendar-event {
+  --poply-bg: #ffffff;
+  --poply-border: none;
+  --poply-text: #333333;
+  --poply-title-color: #1a1a1a;
+  --poply-accent: #4285f4;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.5);
+  --poply-radius: 0;
+  --poply-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  --poply-font: -apple-system, BlinkMacSystemFont, sans-serif;
+  --poply-padding: 0;
+  --poply-btn-bg: #f1f3f4;
+  --poply-btn-text: #333333;
+  --poply-btn-primary-bg: #4285f4;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: #f1f3f4;
+  --poply-input-border: transparent;
+  --poply-input-text: #333333;
+}
+.poply-theme-calendar-event::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: #4285f4;
+}
+.poply-theme-calendar-event .poply-header {
+  padding: 20px 20px 0;
+  gap: 12px;
+}
+.poply-theme-calendar-event .poply-icon {
+  font-size: 32px;
+}
+.poply-theme-calendar-event .poply-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.poply-theme-calendar-event .poply-body {
+  padding: 0 20px;
+  font-size: 13px;
+  color: #666666;
+}
+.poply-theme-calendar-event .poply-footer {
+  padding: 12px 20px 20px;
+  justify-content: flex-end;
+}
+.poply-theme-calendar-event .poply-btn {
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 16px;
+}
+
+/* Clock/Timer */
+.poply-theme-digital-clock {
+  --poply-bg: #0a0a0a;
+  --poply-border: 2px solid #00ff00;
+  --poply-text: #00ff00;
+  --poply-title-color: #00ff00;
+  --poply-accent: #00ff00;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.9);
+  --poply-radius: 0;
+  --poply-shadow: 0 0 30px rgba(0, 255, 0, 0.2);
+  --poply-font: "Courier New", monospace;
+  --poply-padding: 24px;
+  --poply-btn-bg: #0a0a0a;
+  --poply-btn-text: #00ff00;
+  --poply-btn-primary-bg: #00ff00;
+  --poply-btn-primary-text: #0a0a0a;
+  --poply-input-bg: #0a0a0a;
+  --poply-input-border: 1px solid #00ff00;
+  --poply-input-text: #00ff00;
+}
+.poply-theme-digital-clock .poply-header {
+  justify-content: center;
+}
+.poply-theme-digital-clock .poply-icon {
+  display: none;
+}
+.poply-theme-digital-clock .poply-title {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  text-align: center;
+  text-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+}
+.poply-theme-digital-clock .poply-body {
+  font-size: 14px;
+  text-align: center;
+  color: rgba(0, 255, 0, 0.6);
+  display: none;
+}
+.poply-theme-digital-clock .poply-footer {
+  justify-content: center;
+  margin-top: 20px;
+}
+.poply-theme-digital-clock .poply-btn {
+  border-radius: 0;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 1px solid #00ff00;
+}

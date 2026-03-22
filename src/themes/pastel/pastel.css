@@ -1,0 +1,407 @@
+/* Soft & Pastel Themes (89-98) */
+
+/* 89. Soft Pastel - Baby pink/blue/yellow pastel card, rounded */
+.poply-theme-soft-pastel {
+  --poply-bg: linear-gradient(135deg, #fef3f3 0%, #eff6ff 50%, #fefce8 100%);
+  --poply-border: 1px solid rgba(255, 255, 255, 0.8);
+  --poply-text: #4a5568;
+  --poply-title-color: #2d3748;
+  --poply-accent: #f687b3;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.2);
+  --poply-backdrop-blur: 6px;
+  --poply-radius: 24px;
+  --poply-shadow:
+    0 10px 40px rgba(246, 135, 179, 0.15), 0 4px 16px rgba(0, 0, 0, 0.05);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.7);
+  --poply-btn-text: #4a5568;
+  --poply-btn-primary-bg: #f687b3;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.7);
+  --poply-input-border: rgba(255, 255, 255, 0.9);
+  --poply-input-text: #2d3748;
+}
+.poply-theme-soft-pastel .poply-btn {
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 26px;
+}
+.poply-theme-soft-pastel .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* 90. Pastel Pink - All-pink soft bubble card */
+.poply-theme-pastel-pink {
+  --poply-bg: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);
+  --poply-border: 1px solid rgba(255, 255, 255, 0.6);
+  --poply-text: #831843;
+  --poply-title-color: #9d174d;
+  --poply-accent: #ec4899;
+  --poply-backdrop-bg: rgba(131, 24, 67, 0.2);
+  --poply-backdrop-blur: 6px;
+  --poply-radius: 28px;
+  --poply-shadow:
+    0 10px 40px rgba(236, 72, 153, 0.2), 0 4px 16px rgba(0, 0, 0, 0.05);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.7);
+  --poply-btn-text: #831843;
+  --poply-btn-primary-bg: #ec4899;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.7);
+  --poply-input-border: rgba(236, 72, 153, 0.3);
+  --poply-input-text: #831843;
+}
+.poply-theme-pastel-pink .poply-btn {
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 26px;
+}
+.poply-theme-pastel-pink .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* 91. Pastel Blue - Sky blue soft card */
+.poply-theme-pastel-blue {
+  --poply-bg: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+  --poply-border: 1px solid rgba(255, 255, 255, 0.6);
+  --poply-text: #0c4a6e;
+  --poply-title-color: #0369a1;
+  --poply-accent: #0ea5e9;
+  --poply-backdrop-bg: rgba(12, 74, 110, 0.15);
+  --poply-backdrop-blur: 6px;
+  --poply-radius: 24px;
+  --poply-shadow:
+    0 10px 40px rgba(14, 165, 233, 0.15), 0 4px 16px rgba(0, 0, 0, 0.05);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.7);
+  --poply-btn-text: #0c4a6e;
+  --poply-btn-primary-bg: #0ea5e9;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.7);
+  --poply-input-border: rgba(14, 165, 233, 0.3);
+  --poply-input-text: #0c4a6e;
+}
+.poply-theme-pastel-blue .poply-btn {
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 26px;
+}
+.poply-theme-pastel-blue .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* 92. Pastel Mint - Fresh mint green pastel, rounded corners */
+.poply-theme-pastel-mint {
+  --poply-bg: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+  --poply-border: 1px solid rgba(255, 255, 255, 0.6);
+  --poply-text: #064e3b;
+  --poply-title-color: #047857;
+  --poply-accent: #10b981;
+  --poply-backdrop-bg: rgba(6, 78, 59, 0.15);
+  --poply-backdrop-blur: 6px;
+  --poply-radius: 24px;
+  --poply-shadow:
+    0 10px 40px rgba(16, 185, 129, 0.15), 0 4px 16px rgba(0, 0, 0, 0.05);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 24px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.7);
+  --poply-btn-text: #064e3b;
+  --poply-btn-primary-bg: #10b981;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.7);
+  --poply-input-border: rgba(16, 185, 129, 0.3);
+  --poply-input-text: #064e3b;
+}
+.poply-theme-pastel-mint .poply-header {
+  justify-content: center;
+}
+.poply-theme-pastel-mint .poply-icon {
+  font-size: 28px;
+}
+.poply-theme-pastel-mint .poply-title {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+.poply-theme-pastel-mint .poply-body {
+  font-size: 14px;
+  text-align: center;
+  color: #065f46;
+}
+.poply-theme-pastel-mint .poply-footer {
+  justify-content: center;
+}
+.poply-theme-pastel-mint .poply-btn {
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 22px;
+}
+
+/* 93. Pastel Lilac - Soft purple-lavender card, dreamy */
+.poply-theme-pastel-lilac {
+  --poply-bg: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);
+  --poply-border: 1px solid rgba(255, 255, 255, 0.6);
+  --poply-text: #4c1d95;
+  --poply-title-color: #6d28d9;
+  --poply-accent: #8b5cf6;
+  --poply-backdrop-bg: rgba(76, 29, 149, 0.15);
+  --poply-backdrop-blur: 6px;
+  --poply-radius: 24px;
+  --poply-shadow:
+    0 10px 40px rgba(139, 92, 246, 0.2), 0 4px 16px rgba(0, 0, 0, 0.05);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.7);
+  --poply-btn-text: #4c1d95;
+  --poply-btn-primary-bg: #8b5cf6;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.7);
+  --poply-input-border: rgba(139, 92, 246, 0.3);
+  --poply-input-text: #4c1d95;
+}
+.poply-theme-pastel-lilac .poply-btn {
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 26px;
+}
+.poply-theme-pastel-lilac .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* 94. Pastel Peach - Warm peach/salmon pastel card */
+.poply-theme-pastel-peach {
+  --poply-bg: linear-gradient(135deg, #ffedd5 0%, #fed7aa 100%);
+  --poply-border: 1px solid rgba(255, 255, 255, 0.6);
+  --poply-text: #7c2d12;
+  --poply-title-color: #9a3412;
+  --poply-accent: #f97316;
+  --poply-backdrop-bg: rgba(124, 45, 18, 0.15);
+  --poply-backdrop-blur: 6px;
+  --poply-radius: 24px;
+  --poply-shadow:
+    0 10px 40px rgba(249, 115, 22, 0.15), 0 4px 16px rgba(0, 0, 0, 0.05);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.7);
+  --poply-btn-text: #7c2d12;
+  --poply-btn-primary-bg: #f97316;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.7);
+  --poply-input-border: rgba(249, 115, 22, 0.3);
+  --poply-input-text: #7c2d12;
+}
+.poply-theme-pastel-peach .poply-btn {
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 26px;
+}
+.poply-theme-pastel-peach .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* 95. Pastel Lemon - Bright lemon yellow soft card */
+.poply-theme-pastel-lemon {
+  --poply-bg: linear-gradient(135deg, #fef9c3 0%, #fef08a 100%);
+  --poply-border: 1px solid rgba(255, 255, 255, 0.8);
+  --poply-text: #713f12;
+  --poply-title-color: #854d0e;
+  --poply-accent: #eab308;
+  --poply-backdrop-bg: rgba(113, 63, 18, 0.15);
+  --poply-backdrop-blur: 6px;
+  --poply-radius: 24px;
+  --poply-shadow:
+    0 10px 40px rgba(234, 179, 8, 0.2), 0 4px 16px rgba(0, 0, 0, 0.05);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 28px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.7);
+  --poply-btn-text: #713f12;
+  --poply-btn-primary-bg: #eab308;
+  --poply-btn-primary-text: #713f12;
+  --poply-input-bg: rgba(255, 255, 255, 0.7);
+  --poply-input-border: rgba(234, 179, 8, 0.4);
+  --poply-input-text: #713f12;
+}
+.poply-theme-pastel-lemon .poply-btn {
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 26px;
+}
+.poply-theme-pastel-lemon .poply-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* 96. Bubblegum - Bright pink/white round bubbly card */
+.poply-theme-bubblegum {
+  --poply-bg: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 50%, #fbcfe8 100%);
+  --poply-border: 3px solid rgba(255, 255, 255, 0.8);
+  --poply-text: #831843;
+  --poply-title-color: #be185d;
+  --poply-accent: #ec4899;
+  --poply-backdrop-bg: rgba(219, 39, 119, 0.2);
+  --poply-backdrop-blur: 8px;
+  --poply-radius: 50%;
+  --poply-shadow:
+    0 15px 50px rgba(236, 72, 153, 0.3), 0 8px 24px rgba(0, 0, 0, 0.08);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 40px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.8);
+  --poply-btn-text: #be185d;
+  --poply-btn-primary-bg: #ec4899;
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.8);
+  --poply-input-border: rgba(236, 72, 153, 0.3);
+  --poply-input-text: #831843;
+  width: 280px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.poply-theme-bubblegum .poply-header {
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.poply-theme-bubblegum .poply-icon {
+  font-size: 36px;
+}
+.poply-theme-bubblegum .poply-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.poply-theme-bubblegum .poply-body {
+  font-size: 14px;
+  color: #9d174d;
+  display: none;
+}
+.poply-theme-bubblegum .poply-footer {
+  margin-top: 16px;
+  justify-content: center;
+}
+.poply-theme-bubblegum .poply-btn {
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 28px;
+  min-width: 120px;
+}
+
+/* 97. Cotton Candy - Pink and blue swirl pastel card */
+.poply-theme-cotton-candy {
+  --poply-bg: linear-gradient(
+    135deg,
+    #fce7f3 25%,
+    #e0f2fe 25%,
+    #e0f2fe 50%,
+    #fce7f3 50%,
+    #fce7f3 75%,
+    #e0f2fe 75%
+  );
+  background-size: 40px 40px;
+  --poply-border: 2px solid rgba(255, 255, 255, 0.8);
+  --poply-text: #4a5568;
+  --poply-title-color: #2d3748;
+  --poply-accent: #f687b3;
+  --poply-backdrop-bg: rgba(0, 0, 0, 0.15);
+  --poply-backdrop-blur: 6px;
+  --poply-radius: 30px;
+  --poply-shadow:
+    0 12px 45px rgba(246, 135, 179, 0.2), 0 6px 20px rgba(0, 0, 0, 0.06);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.85);
+  --poply-btn-text: #4a5568;
+  --poply-btn-primary-bg: linear-gradient(135deg, #f687b3 0%, #0ea5e9 100%);
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.8);
+  --poply-input-border: rgba(255, 255, 255, 0.9);
+  --poply-input-text: #2d3748;
+}
+.poply-theme-cotton-candy .poply-btn {
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 14px 30px;
+}
+.poply-theme-cotton-candy .poply-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* 98. Kawaii - Japanese cute style: rounded, pastel, emoji-heavy */
+.poply-theme-kawaii {
+  --poply-bg: linear-gradient(135deg, #fff5f5 0%, #fff1f9 50%, #f0f5ff 100%);
+  --poply-border: 3px dashed #ffb6c1;
+  --poply-text: #7c3aed;
+  --poply-title-color: #ec4899;
+  --poply-accent: #f472b6;
+  --poply-backdrop-bg: rgba(244, 114, 182, 0.15);
+  --poply-backdrop-blur: 8px;
+  --poply-radius: 40px;
+  --poply-shadow:
+    0 15px 50px rgba(244, 114, 182, 0.25), 0 8px 24px rgba(236, 72, 153, 0.15);
+  --poply-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --poply-padding: 32px;
+  --poply-btn-bg: rgba(255, 255, 255, 0.9);
+  --poply-btn-text: #ec4899;
+  --poply-btn-primary-bg: linear-gradient(135deg, #f472b6 0%, #c084fc 100%);
+  --poply-btn-primary-text: #ffffff;
+  --poply-input-bg: rgba(255, 255, 255, 0.9);
+  --poply-input-border: rgba(244, 114, 182, 0.4);
+  --poply-input-text: #7c3aed;
+}
+.poply-theme-kawaii .poply-header {
+  justify-content: center;
+  gap: 16px;
+}
+.poply-theme-kawaii .poply-icon {
+  font-size: 40px;
+  animation: kawaii-bounce 1s ease-in-out infinite;
+}
+@keyframes kawaii-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+.poply-theme-kawaii .poply-title {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+.poply-theme-kawaii .poply-body {
+  font-size: 15px;
+  text-align: center;
+  color: #6b7280;
+}
+.poply-theme-kawaii .poply-footer {
+  justify-content: center;
+  gap: 16px;
+}
+.poply-theme-kawaii .poply-btn {
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 14px 32px;
+  border: 2px solid #f9a8d4;
+}

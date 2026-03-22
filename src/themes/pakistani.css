@@ -1,0 +1,614 @@
+/* PAKISTANI ART & CULTURE DESIGN COLLECTION - 50 THEMES */
+
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap');
+
+/* --- SINDHI COLLECTION --- */
+
+/* 1. Ajrak Royal */
+.poply-theme-ajrak-royal {
+  --poply-bg: #111A2C; /* Deep indigo */
+  --poply-text: #F1E5D1;
+  --poply-title-color: #D3A24B;
+  --poply-radius: 4px;
+  --poply-border: 4px solid #8B1E28;
+  --poply-shadow: 0 0 0 2px #111, 0 0 0 6px #8B1E28, 0 15px 30px rgba(0,0,0,0.6);
+  --poply-font: 'Noto Nastaliq Urdu', serif;
+  background-image: 
+    radial-gradient(circle at center, #8B1E28 3px, transparent 4px),
+    linear-gradient(45deg, transparent 48%, #F1E5D1 49%, #F1E5D1 51%, transparent 52%),
+    linear-gradient(-45deg, transparent 48%, #F1E5D1 49%, #F1E5D1 51%, transparent 52%);
+  background-size: 20px 20px, 40px 40px, 40px 40px;
+  background-blend-mode: overlay;
+  direction: rtl;
+  --poply-btn-bg: #8B1E28;
+  --poply-btn-text: #F1E5D1;
+  --poply-btn-primary-bg: #D3A24B;
+  --poply-btn-primary-text: #111A2C;
+}
+
+/* 2. Sindhi Topi */
+.poply-theme-sindhi-topi {
+  --poply-bg: #5C001E; /* Deep maroon */
+  --poply-text: #fff;
+  --poply-radius: 40px 40px 10px 10px; /* Cap shape */
+  --poply-border: 2px solid #FFD700;
+  border-top: 10px solid #FF1493;
+  border-bottom: 10px solid #00FA9A;
+  background-image: 
+    radial-gradient(circle at 20% 30%, #FFD700 2px, transparent 3px),
+    radial-gradient(circle at 70% 60%, #00FFFF 2px, transparent 3px),
+    radial-gradient(circle at 40% 80%, #FF1493 2px, transparent 3px),
+    radial-gradient(circle at 80% 20%, #00FA9A 2px, transparent 3px);
+  --poply-shadow: inset 0 0 20px rgba(0,0,0,0.5), 0 10px 20px rgba(0,0,0,0.4);
+  --poply-btn-primary-bg: #FFD700;
+  --poply-btn-primary-text: #5C001E;
+}
+
+/* 3. Mohenjo Stone */
+.poply-theme-mohenjo-stone {
+  --poply-bg: #8C7B6A;
+  --poply-text: #2C241B;
+  --poply-radius: 2px;
+  --poply-border: 3px solid #5A4E40;
+  --poply-shadow: 6px 6px 0px #5A4E40;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(%23noise)" opacity="0.1"/></svg>');
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  --poply-btn-primary-bg: #2C241B;
+  --poply-btn-primary-text: #8C7B6A;
+}
+
+/* 4. Lal Shahbaz */
+@keyframes spin-qalandar { 100% { transform: rotate(360deg); } }
+@keyframes conic-glow { 0% { border-image-source: conic-gradient(from 0deg, #ff0844, #ffb199, #ff0844); } 100% { border-image-source: conic-gradient(from 360deg, #ff0844, #ffb199, #ff0844); } }
+.poply-theme-lal-shahbaz {
+  --poply-bg: radial-gradient(circle at center, #8B0000 0%, #300000 100%);
+  --poply-text: #FFD700;
+  --poply-title-color: #FFA500;
+  --poply-radius: 8px;
+  --poply-border: 3px solid #FFD700;
+  --poply-shadow: 0 0 30px rgba(255, 69, 0, 0.4);
+}
+.poply-theme-lal-shahbaz::before {
+  content: "✦";
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #FFD700;
+  font-size: 40px;
+  animation: spin-qalandar 3s linear infinite;
+  text-shadow: 0 0 20px #FFD700;
+}
+
+/* 5. Indus Delta */
+@keyframes water-shimmer { 0% { background-position: 0% 50%; } 100% { background-position: 100% 50%; } }
+.poply-theme-indus-delta {
+  --poply-bg: linear-gradient(180deg, #004D40 0%, #001F3F 100%);
+  --poply-text: #E0F2F1;
+  --poply-radius: 12px;
+  border-left: 8px solid #00897B;
+  background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.05) 50%, rgba(255,255,255,0) 100%);
+  background-size: 200% 100%;
+  animation: water-shimmer 4s ease-in-out infinite alternate;
+  --poply-btn-primary-bg: #00897B;
+}
+
+/* 6. Tharparkar Sun */
+@keyframes heat-haze { 0% { filter: contrast(1) sepia(0.2); } 100% { filter: contrast(1.1) sepia(0.4); } }
+.poply-theme-tharparkar-sun {
+  --poply-bg: radial-gradient(circle at top center, #FF4500 0%, #8B4513 100%);
+  --poply-text: #FFE4B5;
+  --poply-border: 2px solid #FFD700;
+  --poply-shadow: 0 -15px 40px rgba(255, 69, 0, 0.5);
+  animation: heat-haze 2s infinite alternate ease-in-out;
+  --poply-btn-primary-bg: #FFD700;
+  --poply-btn-primary-text: #8B4513;
+}
+
+/* 7. Sachal Sufi */
+.poply-theme-sachal-sufi {
+  --poply-bg: #0B3B24;
+  --poply-text: #E8F5E9;
+  --poply-radius: 16px;
+  --poply-border: 1px solid #FFD700;
+  --poply-title-color: #FFD700;
+  direction: rtl;
+  font-family: 'Noto Nastaliq Urdu', serif;
+  box-shadow: inset 0 20px 40px rgba(255, 215, 0, 0.1), 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* 8. Bhit Shah */
+.poply-theme-bhit-shah {
+  --poply-bg: #004D40;
+  --poply-text: #fff;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-image: repeating-linear-gradient(90deg, #FF4500 0, #FFD700 10px, #8B0000 20px, #004D40 30px) 15;
+  --poply-btn-primary-bg: #FFD700;
+  --poply-btn-primary-text: #004D40;
+}
+
+/* 9. Hala Lacquer */
+.poply-theme-hala-lacquer {
+  --poply-bg: #800000;
+  --poply-text: #40E0D0;
+  --poply-title-color: #FFD700;
+  --poply-radius: 8px;
+  --poply-border: 3px solid #FFD700;
+  box-shadow: 0 0 0 3px #40E0D0, inset 0 0 20px rgba(0,0,0,0.6);
+  background-image: repeating-radial-gradient(circle at center, transparent 0, transparent 4px, rgba(255,215,0,0.1) 5px);
+}
+
+/* 10. Keenjhar Lake */
+.poply-theme-keenjhar-lake {
+  --poply-bg: linear-gradient(180deg, #0A192F 0%, #003B46 100%);
+  --poply-text: #E0FFFF;
+  border-top: 4px solid #00BCD4;
+  --poply-shadow: 0 0 30px rgba(0, 188, 212, 0.2);
+  --poply-btn-primary-bg: #00BCD4;
+  --poply-btn-primary-text: #0A192F;
+}
+
+/* --- MUGHAL & HISTORICAL --- */
+
+/* 11. Shahi Qila */
+.poply-theme-shahi-qila {
+  --poply-bg: #1A0B0C;
+  --poply-text: #D4AF37;
+  --poply-title-color: #F8E5A5;
+  --poply-border: 2px solid #D4AF37;
+  border-top: 10px solid #D4AF37;
+  font-family: 'Noto Nastaliq Urdu', serif;
+  direction: rtl;
+}
+.poply-theme-shahi-qila::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; height: 30px;
+  background: radial-gradient(circle at 50% -10px, transparent 20px, #D4AF37 21px);
+  background-size: 40px 30px;
+}
+
+/* 12. Badshahi Dome */
+.poply-theme-badshahi-dome {
+  --poply-bg: linear-gradient(180deg, #D2B48C 0%, #A0522D 100%);
+  --poply-text: #3E2723;
+  --poply-radius: 100px 100px 12px 12px; /* Dome shape */
+  text-align: center;
+  --poply-btn-primary-bg: #3E2723;
+  --poply-btn-primary-text: #D2B48C;
+}
+
+/* 13. Mughal Miniature */
+.poply-theme-mughal-miniature {
+  --poply-bg: #F5EFEB; /* Parchment cream */
+  --poply-text: #3E2723;
+  border: 10px solid transparent;
+  border-image: repeating-linear-gradient(45deg, #A82C2C 0, #D4AF37 10px, #2E5F3E 20px) 10;
+  box-shadow: inset 0 0 0 2px #D4AF37;
+  font-family: serif;
+}
+
+/* 14. Taxila Museum */
+.poply-theme-taxila-museum {
+  --poply-bg: #C39B77;
+  --poply-text: #3B2F2F;
+  --poply-border: 1px dotted #3B2F2F;
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.2), inset 1px 1px 5px rgba(255,255,255,0.3);
+  font-family: Georgia, serif;
+}
+
+/* 15. Derawar Fortress */
+.poply-theme-derawar-fortress {
+  --poply-bg: #2b1f1a;
+  --poply-text: #dfd1c5;
+  --poply-radius: 0;
+  border-bottom: 5px solid #bd8860;
+  font-weight: 700;
+  text-transform: uppercase;
+  --poply-btn-primary-bg: #8c2a2a; /* Blood red confirm */
+}
+.poply-theme-derawar-fortress::before {
+  content: "";
+  position: absolute;
+  top: -10px; left: 0; right: 0; height: 10px;
+  background: repeating-linear-gradient(90deg, #2b1f1a 0, #2b1f1a 20px, transparent 20px, transparent 40px);
+}
+
+/* 16. Wazir Khan Masjid */
+.poply-theme-wazir-khan-masjid {
+  --poply-bg: #FAFAFA;
+  --poply-text: #0D47A1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-image: repeating-linear-gradient(90deg, #0D47A1 0, #FF6F00 15px, #1B5E20 30px, #B71C1C 45px) 15;
+  --poply-title-color: #B71C1C;
+}
+
+/* 17. Shalimar Garden */
+.poply-theme-shalimar-garden {
+  --poply-bg: linear-gradient(135deg, #1B5E20 0%, #004D40 100%);
+  --poply-text: #E8F5E9;
+  background-image: repeating-radial-gradient(circle at center, transparent 0, transparent 40px, rgba(255,255,255,0.05) 41px, rgba(255,255,255,0.05) 42px);
+  --poply-btn-primary-bg: #C0CA33;
+  --poply-btn-primary-text: #1B5E20;
+}
+
+/* 18. Rohtas Gate */
+.poply-theme-rohtas-gate {
+  --poply-bg: #404040;
+  --poply-text: #F5F5F5;
+  --poply-radius: 0;
+  border: 6px solid #2B2B2B;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  box-shadow: inset 0 20px 50px #1a1a1a;
+}
+
+/* 19. Naulakha Pearl */
+@keyframes pearl-shine { 0% { background-position: -200% center; } 100% { background-position: 200% center; } }
+.poply-theme-naulakha-pearl {
+  --poply-bg: #FFFFFF;
+  --poply-text: #424242;
+  --poply-border: 1px solid #E0E0E0;
+  --poply-radius: 20px;
+  box-shadow: 0 10px 40px rgba(224, 224, 224, 0.8), inset 0 0 20px rgba(245, 245, 245, 1);
+  background: linear-gradient(110deg, #fff 30%, #f4f6f9 50%, #fff 70%);
+  background-size: 200% auto;
+  animation: pearl-shine 3s linear infinite;
+  --poply-btn-primary-bg: #f4f6f9;
+  --poply-btn-primary-text: #000;
+}
+
+/* 20. Faisal Mosque */
+.poply-theme-faisal-mosque {
+  --poply-bg: #FFFFFF;
+  --poply-text: #1A1A1A;
+  --poply-radius: 0;
+  border-left: 5px solid #2962FF;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.05);
+  font-family: sans-serif;
+  clip-path: polygon(0 10%, 50% 0, 100% 10%, 100% 100%, 0 100%);
+  padding-top: 40px;
+}
+
+/* --- TRUCK ART --- */
+
+/* 21. Bedford King */
+@keyframes truck-border { 0% { border-image-source: conic-gradient(from 0deg, #ff0844, #00fa9a, #00ffff, #ff0844); } 100% { border-image-source: conic-gradient(from 360deg, #ff0844, #00fa9a, #00ffff, #ff0844); } }
+.poply-theme-bedford-king {
+  --poply-bg: #000;
+  --poply-text: #fff;
+  --poply-title-color: #FFEA00;
+  border: 10px solid transparent;
+  border-image: repeating-linear-gradient(45deg, #FF1493 0, #FF1493 10px, #00FFFF 10px, #00FFFF 20px, #00FA9A 20px, #00FA9A 30px) 10;
+  --poply-btn-primary-bg: #FFEA00;
+  --poply-btn-primary-text: #000;
+}
+
+/* 22. Truck Phari */
+.poply-theme-truck-phari {
+  --poply-bg: #0000CD;
+  --poply-text: #FFF;
+  border: 8px dashed #FF1493;
+  --poply-title-color: #FFD700;
+  box-shadow: 0 0 0 4px #00FA9A;
+  border-bottom: 20px dotted #FFD700; /* Mirror fringe */
+}
+
+/* 23. Chai Dhaba */
+.poply-theme-chai-dhaba {
+  --poply-bg: #D2691E; /* Terracotta */
+  --poply-text: #FFE4B5;
+  --poply-radius: 6px;
+  --poply-border: 2px solid #8B4513;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-image: repeating-radial-gradient(circle at center, transparent, rgba(0,0,0,0.05) 2px);
+  --poply-btn-primary-bg: #8B4513;
+  --poply-btn-primary-text: #FFE4B5;
+}
+
+/* 24. Mehfil Rang */
+.poply-theme-mehfil-rang {
+  --poply-bg: #121212;
+  --poply-text: #fff;
+  background-image: 
+    radial-gradient(circle at 10% 20%, #FF1493 4px, transparent 5px),
+    radial-gradient(circle at 80% 40%, #00FFFF 5px, transparent 6px),
+    radial-gradient(circle at 30% 70%, #FFEA00 3px, transparent 4px),
+    radial-gradient(circle at 70% 90%, #00FA9A 4px, transparent 5px);
+  border: 8px groove #FF1493;
+}
+
+/* 25. Chamak Patti */
+@keyframes chamak-spin { 100% { transform: rotate(1turn); } }
+.poply-theme-chamak-patti {
+  --poply-bg: #000;
+  --poply-text: #fff;
+  --poply-radius: 0;
+  position: relative;
+  overflow: hidden;
+}
+.poply-theme-chamak-patti::before {
+  content: ""; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%;
+  background: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
+  animation: chamak-spin 2s linear infinite;
+  z-index: -2;
+}
+.poply-theme-chamak-patti::after {
+  content: ""; position: absolute; inset: 4px; background: #000; z-index: -1;
+}
+
+/* 26. Parrot Green */
+.poply-theme-parrot-green {
+  --poply-bg: #00C853;
+  --poply-text: #fff;
+  border: 6px solid #FF4081;
+  --poply-title-color: #FFEB3B;
+  border-bottom: 12px dotted #fff;
+}
+
+/* 27. Dil Dil Pakistan */
+@keyframes heart-beat { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+.poply-theme-dil-dil-pakistan {
+  background: linear-gradient(90deg, #006600 50%, #FFFFFF 50%);
+  --poply-text: #000;
+  --poply-radius: 8px;
+  --poply-border: 4px solid #D4AF37;
+  --poply-title-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.poply-theme-dil-dil-pakistan .poply-title {
+  color: #D4AF37;
+  mix-blend-mode: difference;
+}
+.poply-theme-dil-dil-pakistan::before {
+  content: "☪";
+  font-size: 150px;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(212, 175, 55, 0.4);
+  animation: heart-beat 1.5s infinite ease-in-out;
+  pointer-events: none;
+}
+
+/* 28. Jingle Truck */
+.poply-theme-jingle-truck {
+  background: linear-gradient(180deg, #D4145A 33.3%, #0071BC 33.3%, #0071BC 66.6%, #009245 66.6%);
+  --poply-text: #FFF;
+  --poply-title-color: #FFEA00;
+  border-bottom: 20px dotted #D4AF37;
+  font-weight: 800;
+}
+
+/* --- LAHORE & PUNJAB --- */
+
+/* 29. Lahori Gali */
+.poply-theme-lahori-gali {
+  --poply-bg: #8B3A33; /* Terracotta brick */
+  --poply-text: #FAD6A5;
+  --poply-border: 8px ridge #4E5D4E; /* Wood window border */
+  background-image: linear-gradient(45deg, rgba(0,0,0,0.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,0.1) 75%, rgba(0,0,0,0.1)), linear-gradient(45deg, rgba(0,0,0,0.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,0.1) 75%, rgba(0,0,0,0.1));
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+/* 30. Basant Kite */
+.poply-theme-basant-kite {
+  --poply-bg: #4FC3F7;
+  --poply-text: #000;
+  border-bottom: 15px solid transparent;
+  border-image: repeating-linear-gradient(45deg, #FFEB3B 0, #FFEB3B 10px, #E91E63 10px, #E91E63 20px) 15;
+  background-image: 
+    linear-gradient(45deg, transparent 40%, rgba(255,255,255,0.4) 50%, transparent 60%);
+  --poply-btn-primary-bg: #E91E63;
+  --poply-btn-primary-text: #fff;
+}
+
+/* 31. Punjabi Phulkari */
+.poply-theme-punjabi-phulkari {
+  --poply-bg: #880E4F;
+  --poply-text: #fff;
+  background-image: radial-gradient(polygon, #FFC107 10%, transparent 15%);
+  background-size: 40px 40px;
+  --poply-title-color: #FFC107;
+  --poply-border: 4px solid #FFC107;
+}
+
+/* 32. Minar E Pakistan */
+.poply-theme-minar-e-pakistan {
+  --poply-bg: linear-gradient(180deg, #1A237E 0%, #311B92 100%);
+  --poply-text: #E8EAF6;
+  padding-bottom: 60px;
+  --poply-btn-primary-bg: #00C853;
+}
+.poply-theme-minar-e-pakistan::after {
+  content: ""; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);
+  width: 40px; height: 100px;
+  background: #E8EAF6; clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  opacity: 0.1;
+}
+
+/* 33. Anarkali Bazar */
+.poply-theme-anarkali-bazar {
+  --poply-bg: #FF8F00;
+  --poply-text: #3E2723;
+  background-image: radial-gradient(circle, #FFF8E1 2px, transparent 3px);
+  background-size: 30px 30px;
+  --poply-title-color: #3E2723;
+  --poply-btn-primary-bg: #3E2723;
+  --poply-btn-primary-text: #FF8F00;
+}
+
+/* 34. Sohni Mahiwal */
+.poply-theme-sohni-mahiwal {
+  --poply-bg: #0D47A1;
+  --poply-text: #E3F2FD;
+  --poply-border: 1px solid #90CAF9;
+  background: linear-gradient(180deg, #0D47A1 70%, #1565C0 100%);
+}
+.poply-theme-sohni-mahiwal::before {
+  content: ""; position: absolute; top: -50px; right: -50px; width: 150px; height: 150px;
+  background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, transparent 60%);
+}
+
+/* 35. Heer Ranjha */
+.poply-theme-heer-ranjha {
+  background: linear-gradient(135deg, #880E4F 50%, #FFF8E1 50%);
+  --poply-text: #111;
+  --poply-title-color: #fff;
+  --poply-radius: 0;
+  --poply-border: 2px solid #D4AF37;
+}
+
+/* 36. Ravi Night */
+.poply-theme-ravi-night {
+  --poply-bg: #000;
+  --poply-text: #757575;
+  --poply-title-color: #BDBDBD;
+  border-bottom: 1px solid #FF5722;
+  box-shadow: 0 10px 30px rgba(255, 87, 34, 0.1);
+}
+
+/* --- BALOCHI & PASHTUN --- */
+
+/* 37. Balochi Suzani */
+.poply-theme-balochi-suzani {
+  --poply-bg: #212121;
+  --poply-text: #fff;
+  border: 4px dashed #D50000;
+  box-shadow: 0 0 0 4px #212121, 0 0 0 8px #FF6D00;
+  --poply-title-color: #00E676;
+}
+
+/* 38. Quetta Apple */
+.poply-theme-quetta-apple {
+  --poply-bg: #F1F8E9;
+  --poply-text: #1B5E20;
+  --poply-border: 2px solid #33691E;
+  --poply-btn-primary-bg: #E53935;
+  --poply-btn-primary-text: #fff;
+}
+
+/* 39. Makran Coast */
+.poply-theme-makran-coast {
+  background: linear-gradient(180deg, #01579B 60%, #D4AF37 60%, #E6C280 100%);
+  --poply-text: #fff;
+  border: none;
+  --poply-radius: 0;
+}
+
+/* 40. Peshawari Chappal */
+.poply-theme-peshawari-chappal {
+  --poply-bg: #5D4037;
+  --poply-text: #D7CCC8;
+  border: 4px dashed #8D6E63;
+  --poply-title-color: #FFB300;
+}
+
+/* 41. Khyber Pass */
+.poply-theme-khyber-pass {
+  background: linear-gradient(90deg, #212121 0%, #424242 40%, #BDBDBD 50%, #424242 60%, #212121 100%);
+  --poply-text: #fff;
+  --poply-radius: 0;
+  --poply-border: 1px solid #000;
+}
+
+/* 42. Attan Fire */
+@keyframes fire-flicker { 0% { background: linear-gradient(0deg, #FF6D00 0%, #D50000 30%, #000 100%); } 100% { background: linear-gradient(0deg, #FF9100 0%, #C62828 40%, #000 100%); } }
+.poply-theme-attan-fire {
+  --poply-text: #fff;
+  --poply-title-color: #FFD700;
+  animation: fire-flicker 0.5s infinite alternate;
+  border-bottom: 4px solid #FFD700;
+}
+
+/* --- MODERN PAKISTAN --- */
+
+/* 43. Karachi Night */
+.poply-theme-karachi-night {
+  --poply-bg: #0A0A0A;
+  --poply-text: #BDBDBD;
+  border-bottom: 20px solid #1A1A1A; /* Silhouette visual */
+  background-image: radial-gradient(circle, #fff 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+/* 44. Biryani Dum */
+@keyframes steam-rise { 0% { opacity: 0; transform: translateY(10px); } 50% { opacity: 0.5; } 100% { opacity: 0; transform: translateY(-20px); } }
+.poply-theme-biryani-dum {
+  background: linear-gradient(180deg, #FF8F00 0%, #4E342E 100%);
+  --poply-text: #fff;
+  --poply-title-color: #FFD54F;
+  box-shadow: 0 -10px 40px rgba(255, 143, 0, 0.4);
+}
+.poply-theme-biryani-dum::before {
+  content: "💨"; position: absolute; top: -30px; left: 50%; opacity: 0; animation: steam-rise 2s infinite ease-out;
+}
+
+/* 45. Iqbal Shair */
+.poply-theme-iqbal-shair {
+  --poply-bg: #1A237E;
+  --poply-text: #C5CAE9;
+  --poply-title-color: #FFD700;
+  font-family: 'Noto Nastaliq Urdu', serif;
+  direction: rtl;
+}
+
+/* 46. Cricket Green */
+.poply-theme-cricket-green {
+  --poply-bg: #1B5E20;
+  --poply-text: #fff;
+  border-top: 20px solid transparent;
+  border-image: repeating-linear-gradient(90deg, #1B5E20 0, #1B5E20 30px, #fff 30px, #fff 35px) 20;
+  --poply-title-color: #FFEB3B;
+  --poply-btn-primary-bg: #FFEB3B;
+  --poply-btn-primary-text: #1B5E20;
+}
+
+/* 47. Sufi Qawwali */
+.poply-theme-sufi-qawwali {
+  background: radial-gradient(circle at center, #FF8F00 0%, #3E2723 100%);
+  --poply-text: #FFE082;
+  --poply-title-color: #FFD54F;
+  box-shadow: 0 0 50px rgba(255, 143, 0, 0.3);
+}
+
+/* 48. Jashn Azadi */
+@keyframes confetti-fall { 0% { background-position: 0 0; } 100% { background-position: 0 100%; } }
+.poply-theme-jashn-azadi {
+  --poply-bg: #006600;
+  --poply-text: #fff;
+  --poply-title-color: #FFD700;
+  border: 4px dashed #fff;
+  background-image: radial-gradient(circle, #fff 2px, transparent 3px);
+  background-size: 30px 30px;
+  animation: confetti-fall 5s linear infinite;
+}
+
+/* 49. K2 Summit */
+.poply-theme-k2-summit {
+  background: linear-gradient(180deg, #FFFFFF 0%, #212121 100%);
+  --poply-text: #BDBDBD;
+  --poply-title-color: #000;
+  --poply-radius: 0;
+  border-top: 40px solid #fff;
+  clip-path: polygon(50% 0%, 100% 10%, 100% 100%, 0 100%, 0 10%);
+}
+
+/* 50. Pakistan Zindabad */
+.poply-theme-pakistan-zindabad {
+  background: linear-gradient(90deg, #006600 50%, #FFFFFF 50%);
+  --poply-text: #000;
+  --poply-title-color: #fff;
+  --poply-border: 4px solid #D4AF37;
+  direction: rtl;
+  padding: 40px;
+}
+.poply-theme-pakistan-zindabad .poply-title {
+  color: #D4AF37;
+  mix-blend-mode: difference;
+}

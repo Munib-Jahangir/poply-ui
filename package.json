@@ -1,6 +1,6 @@
 {
   "name": "poply-ui",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Beautiful, ready-made popup components. 150+ themes. Zero friction.",
   "keywords": [
     "popup",
@@ -21,15 +21,15 @@
     "poply",
     "poply-ui"
   ],
-  "author": "Your Name <you@example.com>",
+  "author": "Munib Jahangir",
   "license": "MIT",
-  "homepage": "https://poply-ui.dev",
+  "homepage": "https://github.com/Munib-Jahangir/poply-ui#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/poply-ui.git"
+    "url": "git+https://github.com/Munib-Jahangir/poply-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/poply-ui/issues"
+    "url": "https://github.com/Munib-Jahangir/poply-ui/issues"
   },
   "main": "dist/poply-ui.cjs.js",
   "module": "dist/poply-ui.esm.js",
