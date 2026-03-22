@@ -51,7 +51,7 @@ export default [
       format: "umd",
       name: "Poply",
       plugins: [terser()],
-      exports: "named",
+      exports: "default",
     },
     plugins: commonPlugins,
   },
