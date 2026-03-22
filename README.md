@@ -1,7 +1,7 @@
 <div align="center">
   <img src="banner.png" alt="Poply UI Banner" width="100%" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);" />
 
-  # Poply UI 🎨
+  # Poply UI 
 
   **Beautiful, zero-configuration popup components with 240+ professional themes.**  
   Modern, frame-independent, and culturally inspired designs for your next project.
